@@ -1,0 +1,51 @@
+sample,stratum,body_id,name,entity_type,state,website,draw_rank
+S,county,b6016fe37cfdc,COUNTY OF MCHENRY,county,IL,https://resumemchenrycountyil.gov,35
+S,county,bb7e7d1bfa5f9,COUNTY OF ATLANTIC,county,NJ,https://atlanticcountynj.gov,40
+S,fire_department,b6587e2f121f7,Mineola Fire Department,fire_department,TX,https://mineolafiredepartment.com/,3
+S,fire_department,be20be7b2f4e7,New Bedford Fire Department,fire_department,MA,www.newbedford-ma.gov/fire-department/,24
+S,fire_department,b3fed151ef606,Aiken Department of Public Safety,fire_department,SC,https://www.cityofaikensc.gov/index.php/government/departments/public-safety-department/,36
+S,fire_department,bba10da0df758,Reedsport Volunteer Fire Department,fire_department,OR,https://www.cityofreedsport.org/fire,37
+S,k12_charter_lea,b6ede0d325ab9,Racine Charter One Inc,k12_charter_lea,WI,http://www.21stprepschool.org/,4
+S,k12_charter_school,b22c69148eb6a,Westside Middle School,k12_charter_school,TN,http://fraysercs.org/westside-middle-school/,16
+S,k12_service_agency,b58ca25f05f83,Cooperative Ed Serv Agcy 05,k12_service_agency,WI,http://www.cesa5.org,49
+S,library_system,b2a2cd61d6ed2,SITKA PUBLIC LIBRARY,library_system,AK,http://www.cityofsitka.com/government/departments/library/index.html,38
+S,library_system,b7b031b5879c5,FRANKSTON DEPOT LIBRARY,library_system,TX,http://www.frankstondepotlibrary.org,46
+S,municipality,b598e6813bbcc,CITY OF HAYWARD,municipality,WI,https://cityofhaywardwi.gov,26
+S,municipality,b6c4dda55ec5b,CITY OF MILTON,municipality,GA,https://miltonga.gov,28
+S,municipality,bf92e55acfacb,CITY OF MORONI,municipality,UT,https://moronicity.gov,33
+S,municipality,b33d7f4f781fe,CITY OF PETERSON,municipality,MN,http://www.petersonmn.org,34
+S,municipality,bc3d26eacffad,CITY OF MELBOURNE,municipality,FL,http://www.melbourneflorida.org/,41
+S,municipality,b8ac30c029e65,CITY OF FRANKLIN,municipality,TN,http://www.franklintn.gov,43
+S,municipality,bb4206d327388,CITY OF CASHMERE,municipality,WA,http://www.cityofcashmere.org/,45
+S,municipality,bb559329f8e06,CITY OF MANNINGTON,municipality,WV,http://www.cityofmannington.com,48
+S,public_pension_system,b15ce3907c409,CO PERA STATE DIVISION PENSION,public_pension_system,CO,https://www.copera.org/investments/pera-financial-reports,1
+S,school_district,b91187776e1b9,NORTH PLATTE SCH DIST 1,school_district,NE,HTTPS://WWW.NPPSD.ORG/,10
+S,school_district,b1865b273e69a,KLAMATH COUNTY SCH DIST,school_district,OR,http://www.kcsd.k12.or.us,12
+S,school_district,b165f4ada4a5a,PERRY CENTRAL SCH DIST,school_district,NY,http://www.perrycsd.org,15
+S,school_district,b0a54c33f7b8b,EDUCATIONAL SERV UNIT 18,school_district,NE,http://LPS.ORG,19
+S,school_district,b374358e4979e,DICKINSON-IRON INTERMEDIATE SCHOOL DIST,school_district,MI,http://www.diisd.org,20
+S,school_district,b1e1d8d0e7692,LINCOLN WAY CHS DISTRICT 210,school_district,IL,http://www.lw210.org,21
+S,school_district,b21d3ff56458d,DAMIANSVILLE SCHOOL DISTRICT 62,school_district,IL,http://www.dville62.com,27
+S,school_district,b660ce7d777ae,CUDAHY SCHOOL DISTRICT,school_district,WI,http://www.cudahysd.org,30
+S,school_district,b8056fba4bceb,GREEN LAKE SCHOOL DISTRICT,school_district,WI,http://www.glsd.k12.wi.us,32
+S,school_district,b4f710a7c74ac,ELK MOUND SCHOOL DISTRICT,school_district,WI,http://www.elkmound.k12.wi.us,39
+S,school_district,baaeedaadc94d,BURKBURNET IND SCH DIST 901,school_district,TX,http://www.burkburnettisd.org,44
+S,special_district,b1df7ac99fbc3,ARVADA HOUSING AUTHORITY,special_district,CO,http://www.arvada.org/departmentsdivisions/communitydevelopmentdepartment/arvadahousingauthority/,2
+S,special_district,be83ce730c3a7,HARVEY COUNTY CONSERVATION DISTRICT,special_district,KS,http://www.harveycounty.com,6
+S,special_district,bfab9500d0e36,MIFFLIN COUNTY SOLID WASTE AUTHORITY,special_district,PA,http://www.mifflincountyswa.com,8
+S,special_district,ba8ab6722e565,CHARLESTON COUNTY AVIATION AUTHORITY,special_district,SC,http://www.chsairport.com,9
+S,special_district,b707d9145c1f9,WINSTON COUNTY SOIL AND WATER CONSERVATION DISTRICT,special_district,AL,https://alabamasoilandwater.gov/district-list/,13
+S,special_district,b6c5a93692c37,BLANCA-FT GARLAND METROPOLITAN DISTRICT,special_district,CO,bfgcc.org,18
+S,special_district,b2ce4931f11de,LEACOCK TOWNSHIP MUNICIPAL AUTHORITY,special_district,PA,https://www.leacocktwp.com/leacock-township-municipal-authority,22
+S,special_district,b86356a3b29a4,EAU CLAIRE HOUSING AUTHORITY,special_district,WI,http://www.eauclairewi.gov/home/housing,47
+S,town_or_township,b76f3b8fc469a,TOWNSHIP OF BLUE LAKE,town_or_township,MI,http://www.bluelaketwpkalkaska.org,5
+S,transit_reporter,b5faa61358945,Town of Oro Valley,transit_reporter,AZ,https://www.orovalleyaz.gov/Government/Departments/Public-Works/Services/Need-a-RidePublic-Transportation,7
+S,transit_reporter,b3e3e5014f9cd,City of Alexandria,transit_reporter,LA,https://www.cityofalexandriala.com/bus-transit-atrans,23
+S,water_system,b63517653118a,HAMILTON CREEK MD,water_system,CO,https://hamiltoncreek.org,11
+S,water_system,b5d175efd85a6,CITY OF GIDDINGS,water_system,TX,https://giddings.net,14
+S,water_system,be38d79e68b08,FOSTORIA CITY,water_system,OH,https://fostoriaohio.gov,17
+S,water_system,b17b3fbb04706,"OLATHE, CITY OF",water_system,KS,https://olatheks.org,25
+S,water_system,b3e1d78079c31,DELTA STATE UNIVERSITY,water_system,MS,https://deltastate.edu,29
+S,water_system,b1b363a87d288,COLLEGE PARK,water_system,GA,https://collegeparkga.gov,31
+S,water_system,b94b38abb7fdc,"COFFEYVILLE, CITY OF",water_system,KS,https://coffeyville.com,42
+S,water_system,b8c9b4b094b55,Long Lake,water_system,MN,https://longlakemn.gov,50

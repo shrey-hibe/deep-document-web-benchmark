@@ -1,0 +1,885 @@
+{
+ "parallel": [
+  {
+   "name": "web_search",
+   "inputSchema": {
+    "properties": {
+     "objective": {
+      "type": "string"
+     },
+     "search_queries": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "session_id": {
+      "type": "string",
+      "maxLength": 100
+     },
+     "model_name": {
+      "type": "string",
+      "maxLength": 100
+     }
+    },
+    "required": [
+     "objective",
+     "search_queries"
+    ],
+    "type": "object"
+   }
+  },
+  {
+   "name": "web_fetch",
+   "inputSchema": {
+    "properties": {
+     "urls": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "objective": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null
+     },
+     "search_queries": {
+      "anyOf": [
+       {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null
+     },
+     "full_content": {
+      "default": false,
+      "type": "boolean"
+     },
+     "allow_live_fetch": {
+      "default": true,
+      "type": "boolean"
+     },
+     "session_id": {
+      "type": "string",
+      "maxLength": 100
+     },
+     "model_name": {
+      "type": "string",
+      "maxLength": 100
+     }
+    },
+    "required": [
+     "urls"
+    ],
+    "type": "object"
+   }
+  }
+ ],
+ "firecrawl": [
+  {
+   "name": "firecrawl_scrape",
+   "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+     "url": {
+      "type": "string",
+      "format": "uri"
+     },
+     "formats": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "enum": [
+        "markdown",
+        "html",
+        "rawHtml",
+        "screenshot",
+        "links",
+        "images",
+        "summary",
+        "changeTracking",
+        "branding",
+        "json",
+        "query",
+        "audio"
+       ]
+      }
+     },
+     "jsonOptions": {
+      "type": "object",
+      "properties": {
+       "prompt": {
+        "type": "string"
+       },
+       "schema": {
+        "type": "object",
+        "propertyNames": {
+         "type": "string"
+        },
+        "additionalProperties": true
+       }
+      },
+      "additionalProperties": false
+     },
+     "queryOptions": {
+      "type": "object",
+      "properties": {
+       "prompt": {
+        "type": "string",
+        "maxLength": 10000
+       },
+       "mode": {
+        "default": "freeform",
+        "type": "string",
+        "enum": [
+         "directQuote",
+         "freeform"
+        ]
+       }
+      },
+      "required": [
+       "prompt"
+      ],
+      "additionalProperties": false
+     },
+     "screenshotOptions": {
+      "type": "object",
+      "properties": {
+       "fullPage": {
+        "type": "boolean"
+       },
+       "quality": {
+        "type": "number"
+       },
+       "viewport": {
+        "type": "object",
+        "properties": {
+         "width": {
+          "type": "number"
+         },
+         "height": {
+          "type": "number"
+         }
+        },
+        "required": [
+         "width",
+         "height"
+        ],
+        "additionalProperties": false
+       }
+      },
+      "additionalProperties": false
+     },
+     "parsers": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "enum": [
+        "pdf"
+       ]
+      }
+     },
+     "pdfOptions": {
+      "type": "object",
+      "properties": {
+       "maxPages": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 10000
+       }
+      },
+      "additionalProperties": false
+     },
+     "onlyMainContent": {
+      "type": "boolean"
+     },
+     "redactPII": {
+      "type": "boolean"
+     },
+     "includeTags": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "excludeTags": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "waitFor": {
+      "type": "number"
+     },
+     "mobile": {
+      "type": "boolean"
+     },
+     "skipTlsVerification": {
+      "type": "boolean"
+     },
+     "removeBase64Images": {
+      "type": "boolean"
+     },
+     "location": {
+      "type": "object",
+      "properties": {
+       "country": {
+        "type": "string"
+       },
+       "languages": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      },
+      "additionalProperties": false
+     },
+     "storeInCache": {
+      "type": "boolean"
+     },
+     "zeroDataRetention": {
+      "type": "boolean"
+     },
+     "maxAge": {
+      "type": "number"
+     },
+     "lockdown": {
+      "type": "boolean"
+     },
+     "proxy": {
+      "type": "string",
+      "enum": [
+       "basic",
+       "stealth",
+       "enhanced",
+       "auto"
+      ]
+     },
+     "profile": {
+      "type": "object",
+      "properties": {
+       "name": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "name"
+      ],
+      "additionalProperties": false
+     },
+     "timeout": {
+      "type": "integer",
+      "exclusiveMinimum": 0,
+      "maximum": 9007199254740991
+     },
+     "requestId": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9._:-]{1,128}$"
+     },
+     "alexandria": {
+      "anyOf": [
+       {
+        "type": "object",
+        "properties": {
+         "provider": {
+          "type": "string",
+          "minLength": 1
+         },
+         "capability": {
+          "type": "string",
+          "minLength": 1
+         },
+         "version": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+         },
+         "options": {
+          "type": "object",
+          "propertyNames": {
+           "type": "string"
+          },
+          "additionalProperties": true
+         }
+        },
+        "required": [
+         "provider",
+         "capability"
+        ]
+       },
+       {
+        "minItems": 1,
+        "maxItems": 10,
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "provider": {
+           "type": "string",
+           "minLength": 1
+          },
+          "capability": {
+           "type": "string",
+           "minLength": 1
+          },
+          "version": {
+           "type": "string",
+           "minLength": 1,
+           "maxLength": 128
+          },
+          "options": {
+           "type": "object",
+           "propertyNames": {
+            "type": "string"
+           },
+           "additionalProperties": true
+          }
+         },
+         "required": [
+          "provider",
+          "capability"
+         ]
+        }
+       }
+      ]
+     },
+     "toolDetail": {
+      "type": "string",
+      "enum": [
+       "compact",
+       "summary",
+       "full"
+      ]
+     },
+     "domainTools": {
+      "type": "boolean"
+     },
+     "objective": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000
+     },
+     "conversationId": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$"
+     }
+    },
+    "required": [
+     "objective"
+    ],
+    "additionalProperties": false
+   }
+  },
+  {
+   "name": "firecrawl_search",
+   "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+     "toolDetail": {
+      "type": "string",
+      "enum": [
+       "compact",
+       "summary",
+       "full"
+      ]
+     },
+     "query": {
+      "type": "string",
+      "minLength": 1
+     },
+     "domainTools": {
+      "type": "boolean"
+     },
+     "highlights": {
+      "type": "boolean"
+     },
+     "limit": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100
+     },
+     "tbs": {
+      "type": "string"
+     },
+     "filter": {
+      "type": "string"
+     },
+     "location": {
+      "type": "string"
+     },
+     "includeDomains": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "minLength": 1,
+       "maxLength": 253,
+       "pattern": "^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]$"
+      }
+     },
+     "excludeDomains": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "minLength": 1,
+       "maxLength": 253,
+       "pattern": "^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]$"
+      }
+     },
+     "sources": {
+      "type": "array",
+      "items": {
+       "anyOf": [
+        {
+         "type": "string",
+         "enum": [
+          "web",
+          "images",
+          "news",
+          "alexandria",
+          "exchange"
+         ]
+        },
+        {
+         "type": "object",
+         "properties": {
+          "type": {
+           "type": "string",
+           "enum": [
+            "web",
+            "images",
+            "news",
+            "alexandria",
+            "exchange"
+           ]
+          }
+         },
+         "required": [
+          "type"
+         ],
+         "additionalProperties": false
+        }
+       ]
+      }
+     },
+     "categories": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "enum": [
+        "research",
+        "pdf",
+        "developer",
+        "gov"
+       ]
+      }
+     },
+     "enterprise": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "enum": [
+        "default",
+        "anon",
+        "zdr"
+       ]
+      }
+     },
+     "scrapeOptions": {
+      "type": "object",
+      "properties": {
+       "formats": {
+        "type": "array",
+        "items": {
+         "type": "string",
+         "enum": [
+          "markdown",
+          "html",
+          "rawHtml",
+          "screenshot",
+          "links",
+          "images",
+          "summary",
+          "changeTracking",
+          "branding",
+          "json",
+          "query",
+          "audio"
+         ]
+        }
+       },
+       "jsonOptions": {
+        "type": "object",
+        "properties": {
+         "prompt": {
+          "type": "string"
+         },
+         "schema": {
+          "type": "object",
+          "propertyNames": {
+           "type": "string"
+          },
+          "additionalProperties": true
+         }
+        },
+        "additionalProperties": false
+       },
+       "queryOptions": {
+        "type": "object",
+        "properties": {
+         "prompt": {
+          "type": "string",
+          "maxLength": 10000
+         },
+         "mode": {
+          "default": "freeform",
+          "type": "string",
+          "enum": [
+           "directQuote",
+           "freeform"
+          ]
+         }
+        },
+        "required": [
+         "prompt"
+        ],
+        "additionalProperties": false
+       },
+       "screenshotOptions": {
+        "type": "object",
+        "properties": {
+         "fullPage": {
+          "type": "boolean"
+         },
+         "quality": {
+          "type": "number"
+         },
+         "viewport": {
+          "type": "object",
+          "properties": {
+           "width": {
+            "type": "number"
+           },
+           "height": {
+            "type": "number"
+           }
+          },
+          "required": [
+           "width",
+           "height"
+          ],
+          "additionalProperties": false
+         }
+        },
+        "additionalProperties": false
+       },
+       "parsers": {
+        "type": "array",
+        "items": {
+         "type": "string",
+         "enum": [
+          "pdf"
+         ]
+        }
+       },
+       "pdfOptions": {
+        "type": "object",
+        "properties": {
+         "maxPages": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10000
+         }
+        },
+        "additionalProperties": false
+       },
+       "onlyMainContent": {
+        "type": "boolean"
+       },
+       "redactPII": {
+        "type": "boolean"
+       },
+       "includeTags": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "excludeTags": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "waitFor": {
+        "type": "number"
+       },
+       "mobile": {
+        "type": "boolean"
+       },
+       "skipTlsVerification": {
+        "type": "boolean"
+       },
+       "removeBase64Images": {
+        "type": "boolean"
+       },
+       "location": {
+        "type": "object",
+        "properties": {
+         "country": {
+          "type": "string"
+         },
+         "languages": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         }
+        },
+        "additionalProperties": false
+       },
+       "storeInCache": {
+        "type": "boolean"
+       },
+       "zeroDataRetention": {
+        "type": "boolean"
+       },
+       "maxAge": {
+        "type": "number"
+       },
+       "lockdown": {
+        "type": "boolean"
+       },
+       "proxy": {
+        "type": "string",
+        "enum": [
+         "basic",
+         "stealth",
+         "enhanced",
+         "auto"
+        ]
+       },
+       "profile": {
+        "type": "object",
+        "properties": {
+         "name": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "name"
+        ],
+        "additionalProperties": false
+       }
+      },
+      "additionalProperties": false
+     },
+     "objective": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 5000
+     },
+     "conversationId": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$"
+     }
+    },
+    "required": [
+     "query",
+     "objective"
+    ],
+    "additionalProperties": false
+   }
+  },
+  {
+   "name": "firecrawl_parse",
+   "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+     "formats": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "enum": [
+        "markdown",
+        "html",
+        "rawHtml",
+        "links",
+        "summary",
+        "json",
+        "query"
+       ]
+      }
+     },
+     "jsonOptions": {
+      "type": "object",
+      "properties": {
+       "prompt": {
+        "type": "string"
+       },
+       "schema": {
+        "type": "object",
+        "propertyNames": {
+         "type": "string"
+        },
+        "additionalProperties": true
+       }
+      },
+      "additionalProperties": false
+     },
+     "queryOptions": {
+      "type": "object",
+      "properties": {
+       "prompt": {
+        "type": "string",
+        "maxLength": 10000
+       },
+       "mode": {
+        "default": "freeform",
+        "type": "string",
+        "enum": [
+         "directQuote",
+         "freeform"
+        ]
+       }
+      },
+      "required": [
+       "prompt"
+      ],
+      "additionalProperties": false
+     },
+     "parsers": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "enum": [
+        "pdf"
+       ]
+      }
+     },
+     "pdfOptions": {
+      "type": "object",
+      "properties": {
+       "maxPages": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 10000
+       }
+      },
+      "additionalProperties": false
+     },
+     "onlyMainContent": {
+      "type": "boolean"
+     },
+     "redactPII": {
+      "type": "boolean"
+     },
+     "includeTags": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "excludeTags": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "removeBase64Images": {
+      "type": "boolean"
+     },
+     "skipTlsVerification": {
+      "type": "boolean"
+     },
+     "storeInCache": {
+      "type": "boolean"
+     },
+     "zeroDataRetention": {
+      "type": "boolean"
+     },
+     "maxAge": {
+      "type": "number"
+     },
+     "proxy": {
+      "type": "string",
+      "enum": [
+       "basic",
+       "auto"
+      ]
+     },
+     "filePath": {
+      "type": "string",
+      "minLength": 1
+     },
+     "uploadRef": {
+      "type": "string",
+      "minLength": 1
+     },
+     "contentType": {
+      "type": "string"
+     },
+     "declaredSizeBytes": {
+      "type": "integer",
+      "exclusiveMinimum": 0,
+      "maximum": 9007199254740991
+     },
+     "conversationId": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$"
+     }
+    },
+    "additionalProperties": false
+   }
+  }
+ ],
+ "parallel_search_answer": {
+  "search_id": "search_9e2b08b2057dd4806f83870ebedfb068",
+  "results": [
+   {
+    "url": "https://public.destinyhosted.com/cortedocs/2026/CC/20260714_277/277_RegularMeetingMinutesJuly142026.pdf",
+    "title": "CORTEZ CITY COUNCIL REGULAR MEETING MINUTES TUESDAY, JULY 14, 2026 1. The meeting was called to order in the City",
+    "publish_date": "2026-07-29",
+    "excerpts": [
+     "### CORTEZ CITY COUNCIL\n\n### REGULAR MEETING MINUTES\n\n### TUESDAY, JULY 14, 2026\n\n1\\.\n\n### The meeting was called to order in the City Council Chambers at 7:30 p.m., with the Pledge of Allegiance. Roll Call was taken and the following Councilmembers were present: Mayor [name removed], Mayor Pro Tem "
+    ]
+   },
+   {
+    "url": "https://public.destinyhosted.com/cortedocs/2026/CC/20261027_284/AGENDApacket_10-27-26_0613_284.pdf",
+    "title": "PLEASE VIEW THE LIVE STREAMED CITY COUNCIL MEETINGS ON THE CITY'S WEB SITE: PLEASE VIEW THE LIVE STREAMED CITY COUNCIL",
+    "publish_date": "2026-09-09",
+    "excerpts": [
+     "PLEASE VIEW THE LIVE STREAMED CITY COUNCIL MEETINGS ON THE CITY'S WEB SITE: PLEASE VIEW THE LIVE STREAMED CITY COUNCIL MEETINGS ON THE CITY'S WEB SITE:\n\nCity-Council-Live-Stream City-Council-Live-Stream\n\nCORTEZ CITY COUNCIL CORTEZ CITY COUNCIL\n\nREGULAR MEETING REGULAR MEETING\n\nTUESDAY, OCTOBER 27, 2"
+    ]
+   },
+   {
+    "url": "https://ompnetwork.s3-us-west-2.amazonaws.com/sites/261/documents/agendajuly142026.pdf?r37lzobftlEzFLHU4t_KRcwTHtXus.4A",
+    "title": "cortez city council",
+    "publish_date": "2026-06-09",
+    "excerpts": [
+     "PLEASE VIEW THE LIVE STREAMED CITY COUNCIL MEETINGS ON THE CITY'S WEB SITE: PLEASE VIEW THE LIVE STREAMED CITY COUNCIL MEETINGS ON THE CITY'S WEB SITE:\n\nCity-Council-Live-Stream City-Council-Live-Stream\n\nCORTEZ CITY COUNCIL CORTEZ CITY COUNCIL\n\nREGULAR MEETING REGULAR MEETING\n\nTUESDAY, JULY 14, 2026"
+    ]
+   }
+  ],
+  "warnings": null,
+  "metadata": null,
+  "session_id": "f975a3e3d0162f62a12dc955928170fa6f7532f3"
+ },
+ "_source": "Listed live (free, keyless) from https://search.parallel.ai/mcp and https://mcp.firecrawl.dev/v2/mcp on 2026-11-05; descriptions removed; one web_search answer for 'Cortez Colorado city council minutes', trimmed to 3 results"
+}

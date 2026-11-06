@@ -1,0 +1,40 @@
+{
+ "id": 1965,
+ "agendaId": 1336,
+ "eventName": "City Council Regular Meeting",
+ "eventDate": "2025-03-05T17:15:00Z",
+ "startDateTime": "2025-03-05T17:15:00Z",
+ "categoryId": 26,
+ "categoryName": "City Council",
+ "hasMedia": true,
+ "externalMediaUrl": "",
+ "publishedFiles": [
+  {
+   "fileId": 4941,
+   "type": "Agenda",
+   "name": "Agenda",
+   "url": null,
+   "sort": 0,
+   "publishOn": "2025-03-06T15:10:39.21Z",
+   "streamUrl": "https://ukiahca.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4941,plainText=false)"
+  },
+  {
+   "fileId": 4942,
+   "type": "Agenda Packet",
+   "name": "Packet - post meeting full record",
+   "url": null,
+   "sort": 0,
+   "publishOn": "2025-03-06T15:10:39.21Z",
+   "streamUrl": "https://ukiahca.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4942,plainText=false)"
+  },
+  {
+   "fileId": 4971,
+   "type": "Minutes",
+   "name": "Minutes",
+   "url": null,
+   "sort": 0,
+   "publishOn": "2025-03-20T12:26:52.763Z",
+   "streamUrl": "https://ukiahca.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4971,plainText=false)"
+  }
+ ]
+}

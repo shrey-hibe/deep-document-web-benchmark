@@ -1,0 +1,301 @@
+sample,stratum,from_record_id,relation,to_record_id,from_name,to_name,state,from_type,to_type,draw_rank
+R,imls_legal_basis_area,imls_fscskey:NJ0299,run_by,census_pid6:170246,ROSELLE FREE PUBLIC LIBRARY,BOROUGH OF ROSELLE,NJ,library_system,municipality,1
+R,imls_legal_basis_area,imls_fscskey:MA0086,run_by,census_pid6:166460,EASTHAM PUBLIC LIBRARY,TOWN OF EASTHAM,MA,library_system,town_or_township,2
+R,imls_legal_basis_area,imls_fscskey:MN0111,run_by,census_pid6:128781,BROWNS VALLEY PUBLIC LIBRARY,CITY OF BROWNS VALLEY,MN,library_system,municipality,3
+R,imls_legal_basis_area,imls_fscskey:IA0366,run_by,census_pid6:126563,VINTON PUBLIC LIBRARY,CITY OF VINTON,IA,library_system,municipality,4
+R,imls_legal_basis_area,imls_fscskey:IA0074,run_by,census_pid6:126605,COLESBURG PUBLIC LIBRARY,CITY OF COLESBURG,IA,library_system,municipality,5
+R,imls_legal_basis_area,imls_fscskey:SC0006,run_by,census_pid6:174851,BERKELEY COUNTY LIBRARY SYSTEM,COUNTY OF BERKELEY,SC,library_system,county,6
+R,imls_legal_basis_area,imls_fscskey:TX0275,run_by,census_pid6:175883,GAINES COUNTY LIBRARY,COUNTY OF GAINES,TX,library_system,county,7
+R,imls_legal_basis_area,imls_fscskey:MD0014,run_by,census_pid6:166366,HOWARD COUNTY LIBRARY SYSTEM,COUNTY OF HOWARD,MD,library_system,county,8
+R,imls_legal_basis_area,imls_fscskey:AL8011,run_by,census_pid6:193050,SPANISH FORT PUBLIC LIBRARY,CITY OF SPANISH FORT,AL,library_system,municipality,9
+R,imls_legal_basis_area,imls_fscskey:WI0333,run_by,census_pid6:194211,WASHBURN PUBLIC LIBRARY,CITY OF WASHBURN,WI,library_system,municipality,10
+R,imls_legal_basis_area,imls_fscskey:VA0028,run_by,census_pid6:176677,FAUQUIER COUNTY PUBLIC LIBRARY,COUNTY OF FAUQUIER,VA,library_system,county,11
+R,imls_legal_basis_area,imls_fscskey:IA0265,run_by,census_pid6:164603,LEHIGH PUBLIC LIBRARY,CITY OF LEHIGH,IA,library_system,municipality,12
+R,imls_legal_basis_area,imls_fscskey:NE0046,run_by,census_pid6:169531,CEDAR RAPIDS PUBLIC LIBRARY,VILLAGE OF CEDAR RAPIDS,NE,library_system,municipality,13
+R,imls_legal_basis_area,imls_fscskey:NV0020,run_by,census_pid6:169986,PERSHING COUNTY LIBRARY,COUNTY OF PERSHING,NV,library_system,county,14
+R,imls_legal_basis_area,imls_fscskey:IA0309,run_by,census_pid6:164408,STUART PUBLIC LIBRARY,CITY OF STUART,IA,library_system,municipality,15
+R,imls_legal_basis_area,imls_fscskey:WV0073,run_by,census_pid6:176940,MASON COUNTY PUBLIC LIBRARY,COUNTY OF MASON,WV,library_system,county,16
+R,imls_legal_basis_area,imls_fscskey:CO0048,run_by,census_pid6:123752,FOWLER PUBLIC LIBRARY,TOWN OF FOWLER,CO,library_system,municipality,17
+R,imls_legal_basis_area,imls_fscskey:MN0019,run_by,census_pid6:167632,HIBBING PUBLIC LIBRARY,CITY OF HIBBING,MN,library_system,municipality,18
+R,imls_legal_basis_area,imls_fscskey:IA0334,run_by,census_pid6:164382,JAMES KENNEDY PUBLIC LIBRARY,CITY OF DYERSVILLE,IA,library_system,municipality,19
+R,imls_legal_basis_area,imls_fscskey:IA0555,run_by,census_pid6:164306,AURORA PUBLIC LIBRARY,CITY OF AURORA,IA,library_system,municipality,20
+R,imls_legal_basis_area,imls_fscskey:NH0223,run_by,census_pid6:170039,HAVERHILL LIBRARY ASSOCIATION,TOWN OF HAVERHILL,NH,library_system,town_or_township,21
+R,imls_legal_basis_area,imls_fscskey:OK0065,run_by,census_pid6:173470,MT VIEW ADDIE DAVIS MEMORIAL LIBRARY,TOWN OF MOUNTAIN VIEW,OK,library_system,municipality,22
+R,imls_legal_basis_area,imls_fscskey:MA0127,run_by,census_pid6:128138,HATFIELD PUBLIC LIBRARY,TOWN OF HATFIELD,MA,library_system,town_or_township,23
+R,imls_legal_basis_area,imls_fscskey:OH0163,run_by,census_pid6:191153,LICKING COUNTY LIBRARY,COUNTY OF LICKING,OH,library_system,county,24
+R,imls_legal_basis_area,imls_fscskey:KS0187,run_by,census_pid6:126950,NICKERSON PUBLIC LIBRARY,CITY OF NICKERSON,KS,library_system,municipality,25
+R,imls_legal_basis_area,imls_fscskey:MA0174,run_by,census_pid6:128147,MEDFIELD MEMORIAL LIBRARY,TOWN OF MEDFIELD,MA,library_system,town_or_township,26
+R,imls_legal_basis_area,imls_fscskey:CT0157,run_by,census_pid6:124066,THOMPSON PUBLIC LIBRARY,TOWN OF THOMPSON,CT,library_system,town_or_township,27
+R,imls_legal_basis_area,imls_fscskey:TX0048,run_by,census_pid6:175903,JEFF DAVIS COUNTY LIBRARY,COUNTY OF JEFF DAVIS,TX,library_system,county,28
+R,imls_legal_basis_area,imls_fscskey:MA0055,run_by,census_pid6:166459,ELDREDGE PUBLIC LIBRARY,TOWN OF CHATHAM,MA,library_system,town_or_township,29
+R,imls_legal_basis_area,imls_fscskey:IA0050,run_by,census_pid6:164575,ZEARING PUBLIC LIBRARY,CITY OF ZEARING,IA,library_system,municipality,30
+R,imls_legal_basis_area,imls_fscskey:MA0025,run_by,census_pid6:166533,BELLINGHAM PUBLIC LIBRARY,TOWN OF BELLINGHAM,MA,library_system,town_or_township,31
+R,imls_legal_basis_area,imls_fscskey:AL0180,run_by,census_pid6:160694,UNIONTOWN PUBLIC LIBRARY,CITY OF UNIONTOWN,AL,library_system,municipality,32
+R,imls_legal_basis_area,imls_fscskey:WV0021,run_by,census_pid6:176946,PLEASANTS COUNTY PUBLIC LIBRARY,COUNTY OF PLEASANTS,WV,library_system,county,33
+R,imls_legal_basis_area,imls_fscskey:WI0025,run_by,census_pid6:194229,BELOIT PUBLIC LIBRARY,CITY OF BELOIT,WI,library_system,municipality,34
+R,imls_legal_basis_area,imls_fscskey:AZ0113,run_by,census_pid6:122743,HUACHUCA CITY PUBLIC LIBRARY,TOWN OF HUACHUCA CITY,AZ,library_system,municipality,35
+R,imls_legal_basis_area,imls_fscskey:OK0021,run_by,census_pid6:184224,CHICKASHA PUBLIC LIBRARY,CITY OF CHICKASHA,OK,library_system,municipality,36
+R,imls_legal_basis_area,imls_fscskey:FL0012,run_by,census_pid6:212191,BROWARD COUNTY LIBRARIES DIVISION,COUNTY OF BROWARD,FL,library_system,county,37
+R,imls_legal_basis_area,imls_fscskey:MN0132,run_by,census_pid6:212969,PIPESTONE: MEINDERS COMMUNITY LIBRARY,CITY OF PIPESTONE,MN,library_system,municipality,38
+R,imls_legal_basis_area,imls_fscskey:UT0005,run_by,census_pid6:183789,BOX ELDER COUNTY BOOKMOBILE LIBRARY,COUNTY OF BOX ELDER,UT,library_system,county,39
+R,imls_legal_basis_area,imls_fscskey:NE0048,run_by,census_pid6:186415,CENTRAL CITY PUBLIC LIBRARY,CITY OF CENTRAL CITY,NE,library_system,municipality,40
+R,imls_legal_basis_area,imls_fscskey:MA0068,run_by,census_pid6:201898,FIELD MEMORIAL LIBRARY,TOWN OF CONWAY,MA,library_system,town_or_township,41
+R,imls_legal_basis_area,imls_fscskey:MA0079,run_by,census_pid6:194951,MOSES GREELEY PARKER MEMORIAL LIB.,TOWN OF DRACUT,MA,library_system,town_or_township,42
+R,imls_legal_basis_area,imls_fscskey:LA0005,run_by,census_pid6:105725,WINN PARISH LIBRARY,PARISH OF WINN,LA,library_system,county,43
+R,imls_legal_basis_area,imls_fscskey:IA0431,run_by,census_pid6:208050,SHENANDOAH PUBLIC LIBRARY,CITY OF SHENANDOAH,IA,library_system,municipality,44
+R,imls_legal_basis_area,imls_fscskey:AL0111,run_by,census_pid6:100051,GERALDINE PUBLIC LIBRARY,TOWN OF GERALDINE,AL,library_system,municipality,45
+R,imls_legal_basis_area,imls_fscskey:IA0092,run_by,census_pid6:138217,WILLIAMS PUBLIC LIBRARY,CITY OF WILLIAMS,IA,library_system,municipality,46
+R,imls_legal_basis_area,imls_fscskey:KS0044,run_by,census_pid6:211334,ELLINWOOD SCHOOL COMMUNITY LIBRARY,CITY OF ELLINWOOD,KS,library_system,municipality,47
+R,imls_legal_basis_area,imls_fscskey:ND0002,run_by,census_pid6:171339,JAMES RIVER VALLEY LIBRARY SYSTEM,COUNTY OF STUTSMAN,ND,library_system,county,48
+R,imls_legal_basis_area,imls_fscskey:TN0077,run_by,census_pid6:209520,ANNA PORTER PUBLIC LIBRARY,CITY OF GATLINBURG,TN,library_system,municipality,49
+R,imls_legal_basis_area,imls_fscskey:MA0109,run_by,census_pid6:166484,CUTTYHUNK PUBLIC LIBRARY,TOWN OF GOSNOLD,MA,library_system,town_or_township,50
+R,named_after_government,epa_pwsid:LA1039010,run_by,census_pid6:166059,CITY OF VILLE PLATTE WATER SYSTEM,CITY OF VILLE PLATTE,LA,water_system,municipality,1
+R,named_after_government,epa_pwsid:LA1119021,run_by,census_pid6:166143,CITY OF MINDEN WATER SYSTEM,CITY OF MINDEN,LA,water_system,municipality,2
+R,named_after_government,epa_pwsid:LA1107005,run_by,census_pid6:105790,VILLAGE OF WATERPROOF WATER SYSTEM,TOWN OF WATERPROOF,LA,water_system,municipality,3
+R,named_after_government,epa_pwsid:MD0140002,run_by,census_pid6:193460,TOWN OF CHESTERTOWN,TOWN OF CHESTERTOWN,MD,water_system,municipality,4
+R,named_after_government,ntd_id:55589,run_by,census_pid6:132413,City of Berea,CITY OF BEREA,OH,transit_reporter,municipality,5
+R,named_after_government,ntd_id:40261,run_by,census_pid6:194752,City of Dania Beach,CITY OF DANIA BEACH,FL,transit_reporter,municipality,6
+R,named_after_government,usfa_fdid:KS-CD201,run_by,census_pid6:208093,City of Concordia Fire Department,CITY OF CONCORDIA,KS,fire_department,municipality,7
+R,named_after_government,usfa_fdid:AL-00118,run_by,census_pid6:122552,City of Brighton Fire Department,CITY OF BRIGHTON,AL,fire_department,municipality,8
+R,named_after_government,epa_pwsid:MS0350004,run_by,census_pid6:208581,TOWN OF SCOOBA,TOWN OF SCOOBA,MS,water_system,municipality,9
+R,named_after_government,ntd_id:50485,run_by,census_pid6:126025,City of Marion,CITY OF MARION,IN,transit_reporter,municipality,10
+R,named_after_government,epa_pwsid:MS0210002,run_by,census_pid6:168632,TOWN OF LEAKESVILLE,TOWN OF LEAKESVILLE,MS,water_system,municipality,11
+R,named_after_government,epa_pwsid:MD0110001,run_by,census_pid6:193459,TOWN OF ACCIDENT,TOWN OF ACCIDENT,MD,water_system,municipality,12
+R,named_after_government,epa_pwsid:PA5040022,run_by,census_pid6:111895,BOROUGH OF CONWAY,BOROUGH OF CONWAY,PA,water_system,municipality,13
+R,named_after_government,usfa_fdid:NJ-04100,run_by,census_pid6:170146,City of Camden Fire Department,CITY OF CAMDEN,NJ,fire_department,municipality,14
+R,named_after_government,epa_pwsid:MS0740005,run_by,census_pid6:168713,TOWN OF TYLERTOWN,TOWN OF TYLERTOWN,MS,water_system,municipality,15
+R,named_after_government,epa_pwsid:LA1009011,run_by,census_pid6:105729,CITY OF MARKSVILLE WATER SYSTEM,CITY OF MARKSVILLE,LA,water_system,municipality,16
+R,named_after_government,ntd_id:60100,run_by,census_pid6:170406,City of Farmington,CITY OF FARMINGTON,NM,transit_reporter,municipality,17
+R,named_after_government,usfa_fdid:NC-08203,run_by,census_pid6:211808,City of Clinton Fire Department,CITY OF CLINTON,NC,fire_department,municipality,18
+R,named_after_government,epa_pwsid:KY0971007,run_by,census_pid6:138459,VILLAGE OF BUCKHORN,CITY OF BUCKHORN,KY,water_system,municipality,19
+R,named_after_government,epa_pwsid:MS0610003,run_by,census_pid6:129320,CITY OF BRANDON,TOWN OF BRANDON,MS,water_system,municipality,20
+R,named_after_government,epa_pwsid:LA1103041,run_by,census_pid6:105788,CITY OF SLIDELL WATER SUPPLY,CITY OF SLIDELL,LA,water_system,municipality,21
+R,named_after_government,usfa_fdid:AK-22214,run_by,census_pid6:160797,City of Russian Mission Volunteer Fire Department,CITY OF RUSSIAN MISSION,AK,fire_department,municipality,22
+R,named_after_government,epa_pwsid:LA1077026,run_by,census_pid6:166097,TOWN OF NEW ROADS WATER SYSTEM,CITY OF NEW ROADS,LA,water_system,municipality,23
+R,named_after_government,epa_pwsid:LA1029011,run_by,census_pid6:190394,TOWN OF VIDALIA WATER SYSTEM,TOWN OF VIDALIA,LA,water_system,municipality,24
+R,named_after_government,epa_pwsid:LA1127002,run_by,census_pid6:208200,VILLAGE OF CALVIN WATER SYSTEM,VILLAGE OF CALVIN,LA,water_system,municipality,25
+R,named_after_government,usfa_fdid:MI-02701,run_by,census_pid6:166670,City of Bessemer Fire Department,CITY OF BESSEMER,MI,fire_department,municipality,26
+R,named_after_government,epa_pwsid:MS0650004,run_by,census_pid6:225811,TOWN OF MIZE,TOWN OF MIZE,MS,water_system,municipality,27
+R,named_after_government,epa_pwsid:MS0060013,run_by,census_pid6:168611,CITY OF MOUND BAYOU,CITY OF MOUND BAYOU,MS,water_system,municipality,28
+R,named_after_government,ntd_id:90034,run_by,census_pid6:207535,City of Glendale,CITY OF GLENDALE,AZ,transit_reporter,municipality,29
+R,named_after_government,epa_pwsid:LA1055035,run_by,census_pid6:204584,CITY OF YOUNGSVILLE WATER SYSTEM,CITY OF YOUNGSVILLE,LA,water_system,municipality,30
+R,named_after_government,ntd_id:10153,run_by,census_pid6:185771,Town of Cranberry Isles,TOWN OF CRANBERRY ISLES,ME,transit_reporter,town_or_township,31
+R,named_after_government,ntd_id:55543,run_by,census_pid6:166760,City of Hazel Park,CITY OF HAZEL PARK,MI,transit_reporter,municipality,32
+R,named_after_government,ntd_id:70265,run_by,census_pid6:186400,City of Chadron,CITY OF CHADRON,NE,transit_reporter,municipality,33
+R,named_after_government,usfa_fdid:AL-05830,run_by,census_pid6:215830,City of Westover Fire Deparment,TOWN OF WESTOVER,AL,fire_department,municipality,34
+R,named_after_government,epa_pwsid:MS0040006,run_by,census_pid6:107407,TOWN OF MCCOOL,TOWN OF MCCOOL,MS,water_system,municipality,35
+R,named_after_government,usfa_fdid:KY-27130,run_by,census_pid6:165827,City of Albany Fire Department,CITY OF ALBANY,KY,fire_department,municipality,36
+R,named_after_government,epa_pwsid:LA1117008,run_by,census_pid6:166141,VILLAGE OF ANGIE WATER SUPPLY,VILLAGE OF ANGIE,LA,water_system,municipality,37
+R,named_after_government,usfa_fdid:AL-00206,run_by,census_pid6:189556,City of Bayou La Batre Fire Department,CITY OF BAYOU LA BATRE,AL,fire_department,municipality,38
+R,named_after_government,usfa_fdid:WA-27M08,run_by,census_pid6:205593,City of Orting Fire Department,CITY OF ORTING,WA,fire_department,municipality,39
+R,named_after_government,epa_pwsid:MS0030002,run_by,census_pid6:107458,TOWN OF CROSBY,TOWN OF CROSBY,MS,water_system,municipality,40
+R,named_after_government,epa_pwsid:MS0060001,run_by,census_pid6:168607,TOWN OF ALLIGATOR,TOWN OF ALLIGATOR,MS,water_system,municipality,41
+R,named_after_government,epa_pwsid:LA1059004,run_by,census_pid6:190397,TOWN OF OLLA WATER SYSTEM,TOWN OF OLLA,LA,water_system,municipality,42
+R,named_after_government,epa_pwsid:MS0150011,run_by,census_pid6:225821,TOWN OF WESSON,TOWN OF WESSON,MS,water_system,municipality,43
+R,named_after_government,ntd_id:66341,run_by,census_pid6:205181,City of Norman,CITY OF NORMAN,OK,transit_reporter,municipality,44
+R,named_after_government,epa_pwsid:MS0820006,run_by,census_pid6:168721,TOWN OF EDEN,VILLAGE OF EDEN,MS,water_system,municipality,45
+R,named_after_government,ntd_id:70173,run_by,census_pid6:126595,City of Clinton,CITY OF CLINTON,IA,transit_reporter,municipality,46
+R,named_after_government,epa_pwsid:LA1077025,run_by,census_pid6:127843,VILLAGE OF MORGANZA WATER SYSTEM,VILLAGE OF MORGANZA,LA,water_system,municipality,47
+R,named_after_government,usfa_fdid:MN-87105,run_by,census_pid6:208519,City of Hanley Falls Volunteer Fire Department,CITY OF HANLEY FALLS,MN,fire_department,municipality,48
+R,named_after_government,usfa_fdid:OH-18003,run_by,census_pid6:172351,City of Beachwood Fire Department,CITY OF BEACHWOOD,OH,fire_department,municipality,49
+R,named_after_government,usfa_fdid:OH-09031,run_by,census_pid6:172318,City of Oxford Fire Department,CITY OF OXFORD,OH,fire_department,municipality,50
+R,ntd_uei_sam,ntd_id:50005,run_by,census_pid6:209777,City of Madison,CITY OF MADISON,WI,transit_reporter,municipality,1
+R,ntd_uei_sam,ntd_id:55589,run_by,census_pid6:132413,City of Berea,CITY OF BEREA,OH,transit_reporter,municipality,2
+R,ntd_uei_sam,ntd_id:40261,run_by,census_pid6:194752,City of Dania Beach,CITY OF DANIA BEACH,FL,transit_reporter,municipality,3
+R,ntd_uei_sam,ntd_id:88292,run_by,census_pid6:101367,Routt County Council on Aging,COUNTY OF ROUTT,CO,transit_reporter,county,4
+R,ntd_uei_sam,ntd_id:60100,run_by,census_pid6:170406,City of Farmington,CITY OF FARMINGTON,NM,transit_reporter,municipality,5
+R,ntd_uei_sam,ntd_id:41021,run_by,census_pid6:194946,Elbert County,COUNTY OF ELBERT,GA,transit_reporter,county,6
+R,ntd_uei_sam,ntd_id:41021,run_by,census_pid6:194946,Elbert County,COUNTY OF ELBERT,GA,transit_reporter,county,7
+R,ntd_uei_sam,ntd_id:90034,run_by,census_pid6:207535,City of Glendale,CITY OF GLENDALE,AZ,transit_reporter,municipality,8
+R,ntd_uei_sam,ntd_id:70265,run_by,census_pid6:186400,City of Chadron,CITY OF CHADRON,NE,transit_reporter,municipality,9
+R,ntd_uei_sam,ntd_id:22946,run_by,census_pid6:170354,Township of Cranford,TOWNSHIP OF CRANFORD,NJ,transit_reporter,town_or_township,10
+R,ntd_uei_sam,ntd_id:22946,run_by,census_pid6:170354,Township of Cranford,TOWNSHIP OF CRANFORD,NJ,transit_reporter,town_or_township,11
+R,ntd_uei_sam,ntd_id:88281,run_by,census_pid6:194648,Town of Estes Park,TOWN OF ESTES PARK,CO,transit_reporter,municipality,12
+R,ntd_uei_sam,ntd_id:55547,run_by,census_pid6:166761,City of Huntington Woods,CITY OF HUNTINGTON WOODS,MI,transit_reporter,municipality,13
+R,ntd_uei_sam,ntd_id:70121,run_by,census_pid6:169486,Butler County Senior Service Program,COUNTY OF BUTLER,NE,transit_reporter,county,14
+R,ntd_uei_sam,ntd_id:55648,run_by,census_pid6:212239,City of Cleveland Heights,CITY OF CLEVELAND HEIGHTS,OH,transit_reporter,municipality,15
+R,ntd_uei_sam,ntd_id:40011,run_by,census_pid6:194732,City of High Point,CITY OF HIGH POINT,NC,transit_reporter,municipality,16
+R,ntd_uei_sam,ntd_id:40985,run_by,census_pid6:161730,Banks County,COUNTY OF BANKS,GA,transit_reporter,county,17
+R,ntd_uei_sam,ntd_id:70155,run_by,census_pid6:208623,City of West Plains,CITY OF WEST PLAINS,MO,transit_reporter,municipality,18
+R,ntd_uei_sam,ntd_id:31042,run_by,census_pid6:212094,Centre County,COUNTY OF CENTRE,PA,transit_reporter,county,19
+R,ntd_uei_sam,ntd_id:50099,run_by,census_pid6:177137,City of Eau Claire,CITY OF EAU CLAIRE,WI,transit_reporter,municipality,20
+R,ntd_uei_sam,ntd_id:00472,run_by,census_pid6:207763,City of Twin Falls,CITY OF TWIN FALLS,ID,transit_reporter,municipality,21
+R,ntd_uei_sam,ntd_id:00404,run_by,census_pid6:162033,Shoshone County,COUNTY OF SHOSHONE,ID,transit_reporter,county,22
+R,ntd_uei_sam,ntd_id:70009,run_by,census_pid6:208060,City of Davenport,CITY OF DAVENPORT,IA,transit_reporter,municipality,23
+R,ntd_uei_sam,ntd_id:55384,run_by,census_pid6:177055,County of Columbia,COUNTY OF COLUMBIA,WI,transit_reporter,county,24
+R,ntd_uei_sam,ntd_id:70045,run_by,census_pid6:185367,"County of Johnson, Iowa",COUNTY OF JOHNSON,IA,transit_reporter,county,25
+R,ntd_uei_sam,ntd_id:40055,run_by,census_pid6:175827,City of Bristol Tennessee,CITY OF BRISTOL,TN,transit_reporter,municipality,26
+R,ntd_uei_sam,ntd_id:80256,run_by,census_pid6:123758,Town of Mountain Village,TOWN OF MOUNTAIN VILLAGE,CO,transit_reporter,municipality,27
+R,ntd_uei_sam,ntd_id:70092,run_by,census_pid6:184217,City of Marshalltown,CITY OF MARSHALLTOWN,IA,transit_reporter,municipality,28
+R,ntd_uei_sam,ntd_id:40915,run_by,census_pid6:131680,Duplin County,COUNTY OF DUPLIN,NC,transit_reporter,county,29
+R,ntd_uei_sam,ntd_id:40074,run_by,census_pid6:161562,Pasco County Board of County Commissioners,COUNTY OF PASCO,FL,transit_reporter,county,30
+R,ntd_uei_sam,ntd_id:50290,run_by,census_pid6:115064,City of Ripon,CITY OF RIPON,WI,transit_reporter,municipality,31
+R,ntd_uei_sam,ntd_id:A0023,run_by,census_pid6:170429,Orange County,COUNTY OF ORANGE,NY,transit_reporter,county,32
+R,ntd_uei_sam,ntd_id:50303,run_by,census_pid6:184096,City of River Falls,CITY OF RIVER FALLS,WI,transit_reporter,municipality,33
+R,ntd_uei_sam,ntd_id:70123,run_by,census_pid6:208090,City of Great Bend,CITY OF GREAT BEND,KS,transit_reporter,municipality,34
+R,ntd_uei_sam,ntd_id:00048,run_by,census_pid6:162104,City of Lewiston,CITY OF LEWISTON,ID,transit_reporter,municipality,35
+R,ntd_uei_sam,ntd_id:00048,run_by,census_pid6:162104,City of Lewiston,CITY OF LEWISTON,ID,transit_reporter,municipality,36
+R,ntd_uei_sam,ntd_id:40928,run_by,census_pid6:160514,Baldwin County Commission,COUNTY OF BALDWIN,AL,transit_reporter,county,37
+R,ntd_uei_sam,ntd_id:40277,run_by,census_pid6:171302,Town of Apex,TOWN OF APEX,NC,transit_reporter,municipality,38
+R,ntd_uei_sam,ntd_id:00391,run_by,census_pid6:160762,City and Borough of Juneau,CITY AND BOROUGH OF JUNEAU,AK,transit_reporter,municipality,39
+R,ntd_uei_sam,ntd_id:00391,run_by,census_pid6:160762,City and Borough of Juneau,CITY AND BOROUGH OF JUNEAU,AK,transit_reporter,municipality,40
+R,ntd_uei_sam,ntd_id:20957,run_by,census_pid6:170427,County of Niagara,COUNTY OF NIAGARA,NY,transit_reporter,county,41
+R,ntd_uei_sam,ntd_id:40936,run_by,census_pid6:124426,Wilkinson County Commission,COUNTY OF WILKINSON,GA,transit_reporter,county,42
+R,ntd_uei_sam,ntd_id:50358,run_by,census_pid6:105396,City of New Castle,CITY OF NEW CASTLE,IN,transit_reporter,municipality,43
+R,ntd_uei_sam,ntd_id:40249,run_by,census_pid6:184736,City of Hallandale Beach,CITY OF HALLANDALE BEACH,FL,transit_reporter,municipality,44
+R,ntd_uei_sam,ntd_id:41078,run_by,census_pid6:184802,Morgan County,COUNTY OF MORGAN,GA,transit_reporter,county,45
+R,ntd_uei_sam,ntd_id:60109,run_by,census_pid6:166017,St. Tammany Parish Government,PARISH OF ST TAMMANY,LA,transit_reporter,county,46
+R,ntd_uei_sam,ntd_id:20944,run_by,census_pid6:193723,Salem County,COUNTY OF SALEM,NJ,transit_reporter,county,47
+R,ntd_uei_sam,ntd_id:20216,run_by,census_pid6:170429,Orange County,COUNTY OF ORANGE,NY,transit_reporter,county,48
+R,ntd_uei_sam,ntd_id:00375,run_by,census_pid6:173611,Columbia County,COUNTY OF COLUMBIA,OR,transit_reporter,county,49
+R,ntd_uei_sam,ntd_id:55566,run_by,census_pid6:166767,City of Royal Oak,CITY OF ROYAL OAK,MI,transit_reporter,municipality,50
+R,same_name_state,epa_pwsid:WA5325315,same_body,census_pid6:195971,ALPINE WATER DISTRICT,ALPINE WATER DISTRICT,WA,water_system,special_district,1
+R,same_name_state,epa_pwsid:TX1160018,same_body,census_pid6:218548,CASH SUD,CASH SPECIAL UTILITY DISTRICT,TX,water_system,special_district,2
+R,same_name_state,usfa_fdid:IL-HB203,same_body,census_pid6:103314,West Point Fire Protection District,WEST POINT FIRE PROTECTION DISTRICT,IL,fire_department,special_district,3
+R,same_name_state,epa_pwsid:TX0790550,same_body,census_pid6:187722,WILLOW POINT MUD,WILLOW POINT MUD,TX,water_system,special_district,4
+R,same_name_state,epa_pwsid:TX1700118,same_body,census_pid6:114063,MONTGOMERY COUNTY MUD 15,MONTGOMERY COUNTY MUD 15,TX,water_system,special_district,5
+R,same_name_state,epa_pwsid:WA5341980,same_body,census_pid6:158988,"KING COUNTY WATER DISTRICT #117",KING COUNTY WATER DISTRICT 117,WA,water_system,special_district,6
+R,same_name_state,epa_pwsid:TX0790343,same_body,census_pid6:113843,CINCO MUD 7,CINCO MUD 7,TX,water_system,special_district,7
+R,same_name_state,epa_pwsid:WA5368045,same_body,census_pid6:158781,Plymouth Water District,PLYMOUTH WATER DISTRICT,WA,water_system,special_district,8
+R,same_name_state,epa_pwsid:TX1011872,same_body,census_pid6:157771,BILMA PUD,BILMA PUBLIC UTILITY DISTRICT,TX,water_system,special_district,9
+R,same_name_state,usfa_fdid:IL-CJ214,same_body,census_pid6:103187,Wabash Fire Protection District,WABASH FIRE PROTECTION DISTRICT,IL,fire_department,special_district,10
+R,same_name_state,usfa_fdid:NY-53008,same_body,census_pid6:131623,Hankins Fire District,HANKINS FIRE DISTRICT,NY,fire_department,special_district,11
+R,same_name_state,epa_pwsid:WA5387115,same_body,census_pid6:195972,Tahuya River Valley Water District,TAHUYA RIVER VALLEY WATER DISTRICT,WA,water_system,special_district,12
+R,same_name_state,epa_pwsid:TX1012229,same_body,census_pid6:157655,HARRIS COUNTY MUD 127,HARRIS COUNTY MUD 127,TX,water_system,special_district,13
+R,same_name_state,imls_fscskey:VA0035,same_body,census_pid6:140685,HANDLEY REGIONAL LIBRARY,HANDLEY REGIONAL LIBRARY,VA,library_system,special_district,14
+R,same_name_state,epa_pwsid:TX1010148,same_body,census_pid6:157810,MEMORIAL VILLAGES WATER AUTHORITY,MEMORIAL VILLAGES WATER AUTHORITY,TX,water_system,special_district,15
+R,same_name_state,epa_pwsid:TX1010388,same_body,census_pid6:157707,SHASLA PUD,SHASLA PUBLIC UTILITY DISTRICT,TX,water_system,special_district,16
+R,same_name_state,ntd_id:60097,same_body,census_pid6:234341,Midland-Odessa Urban Transit District,MIDLAND ODESSA URBAN TRANSIT DISTRICT,TX,transit_reporter,special_district,17
+R,same_name_state,usfa_fdid:OR-00567,same_body,census_pid6:154778,Wy'East Fire District,WY'EAST FIRE DISTRICT,OR,fire_department,special_district,18
+R,same_name_state,usfa_fdid:AZ-12131,same_body,census_pid6:141429,Queen Valley Fire District,QUEEN VALLEY FIRE DISTRICT,AZ,fire_department,special_district,19
+R,same_name_state,epa_pwsid:TX2270379,same_body,census_pid6:237084,TRAVIS COUNTY MUD 11,TRAVIS COUNTY MUD 11,TX,water_system,special_district,20
+R,same_name_state,epa_pwsid:TX2270403,same_body,census_pid6:237393,TRAVIS COUNTY MUD 18,TRAVIS COUNTY MUD 18,TX,water_system,special_district,21
+R,same_name_state,epa_pwsid:TX1500126,same_body,census_pid6:237014,DEERHAVEN WCID,DEERHAVEN WCID,TX,water_system,special_district,22
+R,same_name_state,epa_pwsid:ME0090270,same_body,census_pid6:149307,BUCKFIELD VILLAGE CORPORATION,BUCKFIELD VILLAGE CORPORATION,ME,water_system,special_district,23
+R,same_name_state,ntd_id:80255,same_body,census_pid6:216798,Big Sky Transportation District,BIG SKY TRANSPORTATION DISTRICT,MT,transit_reporter,special_district,24
+R,same_name_state,epa_pwsid:OR4100835,same_body,census_pid6:111723,SHANGRI-LA WATER DISTRICT,SHANGRI LA WATER DISTRICT,OR,water_system,special_district,25
+R,same_name_state,epa_pwsid:NH0202020,same_body,census_pid6:130768,SUNRAY SHORES WATER DIST,SUNRAY SHORES WATER DISTRICT,NH,water_system,special_district,26
+R,same_name_state,epa_pwsid:TX1700097,same_body,census_pid6:114065,STANLEY LAKE MUD,STANLEY LAKE MUD,TX,water_system,special_district,27
+R,same_name_state,epa_pwsid:TX1013114,same_body,census_pid6:135484,HARRIS COUNTY MUD 284,HARRIS COUNTY MUD 284,TX,water_system,special_district,28
+R,same_name_state,epa_pwsid:TX1011602,same_body,census_pid6:157848,FAULKEY GULLY MUD,FAULKEY GULLY MUD,TX,water_system,special_district,29
+R,same_name_state,epa_pwsid:TX1013372,same_body,census_pid6:236952,HARRIS COUNTY MUD 449,HARRIS COUNTY MUD 449,TX,water_system,special_district,30
+R,same_name_state,epa_pwsid:WA5310748,same_body,census_pid6:158926,CAMANO VISTA WATER DISTRICT,CAMANO VISTA WATER DISTRICT,WA,water_system,special_district,31
+R,same_name_state,epa_pwsid:TX1010592,same_body,census_pid6:157845,DOWDELL PUD,DOWDELL PUBLIC UTILITY DISTRICT,TX,water_system,special_district,32
+R,same_name_state,imls_fscskey:CO0100,same_body,census_pid6:143995,RANGELY REGIONAL LIBRARY DISTRICT,RANGELY REGIONAL LIBRARY DISTRICT,CO,library_system,special_district,33
+R,same_name_state,epa_pwsid:TX1013362,same_body,census_pid6:221808,HARRIS COUNTY MUD 405,HARRIS COUNTY MUD 405,TX,water_system,special_district,34
+R,same_name_state,epa_pwsid:VT0005010,same_body,census_pid6:135974,VERGENNES PANTON WATER DISTRICT,VERGENNES-PANTON WATER DISTRICT,VT,water_system,special_district,35
+R,same_name_state,epa_pwsid:TX1011242,same_body,census_pid6:157685,MEMORIAL MUD,MEMORIAL MUD,TX,water_system,special_district,36
+R,same_name_state,ntd_id:30137,same_body,census_pid6:134240,Monroe County Transportation Authority,MONROE COUNTY TRANSPORTATION AUTHORITY,PA,transit_reporter,special_district,37
+R,same_name_state,usfa_fdid:NE-61002,same_body,census_pid6:130596,Gordon Rural Fire Protection District,GORDON RURAL FIRE PROTECTION DISTRICT,NE,fire_department,special_district,38
+R,same_name_state,epa_pwsid:IA8486701,same_body,census_pid6:251406,LEWIS AND CLARK REGIONAL WATER SYSTEM,LEWIS AND CLARK REGIONAL WATER SYSTEM,SD,water_system,special_district,39
+R,same_name_state,epa_pwsid:KY0630477,same_body,census_pid6:105519,WOOD CREEK WATER DISTRICT,WOOD CREEK WATER DISTRICT,KY,water_system,special_district,40
+R,same_name_state,epa_pwsid:MI0002838,same_body,census_pid6:248665,GREAT LAKES WATER AUTHORITY,GREAT LAKES WATER AUTHORITY,MI,water_system,special_district,41
+R,same_name_state,epa_pwsid:WV3301706,same_body,census_pid6:205638,COONS RUN PSD,COONS RUN PUBLIC SERVICE DISTRICT,WV,water_system,special_district,42
+R,same_name_state,epa_pwsid:VT0005153,same_body,census_pid6:191742,HYDE PARK FIRE DISTRICT 1,HYDE PARK FIRE DISTRICT 1,VT,water_system,special_district,43
+R,same_name_state,epa_pwsid:WV3301008,same_body,census_pid6:159417,DANESE PSD,DANESE PUBLIC SERVICE DISTRICT,WV,water_system,special_district,44
+R,same_name_state,usfa_fdid:FL-18102,same_body,census_pid6:204195,Fort Myers Beach Fire Control District,FORT MYERS BEACH FIRE CONTROL DISTRICT,FL,fire_department,special_district,45
+R,same_name_state,epa_pwsid:TX0940022,same_body,census_pid6:252902,SPRINGS HILL SUD,SPRINGS HILL SPECIAL UTILITY DISTRICT,TX,water_system,special_district,46
+R,same_name_state,epa_pwsid:WA5368790,same_body,census_pid6:136250,PORT OF ALLYN,PORT OF ALLYN,WA,water_system,special_district,47
+R,same_name_state,ntd_id:80028,same_body,census_pid6:218235,Cache Valley Transit District,CACHE VALLEY TRANSIT DISTRICT,UT,transit_reporter,special_district,48
+R,same_name_state,imls_fscskey:CO0132,same_body,census_pid6:124011,RAMPART REGIONAL LIBRARY DISTRICT,RAMPART REGIONAL LIBRARY DISTRICT,CO,library_system,special_district,49
+R,same_name_state,epa_pwsid:KY1000363,same_body,census_pid6:138505,WESTERN PULASKI CO WATER DISTRICT,WESTERN PULASKI COUNTY WATER DISTRICT,KY,water_system,special_district,50
+R,same_name_zip,usfa_fdid:WA-31D17,same_body,census_pid6:159223,Snohomish County Fire Protection District 17,SNOHOMISH COUNTY FIRE PROTECTION DISTRICT 17,WA,fire_department,special_district,1
+R,same_name_zip,usfa_fdid:IL-EA163,same_body,census_pid6:125551,Metcalf Fire Protection District,METCALF FIRE PROTECTION DISTRICT,IL,fire_department,special_district,2
+R,same_name_zip,epa_pwsid:TN0008228,same_body,census_pid6:196388,LONE OAK UTILITY DISTRICT,LONE OAK UTILITY DISTRICT,TN,water_system,special_district,3
+R,same_name_zip,epa_pwsid:KY0890304,same_body,census_pid6:127756,"MUHLENBERG CO WATER DISTRICT #3",MUHLENBERG COUNTY WATER DISTRICT 3,KY,water_system,special_district,4
+R,same_name_zip,imls_fscskey:AR0049,same_body,census_pid6:212663,CARROLL AND MADISON LIBRARY SYSTEM,CARROLL AND MADISON LIBRARY SYSTEM,AR,library_system,special_district,5
+R,same_name_zip,epa_pwsid:TX0790443,same_body,census_pid6:218506,FORT BEND COUNTY MUD 151,FORT BEND COUNTY MUD 151,TX,water_system,special_district,6
+R,same_name_zip,usfa_fdid:CO-00115,same_body,census_pid6:143394,Greater Brighton Fire Protection District,GREATER BRIGHTON FIRE PROTECTION DISTRICT,CO,fire_department,special_district,7
+R,same_name_zip,usfa_fdid:TX-KA536,same_body,census_pid6:113901,Harris County ESD 17,HARRIS COUNTY EMERGENCY SERVICES DISTRICT 17,TX,fire_department,special_district,8
+R,same_name_zip,epa_pwsid:WV3303405,same_body,census_pid6:205640,WILDERNESS PSD,WILDERNESS PUBLIC SERVICE DISTRICT,WV,water_system,special_district,9
+R,same_name_zip,usfa_fdid:OR-00061,same_body,census_pid6:154663,Clatskanie Rural Fire Protection District,CLATSKANIE RURAL FIRE PROTECTION DISTRICT,OR,fire_department,special_district,10
+R,same_name_zip,usfa_fdid:NV-08904,same_body,census_pid6:152121,McDermitt Fire Protection District,MCDERMITT FIRE PROTECTION DISTRICT,NV,fire_department,special_district,11
+R,same_name_zip,usfa_fdid:NJ-11053,same_body,census_pid6:109212,"Hopewell Township Fire District #1",HOPEWELL TOWNSHIP FIRE DISTRICT 1,NJ,fire_department,special_district,12
+R,same_name_zip,epa_pwsid:TX2250004,same_body,census_pid6:218576,TRI SUD,TRI SPECIAL UTILITY DISTRICT,TX,water_system,special_district,13
+R,same_name_zip,epa_pwsid:MS0750004,same_body,census_pid6:198983,FISHER FERRY WATER DISTRICT,FISHER FERRY WATER DISTRICT,MS,water_system,special_district,14
+R,same_name_zip,usfa_fdid:IL-FD183,same_body,census_pid6:103294,Cuba Fire Protection District,CUBA FIRE PROTECTION DISTRICT,IL,fire_department,special_district,15
+R,same_name_zip,epa_pwsid:TX1701014,same_body,census_pid6:252226,MONTGOMERY COUNTY MUD 152A,MONTGOMERY COUNTY MUD 152A,TX,water_system,special_district,16
+R,same_name_zip,usfa_fdid:NY-38034,same_body,census_pid6:153165,Oswego Town Fire District,OSWEGO TOWN FIRE DISTRICT,NY,fire_department,special_district,17
+R,same_name_zip,imls_fscskey:IL0529,same_body,census_pid6:190062,TOLUCA PUBLIC LIBRARY DISTRICT,TOLUCA PUBLIC LIBRARY DISTRICT,IL,library_system,special_district,18
+R,same_name_zip,imls_fscskey:IN0146,same_body,census_pid6:126355,VAN BUREN PUBLIC LIBRARY,VAN BUREN PUBLIC LIBRARY,IN,library_system,special_district,19
+R,same_name_zip,epa_pwsid:TX0200386,same_body,census_pid6:135331,BRAZORIA COUNTY MUD 2,BRAZORIA COUNTY MUD 2,TX,water_system,special_district,20
+R,same_name_zip,usfa_fdid:RI-02902,same_body,census_pid6:156525,Richmond - Carolina Fire District,RICHMOND CAROLINA FIRE DISTRICT,RI,fire_department,special_district,21
+R,same_name_zip,usfa_fdid:MO-07303,same_body,census_pid6:129876,Diamond Area Fire Protection District,DIAMOND AREA FIRE PROTECTION DISTRICT,MO,fire_department,special_district,22
+R,same_name_zip,epa_pwsid:KY0420423,same_body,census_pid6:105490,SYMSONIA WATER DISTRICT,SYMSONIA WATER DISTRICT,KY,water_system,special_district,23
+R,same_name_zip,usfa_fdid:CO-06905,same_body,census_pid6:143844,Berthoud Fire Protection District,BERTHOUD FIRE PROTECTION DISTRICT,CO,fire_department,special_district,24
+R,same_name_zip,usfa_fdid:IL-IA233,same_body,census_pid6:146055,Loda Fire Protection District,LODA FIRE PROTECTION DISTRICT,IL,fire_department,special_district,25
+R,same_name_zip,epa_pwsid:MS0180007,same_body,census_pid6:198975,GLENDALE UTILITY DISTRICT,GLENDALE UTILITY DISTRICT,MS,water_system,special_district,26
+R,same_name_zip,imls_fscskey:MS0013,same_body,census_pid6:150071,FIRST REGIONAL LIBRARY,FIRST REGIONAL LIBRARY,MS,library_system,special_district,27
+R,same_name_zip,imls_fscskey:IL0185,same_body,census_pid6:146288,FORREST PUBLIC LIBRARY DISTRICT,FORREST PUBLIC LIBRARY DISTRICT,IL,library_system,special_district,28
+R,same_name_zip,epa_pwsid:UTAH29006,same_body,census_pid6:202717,HOOPER WATER IMPROVEMENT DISTRICT,HOOPER WATER IMPROVEMENT DISTRICT,UT,water_system,special_district,29
+R,same_name_zip,imls_fscskey:CO0108,same_body,census_pid6:250103,NORTHERN SAGUACHE COUNTY LIBRARY DISTRICT,NORTHERN SAGUACHE COUNTY LIBRARY DISTRICT,CO,library_system,special_district,30
+R,same_name_zip,epa_pwsid:KY0310114,same_body,census_pid6:148931,EDMONSON CO WATER DISTRICT,EDMONSON COUNTY WATER DISTRICT,KY,water_system,special_district,31
+R,same_name_zip,usfa_fdid:MI-06322,same_body,census_pid6:217151,North Oakland County Fire Authority,NORTH OAKLAND COUNTY FIRE AUTHORITY,MI,fire_department,special_district,32
+R,same_name_zip,usfa_fdid:ND-31276,same_body,census_pid6:192823,Parshall Rural Fire Protection District,PARSHALL RURAL FIRE PROTECTION DISTRICT,ND,fire_department,special_district,33
+R,same_name_zip,imls_fscskey:MI0107,same_body,census_pid6:185972,FENNVILLE DISTRICT LIBRARY,FENNVILLE DISTRICT LIBRARY,MI,library_system,special_district,34
+R,same_name_zip,usfa_fdid:IL-KB184,same_body,census_pid6:103358,Essex Fire Protection District,ESSEX FIRE PROTECTION DISTRICT,IL,fire_department,special_district,35
+R,same_name_zip,usfa_fdid:KY-15066,same_body,census_pid6:206563,Mt Washington Fire Protection District,MOUNT WASHINGTON FIRE PROTECTION DISTRICT,KY,fire_department,special_district,36
+R,same_name_zip,usfa_fdid:CO-12369,same_body,census_pid6:144061,Platteville-Gilcrest Fire Protection District,PLATTEVILLE-GILCREST FIRE PROTECTION DISTRICT,CO,fire_department,special_district,37
+R,same_name_zip,epa_pwsid:OR4101323,same_body,census_pid6:214758,SOUTH YAMHILL WATER DISTRICT,SOUTH YAMHILL WATER DISTRICT,OR,water_system,special_district,38
+R,same_name_zip,epa_pwsid:WA5307221,same_body,census_pid6:158819,BLACK DIAMOND WATER DISTRICT,BLACK DIAMOND WATER DISTRICT,WA,water_system,special_district,39
+R,same_name_zip,ntd_id:30070,same_body,census_pid6:136075,Potomac and Rappahannock Transportation Commission,POTOMAC AND RAPPAHANNOCK TRANSPORTATION COMMISSION,VA,transit_reporter,special_district,40
+R,same_name_zip,usfa_fdid:OR-00536,same_body,census_pid6:214791,Medical Springs Rural Fire Protection District,MEDICAL SPRINGS RURAL FIRE PROTECTION DISTRICT,OR,fire_department,special_district,41
+R,same_name_zip,epa_pwsid:TX1013074,same_body,census_pid6:140406,REMINGTON MUD 1,REMINGTON MUD 1,TX,water_system,special_district,42
+R,same_name_zip,usfa_fdid:NY-14032,same_body,census_pid6:131500,Union Vale Fire District,UNION VALE FIRE DISTRICT,NY,fire_department,special_district,43
+R,same_name_zip,epa_pwsid:TX0840011,same_body,census_pid6:157510,BACLIFF MUD,BACLIFF MUNICIPAL UTILITY DISTRICT,TX,water_system,special_district,44
+R,same_name_zip,usfa_fdid:OR-00532,same_body,census_pid6:214788,Greater Bowen Valley Rural Fire Protection District,GREATER BOWEN VALLEY RURAL FIRE PROTECTION DISTRICT,OR,fire_department,special_district,45
+R,same_name_zip,usfa_fdid:OH-39005,same_body,census_pid6:154130,Tri-Community Joint Fire District,TRI-COMMUNITY JOINT FIRE DISTRICT,OH,fire_department,special_district,46
+R,same_name_zip,epa_pwsid:WA5361300,same_body,census_pid6:159243,North Spokane Irrigation District 8,NORTH SPOKANE IRRIGATION DISTRICT 8,WA,water_system,special_district,47
+R,same_name_zip,usfa_fdid:WA-19D02,same_body,census_pid6:159021,"Kittitas County Fire Protection District #2",KITTITAS COUNTY FIRE PROTECTION DISTRICT 2,WA,fire_department,special_district,48
+R,same_name_zip,usfa_fdid:FL-64038,same_body,census_pid6:144488,North Collier Fire Control and Rescue District,NORTH COLLIER FIRE CONTROL AND RESCUE DISTRICT,FL,fire_department,special_district,49
+R,same_name_zip,epa_pwsid:IL0555120,same_body,census_pid6:195736,AKIN WATER DISTRICT,AKIN WATER DISTRICT,IL,water_system,special_district,50
+R,same_published_page,usfa_fdid:WA-31D17,same_body,census_pid6:159223,Snohomish County Fire Protection District 17,SNOHOMISH COUNTY FIRE PROTECTION DISTRICT 17,WA,fire_department,special_district,1
+R,same_published_page,usfa_fdid:OR-00061,same_body,census_pid6:154663,Clatskanie Rural Fire Protection District,CLATSKANIE RURAL FIRE PROTECTION DISTRICT,OR,fire_department,special_district,2
+R,same_published_page,usfa_fdid:NJ-11053,same_body,census_pid6:109212,"Hopewell Township Fire District #1",HOPEWELL TOWNSHIP FIRE DISTRICT 1,NJ,fire_department,special_district,3
+R,same_published_page,usfa_fdid:NY-38034,same_body,census_pid6:153165,Oswego Town Fire District,OSWEGO TOWN FIRE DISTRICT,NY,fire_department,special_district,4
+R,same_published_page,usfa_fdid:WA-28D03,same_body,census_pid6:159165,San Juan Island Fire Department,SAN JUAN COUNTY (SAN JUAN) FIRE PROTECTION DISTRICT 3,WA,fire_department,special_district,5
+R,same_published_page,usfa_fdid:MI-06322,same_body,census_pid6:217151,North Oakland County Fire Authority,NORTH OAKLAND COUNTY FIRE AUTHORITY,MI,fire_department,special_district,6
+R,same_published_page,usfa_fdid:CO-12369,same_body,census_pid6:144061,Platteville-Gilcrest Fire Protection District,PLATTEVILLE-GILCREST FIRE PROTECTION DISTRICT,CO,fire_department,special_district,7
+R,same_published_page,ntd_id:30070,same_body,census_pid6:136075,Potomac and Rappahannock Transportation Commission,POTOMAC AND RAPPAHANNOCK TRANSPORTATION COMMISSION,VA,transit_reporter,special_district,8
+R,same_published_page,usfa_fdid:NY-14032,same_body,census_pid6:131500,Union Vale Fire District,UNION VALE FIRE DISTRICT,NY,fire_department,special_district,9
+R,same_published_page,usfa_fdid:WA-27D21,same_body,census_pid6:202785,"Pierce County Fire District #21 (Graham Fire & Rescue)",PIERCE COUNTY FIRE PROTECTION DISTRICT 21,WA,fire_department,special_district,10
+R,same_published_page,usfa_fdid:CO-06745,same_body,census_pid6:123925,Fort Lewis Mesa Fire Protection District,FORT LEWIS MESA FIRE PROTECTION DISTRICT,CO,fire_department,special_district,11
+R,same_published_page,usfa_fdid:MI-08013,same_body,census_pid6:149805,SHAES,SOUTH HAVEN AREA EMERGENCY SERVICES AUTHORITY,MI,fire_department,special_district,12
+R,same_published_page,usfa_fdid:FL-18012,same_body,census_pid6:124334,Tice Fire & Rescue District,TICE FIRE PROTECTION AND RESCUE SERVICE DISTRICT,FL,fire_department,special_district,13
+R,same_published_page,usfa_fdid:OR-00265,same_body,census_pid6:154801,"Jefferson County Fire District #1",JEFFERSON COUNTY FIRE AND EMS DISTRICT,OR,fire_department,special_district,14
+R,same_published_page,ntd_id:60097,same_body,census_pid6:234341,Midland-Odessa Urban Transit District,MIDLAND ODESSA URBAN TRANSIT DISTRICT,TX,transit_reporter,special_district,15
+R,same_published_page,usfa_fdid:MO-05703,same_body,census_pid6:206759,Winfield Foley Fire Protection District,WINFIELD-FOLEY FIRE PROTECTION DISTRICT,MO,fire_department,special_district,16
+R,same_published_page,ntd_id:00044,same_body,census_pid6:216445,Skagit Transit,SKAGIT PUBLIC TRANSPORTATION BENEFIT AREA AUTHORITY,WA,transit_reporter,special_district,17
+R,same_published_page,usfa_fdid:NY-46016,same_body,census_pid6:131590,"Jonesville Volunteer Fire Company, Inc.",JONESVILLE FIRE DISTRICT,NY,fire_department,special_district,18
+R,same_published_page,usfa_fdid:TX-WP312,same_body,census_pid6:158340,Travis County Emergency Services District No. 2,TRAVIS COUNTY EMERGENCY SERVICES DISTRICT 2,TX,fire_department,special_district,19
+R,same_published_page,usfa_fdid:MO-05011,same_body,census_pid6:107906,De Soto Rural Fire Protection District,DESOTO RURAL FIRE PROTECTION DISTRICT,MO,fire_department,special_district,20
+R,same_published_page,ntd_id:41048,same_body,census_pid6:197135,Kerr Area Transportation Authority,KERR AREA RURAL TRANSPORTATION AUTHORITY (KARTS),NC,transit_reporter,special_district,21
+R,same_published_page,usfa_fdid:SC-44201,same_body,census_pid6:156675,Bonham Fire Department,BONHAM FIRE DISTRICT,SC,fire_department,special_district,22
+R,same_published_page,usfa_fdid:TX-WP411,same_body,census_pid6:158341,Pedernales Fire Department,TRAVIS COUNTY EMERGENCY SERVICES DISTRICT 8,TX,fire_department,special_district,23
+R,same_published_page,usfa_fdid:CO-12345,same_body,census_pid6:144062,Southeast Weld Fire Protection District,SOUTHEAST WELD FIRE PROTECTION DISTRICT,CO,fire_department,special_district,24
+R,same_published_page,usfa_fdid:AZ-08150,same_body,census_pid6:137172,Circle City- Morristown Fire Department,CIRCLE CITY-MORRISTOWN FIRE DISTRICT,AZ,fire_department,special_district,25
+R,same_published_page,ntd_id:10064,same_body,census_pid6:206620,Greater Attleboro-Taunton Regional Transit Authority,GREATER ATTLEBORO TAUNTON REGIONAL TRANSIT AUTHORITY,MA,transit_reporter,special_district,26
+R,same_published_page,usfa_fdid:OH-47037,same_body,census_pid6:132851,Wellington Fire District,WELLINGTON COMMUNITY FIRE DISTRICT,OH,fire_department,special_district,27
+R,same_published_page,usfa_fdid:IL-LA253,same_body,census_pid6:190048,Lake Villa Fire Department,LAKE VILLA FIRE PROTECTION DISTRICT,IL,fire_department,special_district,28
+R,same_published_page,ntd_id:80255,same_body,census_pid6:216798,Big Sky Transportation District,BIG SKY TRANSPORTATION DISTRICT,MT,transit_reporter,special_district,29
+R,same_published_page,usfa_fdid:CO-03535,same_body,census_pid6:123858,Larkspur Fire Protection District,LARKSPUR FIRE PROTECTION DISTRICT,CO,fire_department,special_district,30
+R,same_published_page,usfa_fdid:WA-13D13,same_body,census_pid6:136186,Grant County Fire Protection District 13,GRANT COUNTY FIRE PROTECTION DISTRICT 13,WA,fire_department,special_district,31
+R,same_published_page,usfa_fdid:IL-DA153,same_body,census_pid6:145760,Hinckley Fire Protection District,HINCKLEY COMMUNITY FIRE PROTECTION DISTRICT,IL,fire_department,special_district,32
+R,same_published_page,usfa_fdid:WA-20D03,same_body,census_pid6:114741,"Klickitat County Fire District #3",KLICKITAT COUNTY FIRE PROTECTION DISTRICT 3,WA,fire_department,special_district,33
+R,same_published_page,usfa_fdid:MI-03310,same_body,census_pid6:248818,Stockbridge Area Emergency Services,STOCKBRIDGE AREA EMERGENCY SERVICES AUTHORITY,MI,fire_department,special_district,34
+R,same_published_page,usfa_fdid:WA-37D05,same_body,census_pid6:159320,Whatcom County Fire District 5,WHATCOM COUNTY FIRE PROTECTION DISTRICT 5,WA,fire_department,special_district,35
+R,same_published_page,usfa_fdid:IL-WG242,same_body,census_pid6:146883,Lockport Township Fire Protection District,LOCKPORT FIRE PROTECTION DISTRICT,IL,fire_department,special_district,36
+R,same_published_page,usfa_fdid:CO-01940,same_body,census_pid6:215700,Clear Creek Fire Authority,CLEAR CREEK FIRE AUTHORITY,CO,fire_department,special_district,37
+R,same_published_page,usfa_fdid:LA-40035,same_body,census_pid6:127875,England Airpark Fire Dept,ENGLAND ECONOMIC AND INDUSTRIAL DEVELOPMENT DISTRICT,LA,fire_department,special_district,38
+R,same_published_page,usfa_fdid:WA-27D17,same_body,census_pid6:114773,"South Pierce Fire & Rescue #17",PIERCE COUNTY FIRE PROTECTION DISTRICT 17,WA,fire_department,special_district,39
+R,same_published_page,ntd_id:10014,same_body,census_pid6:149648,Worcester Regional Transit Authority,WORCESTER REGIONAL TRANSIT AUTHORITY,MA,transit_reporter,special_district,40
+R,same_published_page,usfa_fdid:AZ-14121,same_body,census_pid6:141450,Groom Creek Fire District,GROOM CREEK FIRE DISTRICT,AZ,fire_department,special_district,41
+R,same_published_page,ntd_id:60126,same_body,census_pid6:200939,Harris County Improvement District Number 3,HARRIS COUNTY IMPROVEMENT DISTRICT 3,TX,transit_reporter,special_district,42
+R,same_published_page,usfa_fdid:NY-46011,same_body,census_pid6:206895,Greenfield Fire District 1,GREENFIELD FIRE DISTRICT,NY,fire_department,special_district,43
+R,same_published_page,usfa_fdid:TX-AW308,same_body,census_pid6:224768,Bexar County Emergency Service District No. 8,BEXAR COUNTY EMERGENCY SERVICES DISTRICT 8,TX,fire_department,special_district,44
+R,same_published_page,usfa_fdid:IL-MJ193,same_body,census_pid6:204372,Huntley Fire Protection District,HUNTLEY FIRE PROTECTION DISTRICT,IL,fire_department,special_district,45
+R,same_published_page,ntd_id:55679,same_body,census_pid6:253071,Reagan Mass Transit District,REAGAN MASS TRANSIT DISTRICT,IL,transit_reporter,special_district,46
+R,same_published_page,ntd_id:30137,same_body,census_pid6:134240,Monroe County Transportation Authority,MONROE COUNTY TRANSPORTATION AUTHORITY,PA,transit_reporter,special_district,47
+R,same_published_page,usfa_fdid:WA-34D03,same_body,census_pid6:159273,"Lacey Fire District # 3",THURSTON COUNTY FIRE PROTECTION DISTRICT 3,WA,fire_department,special_district,48
+R,same_published_page,usfa_fdid:NY-52101,same_body,census_pid6:131615,Smithtown Fire Department,SMITHTOWN FIRE DISTRICT,NY,fire_department,special_district,49
+R,same_published_page,ntd_id:80150,same_body,census_pid6:215918,Gunnison Valley Rural Transportation Authority,GUNNISON VALLEY RURAL TRANSPORTATION AUTHORITY,CO,transit_reporter,special_district,50

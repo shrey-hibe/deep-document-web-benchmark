@@ -1,0 +1,88 @@
+{
+ "Items": [
+  {
+   "ID": "6klF2fCtIavslshZtoKuPrYnA==",
+   "AgendaID": 2419209,
+   "Title": "I. Meeting Called to Order",
+   "SeqUnderParent": 1,
+   "HasAttachment": false,
+   "Deleted": false,
+   "bulletLabel": "I",
+   "Children": []
+  },
+  {
+   "ID": "dn5V7vyiceDKjzpJTslshbfWg==",
+   "AgendaID": 2419213,
+   "Title": "V. Closed Session",
+   "SeqUnderParent": 5,
+   "HasAttachment": false,
+   "Deleted": false,
+   "bulletLabel": "V",
+   "Children": [
+    {
+     "ID": "0iUFyFpEhCetSRXtsplusNgeQ==",
+     "AgendaID": 2512472,
+     "Title": "A. Conference with Legal Counsel - Existing Litigation Pursuant to Government Code Section 54956.9",
+     "SeqUnderParent": 1,
+     "HasAttachment": false,
+     "Deleted": false,
+     "bulletLabel": "A",
+     "Children": [
+      {
+       "ID": "AShYCx6mL6Whlf3peax2JQ==",
+       "AgendaID": 2512473,
+       "Title": "i. Case No. 2026060752 (OAH)",
+       "SeqUnderParent": 1,
+       "HasAttachment": false,
+       "Deleted": false,
+       "bulletLabel": "i",
+       "Children": []
+      }
+     ]
+    },
+    {
+     "ID": "VBHizYplusDdkomUuUHRq53TQ==",
+     "AgendaID": 2419214,
+     "Title": "B. Public Employee Discipline/Dismissal/Release Pursuant to Government Code \u00a7 54957",
+     "SeqUnderParent": 2,
+     "HasAttachment": false,
+     "Deleted": false,
+     "bulletLabel": "B",
+     "Children": []
+    }
+   ]
+  },
+  {
+   "ID": "DUMY4ypIoPVxgalQOW7j1w==",
+   "AgendaID": 2419233,
+   "Title": "XV. Consent Agenda/Roll Call Vote",
+   "SeqUnderParent": 15,
+   "HasAttachment": false,
+   "Deleted": false,
+   "bulletLabel": "XV",
+   "Children": [
+    {
+     "ID": "PqmsI7z0UBjYqjjPCYD7lA==",
+     "AgendaID": 2419234,
+     "Title": "A. Approval of Minutes - Regular Board of Education Meeting on 8/13/26",
+     "SeqUnderParent": 1,
+     "HasAttachment": true,
+     "Deleted": false,
+     "bulletLabel": "A",
+     "Children": []
+    },
+    {
+     "ID": "hUfelMvrc0Qw08FpJJkqMg==",
+     "AgendaID": 2419235,
+     "Title": "B. Certificated and Classified Personnel Report",
+     "SeqUnderParent": 2,
+     "HasAttachment": true,
+     "Deleted": false,
+     "bulletLabel": "B",
+     "Children": []
+    }
+   ]
+  }
+ ],
+ "DeletedItems": []
+}

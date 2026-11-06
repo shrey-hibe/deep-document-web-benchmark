@@ -1,0 +1,40 @@
+code_list,code,meaning,source
+census_active,Y,Active,Census Government Units List 2026: ACTIVE
+census_active,N,Not active,Census Government Units List 2026: ACTIVE
+census_government_type,0,State,Census 2022 S&L Public Use Files Technical Documentation: Type of Government Codes (3rd digit of ID)
+census_government_type,1,County,Census 2022 S&L Public Use Files Technical Documentation: Type of Government Codes (3rd digit of ID)
+census_government_type,2,City,Census 2022 S&L Public Use Files Technical Documentation: Type of Government Codes (3rd digit of ID)
+census_government_type,3,Township,Census 2022 S&L Public Use Files Technical Documentation: Type of Government Codes (3rd digit of ID)
+census_government_type,4,Special District,Census 2022 S&L Public Use Files Technical Documentation: Type of Government Codes (3rd digit of ID)
+census_government_type,5,Independent School District or Educational Service Agency,Census 2022 S&L Public Use Files Technical Documentation: Type of Government Codes (3rd digit of ID)
+epa_activity,A,Active,EPA SDWA download summary: PWS_ACTIVITY_CODE (the file holds only active systems: it was pulled filtered to A)
+epa_owner_type,L,Local government,EPA SDWA download summary (https://echo.epa.gov/tools/data-downloads/sdwa-download-summary): OWNER_TYPE_CODE
+epa_owner_type,M,Public/private,EPA SDWA download summary: OWNER_TYPE_CODE
+epa_owner_type,P,Private,EPA SDWA download summary: OWNER_TYPE_CODE
+epa_owner_type,S,State government,EPA SDWA download summary: OWNER_TYPE_CODE
+epa_owner_type,F,Federal government,EPA SDWA download summary: OWNER_TYPE_CODE
+epa_owner_type,N,Native American,EPA SDWA download summary: OWNER_TYPE_CODE
+epa_pws_type,CWS,Community water system,EPA SDWA download summary: PWS_TYPE_CODE (the file holds only community water systems)
+imls_legal_basis,CC,City/County: a multi-jurisdictional entity operated jointly by a county and a city,IMLS PLS FY2024 Data Documentation and User's Guide: field 201 C_LEGBAS
+imls_legal_basis,CI,"Municipal Government (city, town, or village)",IMLS PLS FY2024 Data Documentation and User's Guide: field 201 C_LEGBAS
+imls_legal_basis,CO,County/Parish,IMLS PLS FY2024 Data Documentation and User's Guide: field 201 C_LEGBAS
+imls_legal_basis,LD,Library District,IMLS PLS FY2024 Data Documentation and User's Guide: field 201 C_LEGBAS
+imls_legal_basis,MJ,Multi-jurisdictional,IMLS PLS FY2024 Data Documentation and User's Guide: field 201 C_LEGBAS
+imls_legal_basis,NL,Native American Tribal Government,IMLS PLS FY2024 Data Documentation and User's Guide: field 201 C_LEGBAS
+imls_legal_basis,NP,Non-profit Association or Agency,IMLS PLS FY2024 Data Documentation and User's Guide: field 201 C_LEGBAS
+imls_legal_basis,SD,School District,IMLS PLS FY2024 Data Documentation and User's Guide: field 201 C_LEGBAS
+imls_legal_basis,OT,Other,IMLS PLS FY2024 Data Documentation and User's Guide: field 201 C_LEGBAS
+imls_structure_change,00,No change from last year,IMLS PLS FY2024 guide: field 150A STATSTRU
+imls_structure_change,01,Existing administrative entity or outlet absorbs another administrative entity or outlet,IMLS PLS FY2024 guide: field 150A STATSTRU
+imls_structure_change,02,Newly created administrative entity or outlet,IMLS PLS FY2024 guide: field 150A STATSTRU
+imls_structure_change,04,Move outlet to a newly created administrative entity,IMLS PLS FY2024 guide: field 150A STATSTRU
+imls_structure_change,05,Merge two or more administrative entities or outlets to form a new administrative entity or outlet,IMLS PLS FY2024 guide: field 150A STATSTRU
+imls_structure_change,08,Restored a closed administrative entity or outlet record,IMLS PLS FY2024 guide: field 150A STATSTRU
+imls_structure_change,09,Restored an incorrectly deleted administrative entity or outlet,IMLS PLS FY2024 guide: field 150A STATSTRU
+imls_structure_change,10,Delete an incorrect record,IMLS PLS FY2024 guide: field 150A STATSTRU
+imls_structure_change,11,Outlet moved to a different previously existing administrative entity,IMLS PLS FY2024 guide: field 150A STATSTRU
+imls_structure_change,13,Add an existing administrative entity or outlet not previously reported,IMLS PLS FY2024 guide: field 150A STATSTRU
+imls_structure_change,22,Future administrative entity FSCS ID Request,IMLS PLS FY2024 guide: field 150A STATSTRU
+imls_structure_change,23,Temporary closure,IMLS PLS FY2024 guide: field 150A STATSTRU
+imls_structure_change,24,Restore/Undo Was a 23 (Reopen a temporary closure),IMLS PLS FY2024 guide: field 150A STATSTRU
+imls_structure_change,25,Survey nonrespondent,IMLS PLS FY2024 guide: field 150A STATSTRU

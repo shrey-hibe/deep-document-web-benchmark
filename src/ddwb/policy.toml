@@ -1,0 +1,61 @@
+# The harness policy, as data (harness backlog items 3 and 4): who does each stage, with which tools, what it may do on
+# its own, and when it hands over. Code reads this file; nothing here is about one body. Change a threshold here, then
+# run `python -m ddwb.pipeline ci` before merging: the replay shows what the change does.
+version = 1
+
+[decide]                       # the pipeline's judgment stage (ddwb.pipeline.driver)
+model = "haiku"                # decides every item Jev did not set aside
+escalate_model = "sonnet"      # decides the unsure ones
+escalate_band = []             # Jev's p band that also escalates ([] = only items the model says it is unsure of);
+                               # was [0.3, 0.7]: replayed 2026-11-06, it cost ~80% of model spend for no recall
+# check_p and set_aside_p are per-body knobs now: their defaults and bounds are in [profile]
+
+[profile]                      # values that are a function of the body (ddwb.deep.profile, decision #126): each starts at
+                               # its default and moves only on recorded evidence, never outside its bounds
+set_aside_p = {default = 0.2, low = 0.05, high = 0.35, what = "Jev's p at or below which an item is set aside unread"}
+check_p = {default = 0.8, low = 0.6, high = 0.95, what = "Jev's p from which a 'no decision' answer is asked again, with the reason"}
+procedural_max = {default = 600, low = 300, high = 1500, what = "characters above which an item tagged procedural is read anyway"}
+gap_days = {default = 150, low = 45, high = 200, what = "days without a governing-board meeting on the map that count as a gap in the list"}
+
+[audit]                        # the margin audit: the harness tunes set_aside_p per body (ddwb.pipeline.driver.Pipeline.audit)
+model = "sonnet"               # a stronger reader than the deciding model
+band = 0.05                    # Jev's p band read at a time, just under the body's cut
+max_items = 40                 # items read per body per run, across bands
+
+# Sub-agents for the Claude Code plugin. Each gets only the tools of its stage (the MCP server exposes one tool per nav
+# step), a budget, a stop rule and a hand-over. The risk gate is code and Jev, never the same model checking itself.
+[[agents]]
+name = "public-records-mapper"
+model = "sonnet"
+stage = "find the body, its site and its governing board's meetings, then map them"
+tools = ["start", "fetch", "scrape", "search", "check", "accept", "map", "links", "portal", "next", "status"]
+own_tools = ["WebSearch", "WebFetch"]  # Claude's own search, for when `search` has no provider
+budget = "map"
+stop = "next says STAGE cover or later; or every candidate list is unreachable, said so with the reason"
+hands_over = "to public-records-reader, with the session id"
+
+[[agents]]
+name = "public-records-reader"
+model = "haiku"
+stage = "read each governing meeting's minutes (else its agenda) and decide every item"
+tools = ["read", "passages", "passage", "record", "skip", "unreachable", "next", "status"]
+budget = "reading"
+stop = "next says STAGE answer; never stop because the work is large"
+hands_over = "to public-records-verifier"
+
+[[agents]]
+name = "public-records-verifier"
+model = "sonnet"
+stage = "check coverage and the items Jev rated likely but nobody recorded; audit the margin: read the items set aside just under this body's cut (`profile` shows it; `passages --status skipped --min-p <cut minus 0.05> --max-p <cut>`), record any decision there and lower the cut with `profile set set_aside_p` and that passage as evidence; then answer"
+tools = ["status", "next", "passages", "passage", "record", "unrecord", "profile", "answer"]
+budget = "reading"
+stop = "answer has run: complete, or incomplete with every reason named"
+hands_over = "to the user, with the answer's summary"
+
+[autonomy]                     # what a run may do on its own
+free = ["read public pages and documents at a person's pace", "map", "read", "record and skip with a reason",
+        "paid calls within the run's caps",
+        "the browser tier on a portal that walls plain HTTP (decisions #82, #103), stopping at any challenge"]
+needs_approval = ["a live run or a paid call beyond the caps (the user's yes, with the cost)"]
+never = ["solving or getting around a CAPTCHA or a challenge that asks for an answer", "logging in",
+         "opening work/registry/draw/sealed/", "claiming complete while any meeting is unopened"]

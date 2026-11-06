@@ -1,0 +1,57 @@
+fips_state,postal,state_name,source
+01,AL,Alabama,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+02,AK,Alaska,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+04,AZ,Arizona,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+05,AR,Arkansas,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+06,CA,California,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+08,CO,Colorado,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+09,CT,Connecticut,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+10,DE,Delaware,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+11,DC,District of Columbia,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+12,FL,Florida,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+13,GA,Georgia,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+15,HI,Hawaii,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+16,ID,Idaho,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+17,IL,Illinois,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+18,IN,Indiana,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+19,IA,Iowa,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+20,KS,Kansas,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+21,KY,Kentucky,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+22,LA,Louisiana,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+23,ME,Maine,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+24,MD,Maryland,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+25,MA,Massachusetts,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+26,MI,Michigan,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+27,MN,Minnesota,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+28,MS,Mississippi,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+29,MO,Missouri,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+30,MT,Montana,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+31,NE,Nebraska,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+32,NV,Nevada,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+33,NH,New Hampshire,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+34,NJ,New Jersey,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+35,NM,New Mexico,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+36,NY,New York,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+37,NC,North Carolina,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+38,ND,North Dakota,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+39,OH,Ohio,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+40,OK,Oklahoma,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+41,OR,Oregon,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+42,PA,Pennsylvania,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+44,RI,Rhode Island,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+45,SC,South Carolina,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+46,SD,South Dakota,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+47,TN,Tennessee,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+48,TX,Texas,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+49,UT,Utah,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+50,VT,Vermont,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+51,VA,Virginia,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+53,WA,Washington,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+54,WV,West Virginia,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+55,WI,Wisconsin,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+56,WY,Wyoming,Census 2022 S&L Public Use Files Technical Documentation: State Code Definitions
+60,AS,American Samoa,IMLS PLS FY2024 Data Documentation and User's Guide: Appendix D (ANSI State Codes)
+66,GU,Guam,IMLS PLS FY2024 Data Documentation and User's Guide: Appendix D (ANSI State Codes)
+69,MP,Northern Mariana Islands,IMLS PLS FY2024 Data Documentation and User's Guide: Appendix D (ANSI State Codes)
+72,PR,Puerto Rico,IMLS PLS FY2024 Data Documentation and User's Guide: Appendix D (ANSI State Codes)
+78,VI,U.S. Virgin Islands,IMLS PLS FY2024 Data Documentation and User's Guide: Appendix D (ANSI State Codes)

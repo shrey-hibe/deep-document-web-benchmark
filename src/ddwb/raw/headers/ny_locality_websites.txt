@@ -1,0 +1,14 @@
+SWIS Code
+Type Code
+Type
+County Name
+City Name
+Town Name
+Village Name
+2nd County
+Website
+Municipality
+GNIS ID
+State FIPS
+County Code
+County FIPS

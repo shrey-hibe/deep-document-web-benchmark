@@ -1,0 +1,24 @@
+[
+ {
+  "AgendaCover": "",
+  "DocumentType": 1,
+  "Html": "",
+  "Id": 141063,
+  "IsPublic": true,
+  "MeetingId": 4860,
+  "Name": "City Council Regular - 15 Dec 2025",
+  "PublicReleaseDelayDateString": "",
+  "Type": 1
+ },
+ {
+  "AgendaCover": "",
+  "DocumentType": 4,
+  "Html": "",
+  "Id": 141062,
+  "IsPublic": false,
+  "MeetingId": 4860,
+  "Name": "City Council Regular - 15 Dec 2025",
+  "PublicReleaseDelayDateString": "",
+  "Type": 1
+ }
+]

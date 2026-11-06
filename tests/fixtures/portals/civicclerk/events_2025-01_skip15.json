@@ -1,0 +1,36 @@
+{
+ "hasMore": false,
+ "items": [
+  {
+   "id": 2143,
+   "agendaId": 1321,
+   "eventName": "Ukiah Valley Water Authority - Special",
+   "eventDate": "2025-01-30T17:00:00Z",
+   "startDateTime": "2025-01-30T17:00:00Z",
+   "categoryId": 53,
+   "categoryName": "Ukiah Valley Water Authority",
+   "hasMedia": true,
+   "externalMediaUrl": "",
+   "publishedFiles": [
+    {
+     "fileId": 4814,
+     "type": "Agenda",
+     "name": "Agenda",
+     "url": "stream/UKIAHCA/9e63c9c0-04fa-4fb3-b2b2-8a5baa5a288e.pdf",
+     "sort": 1,
+     "publishOn": "2025-01-24T15:54:25.59Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 4815,
+     "type": "Agenda Packet",
+     "name": "Packet",
+     "url": "stream/UKIAHCA/b6c2de88-08a4-400f-8efb-14cd10b1bbde.pdf",
+     "sort": 2,
+     "publishOn": "2025-01-24T15:54:25.59Z",
+     "streamUrl": null
+    }
+   ]
+  }
+ ]
+}

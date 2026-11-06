@@ -1,0 +1,73 @@
+{
+  "name": "public-records",
+  "version": "0.4.0",
+  "description": "Find what a US public body (county, city, school district, special district) bought, decided and who changed roles, from its own meeting records: resolve the body, find its meetings (portal adapters first), map them, read minutes item by item with a cheap judge, and answer with coverage.",
+  "author": {
+    "name": "Shrey Goyal"
+  },
+  "homepage": "https://github.com/shrey-hibe/deep-document-web-benchmark",
+  "license": "MIT",
+  "keywords": [
+    "public records",
+    "meeting minutes",
+    "procurement",
+    "government",
+    "agendas"
+  ],
+  "userConfig": {
+    "browser": {
+      "type": "string",
+      "title": "Browser for portals that refuse plain HTTP",
+      "description": "playwright: a Chromium of its own (installed once, the tools say how); openclaw: the browser your OpenClaw runs; or a Chrome remote-debugging address such as http://127.0.0.1:9222",
+      "default": "playwright"
+    },
+    "jev": {
+      "type": "string",
+      "title": "Jev, the cheap judge (optional)",
+      "description": "off, or api:vercel to label documents with Jev through the Vercel AI Gateway (needs the key below), so the agent reads less",
+      "default": "off"
+    },
+    "ai_gateway_api_key": {
+      "type": "string",
+      "title": "Vercel AI Gateway key (only for Jev)",
+      "description": "Kept in your system's credential store; leave empty when Jev is off",
+      "sensitive": true
+    },
+    "search": {
+      "type": "string",
+      "title": "Web search for finding a body's site and meetings",
+      "description": "Providers tried in order, comma-separated: mcp:<url> (any MCP search server), api:parallel or api:exa (your key below), agent (Claude's own web search), off",
+      "default": "mcp:https://search.parallel.ai/mcp,agent"
+    },
+    "scrape": {
+      "type": "string",
+      "title": "Page reader for pages a plain fetch cannot read",
+      "description": "Tried in order: mcp:<url> (any MCP scrape server), api:firecrawl (your Firecrawl key), api:treg (Firecrawl through treg, your treg token), off (plain fetch and the browser only)",
+      "default": "mcp:https://mcp.firecrawl.dev/v2/mcp,off"
+    },
+    "parallel_api_key": {
+      "type": "string",
+      "title": "Parallel key (only for api:parallel)",
+      "description": "Kept in your system's credential store; leave empty when unused",
+      "sensitive": true
+    },
+    "exa_api_key": {
+      "type": "string",
+      "title": "Exa key (only for api:exa)",
+      "description": "Kept in your system's credential store; leave empty when unused",
+      "sensitive": true
+    },
+    "firecrawl_api_key": {
+      "type": "string",
+      "title": "Firecrawl key (only for api:firecrawl)",
+      "description": "Kept in your system's credential store; leave empty when unused",
+      "sensitive": true
+    },
+    "treg_token": {
+      "type": "string",
+      "title": "treg token (only for api:treg)",
+      "description": "Kept in your system's credential store; leave empty when unused",
+      "sensitive": true
+    }
+  }
+}

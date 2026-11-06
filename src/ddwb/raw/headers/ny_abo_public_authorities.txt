@@ -1,0 +1,9 @@
+Public Authority Type
+Public Authority Name
+Address Line 1
+Address Line 2
+City
+State
+Zip
+Website
+Georeference

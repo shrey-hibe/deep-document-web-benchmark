@@ -1,0 +1,51 @@
+sample,stratum,body_id,name,entity_type,state,anchor_record_id,draw_rank
+N2,fire_department,b1c07055fcc3d,Sugar Creek Fire Department,fire_department,MO,usfa_fdid:MO-04809,1
+N2,fire_department,bf2a1d1bfaac9,Binford Fire Protection District,fire_department,ND,usfa_fdid:ND-20027,2
+N2,fire_department,bed76ebf24147,"Badin Lake Volunteer Fire Department, Inc.",fire_department,NC,usfa_fdid:NC-06207,3
+N2,fire_department,b50f0e5fad441,Mason County Fire District 9,fire_department,WA,usfa_fdid:WA-23D09,4
+N2,fire_department,b9102c1f6d6a2,Piney Green Volunteer Fire Department,fire_department,NC,usfa_fdid:NC-06711,5
+N2,fire_department,b669532017873,Graceville Fire Department,fire_department,MN,usfa_fdid:MN-06104,6
+N2,fire_department,ba9d6260dfe62,Power Volunteer Fire Department,fire_department,MT,usfa_fdid:MT-31004,7
+N2,fire_department,bb28d1ac06ab4,Summit Volunteer Fire Department,fire_department,AR,usfa_fdid:AR-45002,8
+N2,fire_department,b92b88607b129,Hockessin Fire Company,fire_department,DE,usfa_fdid:DE-20019,9
+N2,fire_department,b24f14d684c60,Town of Surgoinsville Fire Department,fire_department,TN,usfa_fdid:TN-37141,10
+N2,fire_department,b980b47add124,Otto Township Fire Protection District,fire_department,IL,usfa_fdid:IL-KB173,11
+N2,fire_department,b224aba3315cf,Fort Detrick Fire and Emergency Services,fire_department,MD,usfa_fdid:MD-A8002,12
+N2,library_system,bc8f58825183d,DR. SHAW MEMORIAL LIBRARY,library_system,ME,imls_fscskey:ME0146,1
+N2,library_system,ba55235bf795e,TUZZY CONSORTIUM LIBRARY,library_system,AK,imls_fscskey:AK0094,2
+N2,library_system,b4f4063a76b02,CASCADE PUBLIC,library_system,ID,imls_fscskey:ID0023,3
+N2,library_system,b5cca04b0e7f9,HARRY L. PETRIE PUBLIC LIBRARY,library_system,ND,imls_fscskey:ND0038,4
+N2,library_system,b9e01aa1c99f7,LAKIN LIBRARY & ENVISIONING CENTER,library_system,IA,imls_fscskey:IA0446,5
+N2,library_system,b6aae38efac71,MODALE PUBLIC LIBRARY,library_system,IA,imls_fscskey:IA0488,6
+N2,library_system,b7439809a11f5,OWSLEY COUNTY PUBLIC LIBRARY,library_system,KY,imls_fscskey:KY0090,7
+N2,special_district,b32a793019fef,MCCURTAIN COUNTY EMERGENCY MEDICAL SERVICES DISTRICT,special_district,OK,census_pid6:111461,1
+N2,special_district,bdcca55d7fc0f,OKANOGAN COUNTY CEMETERY DISTRICT 3,special_district,WA,census_pid6:159097,2
+N2,special_district,ba50824d38cad,KEN-CARYL WEST RANCH WATER DISTRICT,special_district,CO,census_pid6:143789,3
+N2,special_district,b2e2d503d9c2a,WIGHTMANS GROVE CONSERVANCY DISTRICT,special_district,OH,census_pid6:154234,4
+N2,special_district,b1b4e6c6cf122,PUTNAM COUNTY SOIL CONSERVATION DISTRICT,special_district,TN,census_pid6:207210,5
+N2,special_district,b3b053286ae95,FAYETTE COUNTY HOSPITAL DISTRICT,special_district,IL,census_pid6:145906,6
+N2,special_district,beb61e44fa589,SMOOT IMPROVEMENT DISTRICT,special_district,WY,census_pid6:160086,7
+N2,special_district,b0a29b12a9b89,SLEEPY HOLLOW WATER DISTRICT,special_district,OR,census_pid6:133253,8
+N2,special_district,b9cff9679f939,SYMMES SPECIAL DRAINAGE DISTRICT,special_district,IL,census_pid6:145881,9
+N2,special_district,b96eaa200c3a3,ST PETER HOUSING AND REDEVELOPMENT AUTHORITY,special_district,MN,census_pid6:206703,10
+N2,town_or_township,bbaeeed3a4547,TOWNSHIP OF JAMESPORT,town_or_township,MO,census_pid6:169286,1
+N2,town_or_township,bd33db1bb5efa,TOWNSHIP OF HARRISON,town_or_township,IN,census_pid6:164218,2
+N2,town_or_township,b3cfc8d47a3df,TOWNSHIP OF LYKENS,town_or_township,OH,census_pid6:209116,3
+N2,town_or_township,b967edbd0429f,TOWNSHIP OF HARRISON,town_or_township,IN,census_pid6:164059,4
+N2,town_or_township,bfb49a31444a9,TOWNSHIP OF FLOODWOOD,town_or_township,MN,census_pid6:168386,5
+N2,town_or_township,b163f585a53ac,TOWNSHIP OF BUTLER,town_or_township,IN,census_pid6:163849,6
+N2,town_or_township,b9dc2e39b0ab8,TOWNSHIP OF OSAGE,town_or_township,KS,census_pid6:164917,7
+N2,town_or_township,bb3a37e72c800,TOWNSHIP OF CLEAR CREEK,town_or_township,KS,census_pid6:165387,8
+N2,water_system,b6cd76674473e,GREATER HARRISON PSD - QUIET DELL,water_system,WV,epa_pwsid:WV3301719,1
+N2,water_system,ba004228a552e,KEYTESVILLE PWS,water_system,MO,epa_pwsid:MO2010420,2
+N2,water_system,b6cad3df1b378,Belview,water_system,MN,epa_pwsid:MN1640001,3
+N2,water_system,bbbe70654fb71,RIO EMBUDO MDWCA,water_system,NM,epa_pwsid:NM3500721,4
+N2,water_system,bf5eb5ff9f964,SANDY CREEK/LACONA JOINT WATERWORKS,water_system,NY,epa_pwsid:NY3704365,5
+N2,water_system,b2d32e9800ac8,CLEAR CREEK,water_system,VA,epa_pwsid:VA1191150,6
+N2,water_system,bec1d4ab2af56,"SPEED, CITY OF",water_system,KS,epa_pwsid:KS2014705,7
+N2,water_system,b81f5407d6b06,TOWN OF STONEWALL,water_system,MS,epa_pwsid:MS0120009,8
+N2,water_system,b0fa4655c93a3,PLUMERVILLE WATERWORKS,water_system,AR,epa_pwsid:AR0000121,9
+N2,water_system,b8e0a9fb07ebd,ST LANDRY WWD 3 PORT BARRE AREA B,water_system,LA,epa_pwsid:LA1097035,10
+N2,water_system,b7147979a6e6f,WESTGATE WATER SYSTEM,water_system,PA,epa_pwsid:PA2660015,11
+N2,water_system,b960c562a99d3,WANAPUM INDIAN VILLAGE,water_system,WA,epa_pwsid:WA5329075,12
+N2,water_system,b350d9db87b97,BARRANQUITAS URBANO,water_system,PR,epa_pwsid:PR0004605,13

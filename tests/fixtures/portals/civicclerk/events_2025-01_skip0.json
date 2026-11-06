@@ -1,0 +1,477 @@
+{
+ "hasMore": true,
+ "items": [
+  {
+   "id": 2105,
+   "agendaId": 1274,
+   "eventName": "Leadership Academy 2024 Presentations",
+   "eventDate": "2025-01-01T09:00:00Z",
+   "startDateTime": "2025-01-01T09:00:00Z",
+   "categoryId": 55,
+   "categoryName": "Leadership Academy",
+   "hasMedia": true,
+   "externalMediaUrl": "",
+   "publishedFiles": [
+    {
+     "fileId": 4616,
+     "type": "Agenda",
+     "name": "Agenda",
+     "url": "stream/UKIAHCA/3b4ddf8d-dfdb-4a84-ad90-9bf49397d5a5.pdf",
+     "sort": 1,
+     "publishOn": "2024-10-17T15:35:17.29Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 4617,
+     "type": "Agenda Packet",
+     "name": "Packet",
+     "url": "stream/UKIAHCA/03739597-0b5b-4c2e-b8d7-6034b69b66d0.pdf",
+     "sort": 2,
+     "publishOn": "2024-10-17T15:35:17.29Z",
+     "streamUrl": null
+    }
+   ]
+  },
+  {
+   "id": 1952,
+   "agendaId": 1314,
+   "eventName": "Cancelled: City Council Regular Meeting",
+   "eventDate": "2025-01-01T17:15:00Z",
+   "startDateTime": "2025-01-01T17:15:00Z",
+   "categoryId": 26,
+   "categoryName": "City Council",
+   "hasMedia": false,
+   "externalMediaUrl": "",
+   "publishedFiles": [
+    {
+     "fileId": 4751,
+     "type": "Agenda",
+     "name": "Agenda",
+     "url": "stream/UKIAHCA/10d1599e-eacc-41b4-91b8-49f63ab5da52.pdf",
+     "sort": 1,
+     "publishOn": "2024-12-19T15:15:17.87Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 4752,
+     "type": "Agenda Packet",
+     "name": "Packet",
+     "url": "stream/UKIAHCA/11f2defb-9ad2-4255-a822-a33b8b1674fa.pdf",
+     "sort": 2,
+     "publishOn": "2024-12-19T15:15:17.87Z",
+     "streamUrl": null
+    }
+   ]
+  },
+  {
+   "id": 2140,
+   "agendaId": 0,
+   "eventName": "CANCELLED: Ukiah Valley Water Authority - Regular",
+   "eventDate": "2025-01-02T17:00:00Z",
+   "startDateTime": "2025-01-02T17:00:00Z",
+   "categoryId": 53,
+   "categoryName": "Ukiah Valley Water Authority",
+   "hasMedia": false,
+   "externalMediaUrl": "",
+   "publishedFiles": []
+  },
+  {
+   "id": 2082,
+   "agendaId": 1315,
+   "eventName": "Airport Commission",
+   "eventDate": "2025-01-07T18:00:00Z",
+   "startDateTime": "2025-01-07T18:00:00Z",
+   "categoryId": 24,
+   "categoryName": "Airport Commission",
+   "hasMedia": false,
+   "externalMediaUrl": "",
+   "publishedFiles": [
+    {
+     "fileId": 4755,
+     "type": "Agenda",
+     "name": "aca_01072025",
+     "url": "stream/UKIAHCA/b7ce0702-3d79-4e47-a855-e0b82b982f91.pdf",
+     "sort": 1,
+     "publishOn": "2025-01-02T12:29:53.01Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 4756,
+     "type": "Agenda Packet",
+     "name": "acp_01072024",
+     "url": "stream/UKIAHCA/5bdb4bd8-21fe-4628-ac6f-cc054e2897d9.pdf",
+     "sort": 2,
+     "publishOn": "2025-01-03T00:00:00Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 4757,
+     "type": "Minutes",
+     "name": "acm_11052024",
+     "url": "stream/UKIAHCA/88d6e446-3ed3-4414-a08c-ac3b3ce3cc61.pdf",
+     "sort": 3,
+     "publishOn": "2025-01-09T00:00:00Z",
+     "streamUrl": null
+    }
+   ]
+  },
+  {
+   "id": 1925,
+   "agendaId": 1260,
+   "eventName": "Planning Commission Meeting",
+   "eventDate": "2025-01-08T18:00:00Z",
+   "startDateTime": "2025-01-08T18:00:00Z",
+   "categoryId": 32,
+   "categoryName": "Planning Commission",
+   "hasMedia": true,
+   "externalMediaUrl": "",
+   "publishedFiles": [
+    {
+     "fileId": 4759,
+     "type": "Agenda",
+     "name": "Agenda",
+     "url": "stream/UKIAHCA/e5de2430-9c34-4715-85b5-537e3ba835d1.pdf",
+     "sort": 1,
+     "publishOn": "2025-01-03T11:54:49.717Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 4761,
+     "type": "Agenda Packet",
+     "name": "Agenda Packet",
+     "url": "stream/UKIAHCA/19cc26e4-e765-4647-aa07-71c93c511645.pdf",
+     "sort": 2,
+     "publishOn": "2025-01-06T15:01:02.17Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 5395,
+     "type": "Minutes",
+     "name": "Minutes",
+     "url": "stream/UKIAHCA/d6967dd1-9e06-4c46-a2ee-d94cef21e11b.pdf",
+     "sort": 3,
+     "publishOn": "2025-07-10T15:49:42.31Z",
+     "streamUrl": null
+    }
+   ]
+  },
+  {
+   "id": 1831,
+   "agendaId": 1259,
+   "eventName": "Fire Executive Committee Meeting",
+   "eventDate": "2025-01-14T17:00:00Z",
+   "startDateTime": "2025-01-14T17:00:00Z",
+   "categoryId": 29,
+   "categoryName": "Fire Executive Committee",
+   "hasMedia": true,
+   "externalMediaUrl": "",
+   "publishedFiles": [
+    {
+     "fileId": 4771,
+     "type": "Agenda",
+     "name": "Agenda",
+     "url": "stream/UKIAHCA/fe6934a0-601e-4591-b7a0-cff201bb24f4.pdf",
+     "sort": 1,
+     "publishOn": "2025-01-10T14:41:33.8Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 4772,
+     "type": "Agenda Packet",
+     "name": "Agenda Packet",
+     "url": "stream/UKIAHCA/378a007e-2c2f-410d-98e9-722be7f2621c.pdf",
+     "sort": 2,
+     "publishOn": "2025-01-10T14:41:33.8Z",
+     "streamUrl": null
+    }
+   ]
+  },
+  {
+   "id": 2133,
+   "agendaId": 1304,
+   "eventName": "Public Spaces Commission - Regular Meeting",
+   "eventDate": "2025-01-14T17:30:00Z",
+   "startDateTime": "2025-01-14T17:30:00Z",
+   "categoryId": 48,
+   "categoryName": "Public Spaces Commission",
+   "hasMedia": false,
+   "externalMediaUrl": "",
+   "publishedFiles": [
+    {
+     "fileId": 4788,
+     "type": "Agenda",
+     "name": "Agenda",
+     "url": "stream/UKIAHCA/a03f750c-2dfd-42e7-a049-0d6545a34ac1.pdf",
+     "sort": 1,
+     "publishOn": "2025-01-14T14:03:29.81Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 4789,
+     "type": "Agenda Packet",
+     "name": "Agenda Packet",
+     "url": "stream/UKIAHCA/945bb58e-6370-498d-bc75-07aadfa9e203.pdf",
+     "sort": 2,
+     "publishOn": "2025-01-14T14:03:29.81Z",
+     "streamUrl": null
+    }
+   ]
+  },
+  {
+   "id": 2121,
+   "agendaId": 1303,
+   "eventName": "City Council Regular Meeting",
+   "eventDate": "2025-01-15T17:00:00Z",
+   "startDateTime": "2025-01-15T17:00:00Z",
+   "categoryId": 26,
+   "categoryName": "City Council",
+   "hasMedia": true,
+   "externalMediaUrl": "",
+   "publishedFiles": [
+    {
+     "fileId": 4781,
+     "type": "Agenda",
+     "name": "Agenda 2",
+     "url": "stream/UKIAHCA/09dcbf50-b5f6-463b-abff-99576ef4c3f7.pdf",
+     "sort": 1,
+     "publishOn": "2025-01-10T18:40:36.883Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 4782,
+     "type": "Agenda Packet",
+     "name": "Packet 2",
+     "url": "stream/UKIAHCA/9ce7cf7b-6859-46c2-b6bc-bc16ece6fa7d.pdf",
+     "sort": 2,
+     "publishOn": "2025-01-10T18:45:05.617Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 4851,
+     "type": "Minutes",
+     "name": "Minutes",
+     "url": "stream/UKIAHCA/7cc7c7a2-30e0-4b02-b677-0a4ccef229e3.pdf",
+     "sort": 3,
+     "publishOn": "2025-02-10T10:35:31.74Z",
+     "streamUrl": null
+    }
+   ]
+  },
+  {
+   "id": 2136,
+   "agendaId": 1308,
+   "eventName": "Successor Agency to the Ukiah Redevelopment Agency",
+   "eventDate": "2025-01-15T17:15:00Z",
+   "startDateTime": "2025-01-15T17:15:00Z",
+   "categoryId": 36,
+   "categoryName": "Successor Agency to the Ukiah Redevelopment Agency",
+   "hasMedia": true,
+   "externalMediaUrl": "",
+   "publishedFiles": [
+    {
+     "fileId": 4783,
+     "type": "Agenda",
+     "name": "Agenda",
+     "url": "stream/UKIAHCA/21ecb234-717b-4988-8459-d25e115e612f.pdf",
+     "sort": 1,
+     "publishOn": "2025-01-10T18:50:39.137Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 4784,
+     "type": "Agenda Packet",
+     "name": "Packet",
+     "url": "stream/UKIAHCA/69880c42-01b7-449b-b147-866cefd236cf.pdf",
+     "sort": 2,
+     "publishOn": "2025-01-10T18:50:39.137Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 5825,
+     "type": "Minutes",
+     "name": "Minutes",
+     "url": "stream/UKIAHCA/35ba332e-fff7-44a3-bd15-c2c4d4f82b08.pdf",
+     "sort": 3,
+     "publishOn": "2026-01-22T11:28:17.747Z",
+     "streamUrl": null
+    }
+   ]
+  },
+  {
+   "id": 2141,
+   "agendaId": 1319,
+   "eventName": "Ukiah Valley Water Authority-Redwood Valley County Water District",
+   "eventDate": "2025-01-16T18:00:00Z",
+   "startDateTime": "2025-01-16T18:00:00Z",
+   "categoryId": 53,
+   "categoryName": "Ukiah Valley Water Authority",
+   "hasMedia": false,
+   "externalMediaUrl": "",
+   "publishedFiles": [
+    {
+     "fileId": 4774,
+     "type": "Agenda",
+     "name": "Agenda",
+     "url": "stream/UKIAHCA/444df725-07e3-4701-8a60-a73057cfa502.pdf",
+     "sort": 1,
+     "publishOn": "2025-01-10T15:34:45.823Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 4775,
+     "type": "Agenda Packet",
+     "name": "Packet",
+     "url": "stream/UKIAHCA/38adf20d-80b0-4b3a-b29e-3f8f112b67a1.pdf",
+     "sort": 2,
+     "publishOn": "2025-01-10T15:30:03.103Z",
+     "streamUrl": null
+    }
+   ]
+  },
+  {
+   "id": 2151,
+   "agendaId": 1324,
+   "eventName": "CANCELLED: Ukiah Valley Water Authority-Millview County Water District",
+   "eventDate": "2025-01-21T17:00:00Z",
+   "startDateTime": "2025-01-21T17:00:00Z",
+   "categoryId": 53,
+   "categoryName": "Ukiah Valley Water Authority",
+   "hasMedia": false,
+   "externalMediaUrl": "",
+   "publishedFiles": [
+    {
+     "fileId": 4807,
+     "type": "Agenda",
+     "name": "Agenda",
+     "url": "stream/UKIAHCA/a6aee678-5687-45fc-8fdf-4cc8d92dfad0.pdf",
+     "sort": 1,
+     "publishOn": "2025-01-17T09:38:41.807Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 4808,
+     "type": "Agenda Packet",
+     "name": " Packet",
+     "url": "stream/UKIAHCA/0f08d0ca-fa32-4aa4-a558-bdf50c85a753.pdf",
+     "sort": 2,
+     "publishOn": "2025-01-17T09:39:15.49Z",
+     "streamUrl": null
+    }
+   ]
+  },
+  {
+   "id": 2144,
+   "agendaId": 1322,
+   "eventName": "CANCELLED - Diversity and Equity Standing Committee - Regular",
+   "eventDate": "2025-01-22T17:30:00Z",
+   "startDateTime": "2025-01-22T17:30:00Z",
+   "categoryId": 41,
+   "categoryName": "Diversity and Equity Standing Committee - Regular",
+   "hasMedia": false,
+   "externalMediaUrl": "",
+   "publishedFiles": [
+    {
+     "fileId": 4801,
+     "type": "Agenda",
+     "name": "Agenda",
+     "url": "stream/UKIAHCA/9d5c2e23-00e0-49bd-8298-2386542571c2.pdf",
+     "sort": 1,
+     "publishOn": "2025-01-17T09:00:27.683Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 4804,
+     "type": "Agenda Packet",
+     "name": "Packet",
+     "url": "stream/UKIAHCA/49a4e881-e1aa-4821-8dc2-98633a1f5485.pdf",
+     "sort": 2,
+     "publishOn": "2025-01-17T09:00:27.683Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 5183,
+     "type": "Notice",
+     "name": "Notice of Cancelation ",
+     "url": "stream/UKIAHCA/d861ea0b-33af-4c45-9d2d-6e2f9e5cb784.pdf",
+     "sort": 4,
+     "publishOn": "2025-05-13T12:23:46.867Z",
+     "streamUrl": null
+    }
+   ]
+  },
+  {
+   "id": 1985,
+   "agendaId": 1325,
+   "eventName": "Planning Commission Meeting",
+   "eventDate": "2025-01-22T18:00:00Z",
+   "startDateTime": "2025-01-22T18:00:00Z",
+   "categoryId": 32,
+   "categoryName": "Planning Commission",
+   "hasMedia": false,
+   "externalMediaUrl": "",
+   "publishedFiles": [
+    {
+     "fileId": 4790,
+     "type": "Notice",
+     "name": "Planning Commission Meeting - Cancellation Notice",
+     "url": "stream/UKIAHCA/d0b6bbba-56ba-422a-a614-33def4ed7d1f.pdf",
+     "sort": 4,
+     "publishOn": "2025-01-15T10:56:47.203Z",
+     "streamUrl": null
+    }
+   ]
+  },
+  {
+   "id": 2153,
+   "agendaId": 1331,
+   "eventName": "CANCELED: Design Review Board Regular Meeting",
+   "eventDate": "2025-01-23T15:00:00Z",
+   "startDateTime": "2025-01-23T15:00:00Z",
+   "categoryId": 27,
+   "categoryName": "Design Review Board Regular Meeting",
+   "hasMedia": false,
+   "externalMediaUrl": "",
+   "publishedFiles": []
+  },
+  {
+   "id": 2137,
+   "agendaId": 1309,
+   "eventName": "Countywide Oversight Board to the Successor Agencies to the City Redevelopment Agencies",
+   "eventDate": "2025-01-23T16:00:00Z",
+   "startDateTime": "2025-01-23T16:00:00Z",
+   "categoryId": 28,
+   "categoryName": "Countywide Oversight Board to the Successor Agencies to the City Redevelopment Agencies",
+   "hasMedia": true,
+   "externalMediaUrl": "",
+   "publishedFiles": [
+    {
+     "fileId": 4796,
+     "type": "Agenda",
+     "name": "Agenda",
+     "url": "stream/UKIAHCA/3cb63041-2ddc-4d9c-af1f-02ac057bb9cc.pdf",
+     "sort": 1,
+     "publishOn": "2025-01-16T14:50:17.8Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 4797,
+     "type": "Agenda Packet",
+     "name": "Packet",
+     "url": "stream/UKIAHCA/694877f0-e362-46e3-acae-d21a92f085ab.pdf",
+     "sort": 2,
+     "publishOn": "2025-01-16T14:50:17.8Z",
+     "streamUrl": null
+    },
+    {
+     "fileId": 5827,
+     "type": "Minutes",
+     "name": "Minutes",
+     "url": "stream/UKIAHCA/d1c627d3-874c-41e1-a704-99c019619fdd.pdf",
+     "sort": 3,
+     "publishOn": "2026-01-23T09:23:48.527Z",
+     "streamUrl": null
+    }
+   ]
+  }
+ ]
+}

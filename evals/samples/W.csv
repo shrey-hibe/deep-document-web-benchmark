@@ -1,0 +1,181 @@
+sample,stratum,body_id,name,entity_type,state,website,host,source,draw_rank
+W,agency_list,b9d7ddc62f4f4,Petersburg Regional Alternative,k12_specialized,VA,http://healthconnectamerica.com,healthconnectamerica.com,record:nces_lea_directory_2025_26,1
+W,agency_list,b2a6073fd8254,BOROUGH OF CHESTER,municipality,NJ,http://WWW.CHESTERBOROUGH.ORG,chesterborough.org,record:census_gus_2026_general_purpose,2
+W,agency_list,b1f7da1fa33b6,Avery County Transportation Authority,transit_reporter,NC,http://www.averycountync.gov,averycountync.gov,record:ntd_reporters_2025,3
+W,agency_list,b7e3c250e6ab4,RESOURCE TRAINING & SOLUTIONS (REGION 7),school_district,MN,http://www.resourcecoop-mn.gov/,resourcecoop-mn.gov,record:nces_lea_directory_2025_26,4
+W,agency_list,be001c0640443,AK PUBLIC EMPLOYEES RET SYSTEM (PERS-DB),public_pension_system,AK,HTTPS://DRB.ALASKA.GOV/DOCS/REPORTS/,drb.alaska.gov,record:census_gus_2026_public_pension_system,5
+W,agency_list,b20968ffdc24d,KIPP Harmony Academy,k12_charter_school,MD,http://www.baltimorecityschools.org/schools/347,baltimorecityschools.org,record:nces_school_directory_2025_26,6
+W,agency_list,b9b8120146e37,CRYSTAL LAKE FIRE DISTRICT,special_district,CT,http://www.crystallakefire.org/,crystallakefire.org,record:census_gus_2026_special_district,7
+W,agency_list,bf93b222a8949,FLORHAM PARK SCH DISTRICT,school_district,NJ,http://www.fpks.org,fpks.org,record:nces_lea_directory_2025_26,8
+W,agency_list,b56717cfc2026,CITY OF KENNEWICK,municipality,WA,http://www.go2kennewick.com,go2kennewick.com,record:census_gus_2026_general_purpose,9
+W,agency_list,bd07e2ac44ae1,RICHMOND-MORRISSON-REEVES PUBLIC LIBRARY,special_district,IN,http://www.mrlinfo.org/,mrlinfo.org,record:census_gus_2026_special_district,10
+W,agency_list,bbed975560be3,NORTHEASTERN CONNECTICUT TRANSIT DISTRICT,special_district,CT,http://www.nectd.org/,nectd.org,record:census_gus_2026_special_district,11
+W,agency_list,bc31455ef1bbd,DOLGEVILLE CENTRAL SCH,school_district,NY,http://www.dolgeville.org,dolgeville.org,record:nces_lea_directory_2025_26,12
+W,agency_list,b490099d44833,"Perkiomen Township Fire Company #1",fire_department,PA,https://www.perkiomenfirecompany.com/,perkiomenfirecompany.com,record:usfa_registry,13
+W,agency_list,b6bf6f2a4902b,AVITA COMMUNITY PARTNERS,special_district,GA,http://www.avitapartners.org,avitapartners.org,record:census_gus_2026_special_district,14
+W,agency_list,b89933499f29e,MAHOPAC CENTRAL SCH DIST,school_district,NY,http://www.mahopac.org,mahopac.org,record:nces_lea_directory_2025_26,15
+W,agency_list,bd018264b9d7d,Regional Planning Commission of Greater Birmingham,transit_reporter,AL,www.commutesmart.org,commutesmart.org,record:ntd_reporters_2025,16
+W,agency_list,bce674c7bb358,Rocky Hill Volunteer Fire Department,fire_department,CT,https://www.rhvfd.com,rhvfd.com,record:usfa_registry,17
+W,agency_list,b75eb91091a83,TOWNSHIP OF FRANKENMUTH,town_or_township,MI,http://www.frankenmuthtwp.com,frankenmuthtwp.com,record:census_gus_2026_general_purpose,18
+W,agency_list,b2fed78a22861,NORTH TONAWANDA CITY SCHOOL DIST,school_district,NY,http://www.ntschools.org,ntschools.org,record:nces_lea_directory_2025_26,19
+W,agency_list,bbe6618186277,BRAZOS RIVER CHARTER SCHOOL,k12_charter_lea,TX,http://brazosriverschool.org/,brazosriverschool.org,record:nces_lea_directory_2025_26,20
+W,agency_list,b5bccafadb871,GATEWAY SCIENCE ACAD/ST LOUIS,k12_charter_lea,MO,http://www.gsastl.org,gsastl.org,record:nces_lea_directory_2025_26,21
+W,agency_list,b50547d830112,Far Hills-Bedminster Fire Department,fire_department,NJ,https://www.fhbfd.org,fhbfd.org,record:usfa_registry,22
+W,agency_list,b8e806317995c,AMELIA ISLAND MOSQUITO CONTROL DISTRICT,special_district,FL,http://www.ameliaislandmosquitocontrol.org/,ameliaislandmosquitocontrol.org,record:census_gus_2026_special_district,23
+W,agency_list,b6ccb25ce5e7d,CLOSTER PUBLIC SCH DIST,school_district,NJ,http://www.closterschools.org,closterschools.org,record:nces_lea_directory_2025_26,24
+W,agency_list,b7f4d31a1ce5b,WALLER COUNTY WCID 3,special_district,TX,HTTPS://DISTRICTDIRECTORY.ORG/WALLER-COUNTY/WALLER-COUNTY-WATER-CONTROL-IMPROVEMENT-DISTRICT-NO-3,districtdirectory.org,record:census_gus_2026_special_district,25
+W,agency_list,b0745747dd7d3,Danville Fire Department,fire_department,VA,https://www.danville-va.gov/314/Fire,danville-va.gov,record:usfa_registry,26
+W,agency_list,b7241fa1a0b4d,Ben Wheeler Volunteer Fire Department,fire_department,TX,https://www.benwheelerfd.org/,benwheelerfd.org,record:usfa_registry,27
+W,agency_list,bff1442cf8f93,CHESAPEAKE UNION EX VLG SCHOOL DIST,school_district,OH,http://www.peake.k12.oh.us/,peake.k12.oh.us,record:nces_lea_directory_2025_26,28
+W,agency_list,b753b28988f12,CADDO-KIOWA TECHNOLOGY CENTER DIST 2,school_district,OK,http://www.caddokiowa.com/,caddokiowa.com,record:census_gus_2026_school_district,29
+W,agency_list,b534efaadc3a9,"River Road Volunteer Fire Company, Inc.",fire_department,NY,https://www.riverroadvfc.com/,riverroadvfc.com,record:usfa_registry,30
+W,dotgov,b831a3b155763,TOWN OF HOWARD,town_or_township,WI,https://howardchippewawi.gov,howardchippewawi.gov,claim:cisa_dotgov_domains,1
+W,dotgov,bc5df18078ece,CITY OF DIXON,municipality,MO,https://dixonmo.gov,dixonmo.gov,claim:cisa_dotgov_domains,2
+W,dotgov,b4f5c146d296a,COUNTY OF DAVIS,county,IA,https://daviscountyiowa.gov,daviscountyiowa.gov,claim:cisa_dotgov_domains,3
+W,dotgov,bfa5e040b0cfe,CITY OF OAK HARBOR,municipality,WA,https://oakharbor.gov,oakharbor.gov,claim:cisa_dotgov_domains,4
+W,dotgov,baedba24d9d0a,TOWN OF MENDON,town_or_township,VT,https://mendonvt.gov,mendonvt.gov,claim:cisa_dotgov_domains,5
+W,dotgov,b6264980cbedd,CITY OF BRODHEAD,municipality,WI,https://cityofbrodheadwi.gov,cityofbrodheadwi.gov,claim:cisa_dotgov_domains,6
+W,dotgov,bcc2170ded884,TOWN OF HORN HILL,municipality,AL,https://hornhillal.gov,hornhillal.gov,claim:cisa_dotgov_domains,7
+W,dotgov,b7457f502e2eb,TOWN OF NEWINGTON,town_or_township,NH,https://newingtonnh.gov,newingtonnh.gov,claim:cisa_dotgov_domains,8
+W,dotgov,b03086e5aa247,TOWNSHIP OF BROOKS,town_or_township,MI,https://brookstownshipmi.gov,brookstownshipmi.gov,claim:cisa_dotgov_domains,9
+W,dotgov,baf6b57d905fe,CHARTER TOWNSHIP OF OSCODA,town_or_township,MI,https://oscodatownshipmi.gov,oscodatownshipmi.gov,claim:cisa_dotgov_domains,10
+W,dotgov,bae4a2fc72b1b,TOWN OF PINETOP-LAKESIDE,municipality,AZ,https://pinetoplakesideaz.gov,pinetoplakesideaz.gov,claim:cisa_dotgov_domains,11
+W,dotgov,b1c0f323f335c,TOWN OF NEW CHESTER,town_or_township,WI,https://newchester.gov,newchester.gov,claim:cisa_dotgov_domains,12
+W,dotgov,b5bd4f295c3f2,CITY OF NASHWAUK,municipality,MN,https://nashwaukmn.gov,nashwaukmn.gov,claim:cisa_dotgov_domains,13
+W,dotgov,bc6b1789f6652,TOWN OF LAMOINE,town_or_township,ME,https://lamoine-me.gov,lamoine-me.gov,claim:cisa_dotgov_domains,14
+W,dotgov,bb4e604ecde8d,TOWN OF ALEXANDRIA,municipality,TN,https://alexandriatn.gov,alexandriatn.gov,claim:cisa_dotgov_domains,15
+W,dotgov,b3cd21672c3ac,COUNTY OF OGLETHORPE,county,GA,https://oglethorpecountyga.gov,oglethorpecountyga.gov,claim:cisa_dotgov_domains,16
+W,dotgov,b7f74c565555c,CITY OF GRIMES,municipality,IA,https://grimesiowa.gov,grimesiowa.gov,claim:cisa_dotgov_domains,17
+W,dotgov,bbde82eb8ce1a,COUNTY OF LEWIS,county,WA,https://lewiscountywa.gov,lewiscountywa.gov,claim:cisa_dotgov_domains,18
+W,dotgov,b35b1a222fdd8,TOWN OF SNOWMASS VILLAGE,municipality,CO,https://snowmass.gov,snowmass.gov,claim:cisa_dotgov_domains,19
+W,dotgov,b5e8702a90803,COUNTY OF GLACIER,county,MT,https://glaciercountymt.gov,glaciercountymt.gov,claim:cisa_dotgov_domains,20
+W,dotgov,bd4a4ba8f29e0,LEFT HAND WATER DISTRICT,special_district,CO,https://lefthandwater.gov,lefthandwater.gov,claim:cisa_dotgov_domains,21
+W,dotgov,b9eb3fc624b63,CITY OF HEBER SPRINGS,municipality,AR,https://hebersprings.gov,hebersprings.gov,claim:cisa_dotgov_domains,22
+W,dotgov,b10b5c75749a2,CITY OF SOUTH MILWAUKEE,municipality,WI,https://southmilwaukee.gov,southmilwaukee.gov,claim:cisa_dotgov_domains,23
+W,dotgov,b11452eae8777,COUNTY OF CLAYTON,county,IA,https://claytoncountyia.gov,claytoncountyia.gov,claim:cisa_dotgov_domains,24
+W,dotgov,be0a8d3e3dbad,LAKEHAVEN WATER AND SEWER DISTRICT,special_district,WA,https://lakehavenwsd.gov,lakehavenwsd.gov,claim:cisa_dotgov_domains,25
+W,dotgov,b9733bc0b2360,BIG SKY PASSENGER RAIL AUTHORITY,special_district,MT,https://bigskyrailmt.gov,bigskyrailmt.gov,claim:cisa_dotgov_domains,26
+W,dotgov,bf15202ffb2ad,COUNTY OF STONE,county,MO,https://stonecountymo.gov,stonecountymo.gov,claim:cisa_dotgov_domains,27
+W,dotgov,bb7b618af82f3,COUNTY OF KANKAKEE,county,IL,https://kankakeecountyil.gov,kankakeecountyil.gov,claim:cisa_dotgov_domains,28
+W,dotgov,baa397fcbb22c,VILLAGE OF CLEMMONS,municipality,NC,https://clemmons.gov,clemmons.gov,claim:cisa_dotgov_domains,29
+W,dotgov,bc4aa8d1e3285,TOWNSHIP OF CECIL,town_or_township,PA,https://ceciltownship-pa.gov,ceciltownship-pa.gov,claim:cisa_dotgov_domains,30
+W,email_domain,be7a608c7dc0a,TUXEDO HEIGHTS CONDO ASSOC.,water_system,NY,https://associanewyork.com,associanewyork.com,claim:epa_sdwis_email_domains,1
+W,email_domain,b2a0cccba1abc,CHIGNIK LAGOON WATER SYSTEM,water_system,AK,https://chigniklagoon.net,chigniklagoon.net,claim:epa_sdwis_email_domains,2
+W,email_domain,b7d094da00835,GREEN CHIMNEYS: MAIN WELL,water_system,NY,https://greenchimneys.org,greenchimneys.org,claim:epa_sdwis_email_domains,3
+W,email_domain,bec0d196ddba9,HINESBURG WATER DEPT,water_system,VT,https://hinesburg.org,hinesburg.org,claim:epa_sdwis_email_domains,4
+W,email_domain,bdecb8c793bd3,MINOOKA,water_system,IL,https://minooka.com,minooka.com,claim:epa_sdwis_email_domains,5
+W,email_domain,b712dbcda9f64,FORDYCE RURAL WATER ASSOC,water_system,AR,https://fordycewater.com,fordycewater.com,claim:epa_sdwis_email_domains,6
+W,email_domain,b41182f8199aa,LOUISA WATER DEPARTMENT,water_system,KY,https://louisaky.gov,louisaky.gov,claim:epa_sdwis_email_domains,7
+W,email_domain,b602ec7a7351a,LOCKBOURNE VILLAGE PWS,water_system,OH,https://lockbourneohio.us,lockbourneohio.us,claim:epa_sdwis_email_domains,8
+W,email_domain,bc0d0b85a98f2,"CENTRAL POINT, CITY OF",water_system,OR,https://centralpointoregon.gov,centralpointoregon.gov,claim:epa_sdwis_email_domains,9
+W,email_domain,b8dacc3b626da,Aitkin,water_system,MN,https://ci.aitkin.mn.us,ci.aitkin.mn.us,claim:epa_sdwis_email_domains,10
+W,email_domain,b5a1c2190b66c,ATTICA VILLAGE,water_system,NY,https://attica.org,attica.org,claim:epa_sdwis_email_domains,11
+W,email_domain,bd4ce3b1ca5ad,LYNN WATER AND SEWER COMM,water_system,MA,https://lynnwatersewer.org,lynnwatersewer.org,claim:epa_sdwis_email_domains,12
+W,email_domain,ba28c9bad2315,CURRAN-GARDNER TOWNSHIP PWD,water_system,IL,https://currangardner.com,currangardner.com,claim:epa_sdwis_email_domains,13
+W,email_domain,bbab2d75d5057,"AMHERST, TOWN OF",water_system,VA,https://amherstva.gov,amherstva.gov,claim:epa_sdwis_email_domains,14
+W,email_domain,bd04a14407c95,GLORIETA CAMPS,water_system,NM,https://glorieta.org,glorieta.org,claim:epa_sdwis_email_domains,15
+W,email_domain,bc94ad044637d,MARINE CITY,water_system,MI,https://cityofmarinecity.org,cityofmarinecity.org,claim:epa_sdwis_email_domains,16
+W,email_domain,bd35fc52b5df6,"OBERLIN, CITY OF",water_system,KS,https://oberlinkansas.gov,oberlinkansas.gov,claim:epa_sdwis_email_domains,17
+W,email_domain,b64f49833ec26,SOUTH BEND WATER WORKS,water_system,IN,https://southbendin.gov,southbendin.gov,claim:epa_sdwis_email_domains,18
+W,email_domain,bb78ce6022947,THOMASTON,water_system,GA,https://cityofthomaston.com,cityofthomaston.com,claim:epa_sdwis_email_domains,19
+W,email_domain,b25efda167a31,"BIG STONE GAP, TOWN OF",water_system,VA,https://bigstonegap.org,bigstonegap.org,claim:epa_sdwis_email_domains,20
+W,email_domain,bcfa3ad51c62b,CRESTON VILLAGE,water_system,OH,https://crestonvillage.org,crestonvillage.org,claim:epa_sdwis_email_domains,21
+W,email_domain,bac96ebf8b01f,WHITE,water_system,GA,https://cityofwhitega.com,cityofwhitega.com,claim:epa_sdwis_email_domains,22
+W,email_domain,b1b605655db90,NEW RICHMOND VILLAGE PWS,water_system,OH,https://newrichmond.org,newrichmond.org,claim:epa_sdwis_email_domains,23
+W,email_domain,bdc2b67a5d264,KENTON WATER DEPT,water_system,TN,https://cityofkentontn.com,cityofkentontn.com,claim:epa_sdwis_email_domains,24
+W,email_domain,bf68f2e0cb63b,RICHFIELD CITY,water_system,UT,https://richfieldcity.com,richfieldcity.com,claim:epa_sdwis_email_domains,25
+W,email_domain,b9c850e1c0135,VILLAGE OF EAGLE NEST,water_system,NM,https://eaglenest.org,eaglenest.org,claim:epa_sdwis_email_domains,26
+W,email_domain,b5caed7660f0f,SPRINGBORO PWS,water_system,OH,https://cityofspringboro.com,cityofspringboro.com,claim:epa_sdwis_email_domains,27
+W,email_domain,bbdb70e191864,CLOUDCROFT WATER SYSTEM,water_system,NM,https://cloudcroftvillage.com,cloudcroftvillage.com,claim:epa_sdwis_email_domains,28
+W,email_domain,b13a23678db6e,"MUHLENBERG CO WATER DISTRICT #3",water_system,KY,https://muhlenbergwater.com,muhlenbergwater.com,claim:epa_sdwis_email_domains,29
+W,email_domain,b81e0dbc77c87,BELMONT WATER DEPT. (MWRA),water_system,MA,https://belmont-ma.gov,belmont-ma.gov,claim:epa_sdwis_email_domains,30
+W,sam,be52a77898a3d,CITY OF ST MARIES,municipality,ID,https://cityofstmaries.org/,cityofstmaries.org,claim:sam_entity_public_2026_10,1
+W,sam,b7b4e1cc6bc4a,ENERGY UNITED WATER CORP,water_system,NC,www.energyunitedwater.com,energyunitedwater.com,claim:sam_entity_public_2026_10,2
+W,sam,b68f813b15fd6,COUNTY OF CRAWFORD,county,IL,https://crawfordcounty.illinois.gov/,crawfordcounty.illinois.gov,claim:sam_entity_public_2026_10,3
+W,sam,b42a9af1d3b87,PICOSA WSC,water_system,TX,http://www.picosawsc.com/,picosawsc.com,claim:sam_entity_public_2026_10,4
+W,sam,b9c91ec4b39ed,City of Sand Springs,transit_reporter,OK,www.sandspringsok.gov,sandspringsok.gov,claim:sam_entity_public_2026_10,5
+W,sam,b6d8b78088669,TOWN OF BYNG,municipality,OK,https://byngok.com/,byngok.com,claim:sam_entity_public_2026_10,6
+W,sam,be511114a5ad7,Pottersville Volunteer Fire Company,fire_department,NJ,www.pottersvillefirecompany.org,pottersvillefirecompany.org,claim:sam_entity_public_2026_10,7
+W,sam,bcbf772e53923,TOWN OF SORRENTO,town_or_township,ME,https://www.sorrentome.org/,sorrentome.org,claim:sam_entity_public_2026_10,8
+W,sam,b48a989186063,BOROUGH OF CHICORA,municipality,PA,http://www.chicorapa.org/,chicorapa.org,claim:sam_entity_public_2026_10,9
+W,sam,bd3116d942527,CITY OF HOPKINS,municipality,MO,Hopkinsmogov.com,hopkinsmogov.com,claim:sam_entity_public_2026_10,10
+W,sam,b73e1da160f3e,MID COUNTY JOINT AMBULANCE DISTRICT,special_district,OH,www.midcountyems.com,midcountyems.com,claim:sam_entity_public_2026_10,11
+W,sam,bbd81a13ffbfe,COUNTY OF EMERY,county,UT,emery.utah.gov,emery.utah.gov,claim:sam_entity_public_2026_10,12
+W,sam,be6f3fcef4c49,BOROUGH OF FOLCROFT,municipality,PA,www.folcroftborough.com,folcroftborough.com,claim:sam_entity_public_2026_10,13
+W,sam,b9396cd3eaf91,TOWN OF CULBERTSON,municipality,MT,www.culbertsonmt.com,culbertsonmt.com,claim:sam_entity_public_2026_10,14
+W,sam,b4ebb251874b3,NAVARRO MILLS WSC,water_system,TX,www.navarromillswsc.com,navarromillswsc.com,claim:sam_entity_public_2026_10,15
+W,sam,b43d9a93c6fc4,CITY OF LAKOTA,municipality,IA,https://cityoflakota.org/,cityoflakota.org,claim:sam_entity_public_2026_10,16
+W,sam,b1de3dbbdf7c6,CITY OF GLASGOW,municipality,MT,https://www.cityofglasgowmt.com/,cityofglasgowmt.com,claim:sam_entity_public_2026_10,17
+W,sam,bbf3e0c1f4764,CITY OF HAY SPRINGS,municipality,NE,www.pioneermanor.net,pioneermanor.net,claim:sam_entity_public_2026_10,18
+W,sam,ba8d03770b762,FORT BEND COUNTY FRESH WATER SUPPLY DISTRICT 2,special_district,TX,https://www.fbcfwsd2.org/,fbcfwsd2.org,claim:sam_entity_public_2026_10,19
+W,sam,b23c43567fcbd,POLARIS CAREER CENTER,school_district,OH,www.polaris.edu,polaris.edu,claim:sam_entity_public_2026_10,20
+W,sam,bfdce24bfab80,TOWN OF LAMAR,municipality,SC,www.lamarsc.org,lamarsc.org,claim:sam_entity_public_2026_10,21
+W,sam,b33dc3fd66584,DIVERNON FIRE PROTECTION DISTRICT,special_district,IL,www.divernonfire.org,divernonfire.org,claim:sam_entity_public_2026_10,22
+W,sam,ba7599097c540,CITY OF VILLISCA,municipality,IA,www.cityofvillisca.com,cityofvillisca.com,claim:sam_entity_public_2026_10,23
+W,sam,b1d0482f6aab3,COUNTY OF PORTAGE,county,WI,https://www.co.portage.wi.gov/,co.portage.wi.gov,claim:sam_entity_public_2026_10,24
+W,sam,b3ffc6df98d81,TOWN OF CARRIZOZO,municipality,NM,https://www.carrizozonm.us/,carrizozonm.us,claim:sam_entity_public_2026_10,25
+W,sam,bb72dc718ea78,CITY OF DE SOTO,municipality,KS,https://www.desotoks.us/,desotoks.us,claim:sam_entity_public_2026_10,26
+W,sam,b0a15c9751788,COUNTY OF PASQUOTANK,county,NC,https://www.pasquotankcountync.org/,pasquotankcountync.org,claim:sam_entity_public_2026_10,27
+W,sam,bbfdf6994c41c,CITY OF SALEM,municipality,WV,https://salemwestvirginia.com/,salemwestvirginia.com,claim:sam_entity_public_2026_10,28
+W,sam,b349d50b6146f,CITY OF HEBRON,municipality,ND,https://hebronnd.org,hebronnd.org,claim:sam_entity_public_2026_10,29
+W,sam,bc62c3c1e7b7c,CITY OF CLYDE,municipality,KS,http://www.clydekansas.org/,clydekansas.org,claim:sam_entity_public_2026_10,30
+W,state_or_other_list,b4a44205163f4,JAMESBURG PUBLIC LIBRARY,library_system,NJ,https://www.jamesburglibrary.org/,jamesburglibrary.org,claim:nj_dca_libraries,1
+W,state_or_other_list,bc2e788ced7b0,DENNIS M O'CONNOR PUBLIC LIBRARY,library_system,TX,http://www.dmopl.com,dmopl.com,claim:tx_tslac_libraries,2
+W,state_or_other_list,b171caa2b95a5,BURNET COUNTY EMERGENCY SERVICES DISTRICT 7,special_district,TX,burnetesd.org,burnetesd.org,claim:texas_spd_entity,3
+W,state_or_other_list,b737597c7da61,MYERS MEMORIAL LIBRARY,library_system,NY,http://MyersMemorialLibrary.weebly.com,myersmemoriallibrary.weebly.com,claim:usac_erate_libraries,4
+W,state_or_other_list,beb258c103e91,BALDWIN MEMORIAL,library_system,VT,https://baldwinmemoriallibrary.wordpress.com/,baldwinmemoriallibrary.wordpress.com,claim:vt_public_libraries,5
+W,state_or_other_list,bed4f75e8080b,MENGLE MEMORIAL LIBRARY,library_system,PA,menglelibrary.org,menglelibrary.org,claim:usac_erate_libraries,6
+W,state_or_other_list,b3badb05f73e7,ARLINGTON PUBLIC LIBRARY,library_system,IA,www.arlington.lib.ia.us,arlington.lib.ia.us,claim:usac_erate_libraries,7
+W,state_or_other_list,bb37b8b8926cd,COTTAGE GROVE PUBLIC LIBRARY,library_system,OR,http://cottagegroveor.gov/library,cottagegroveor.gov,claim:or_library_directory,8
+W,state_or_other_list,b42b49ca05d3a,OAKLAND PUBLIC LIBRARY,library_system,OR,https://oaklandor.biblionix.com/catalog/,oaklandor.biblionix.com,claim:or_library_directory,9
+W,state_or_other_list,b7f0e38a7c9bc,POPE MEMORIAL,library_system,VT,https://popememoriallibrary.org/,popememoriallibrary.org,claim:vt_public_libraries,10
+W,state_or_other_list,bbe7b3776068f,"THE LIBRARY OF HATTIESBURG, PETAL & FORREST C",library_system,MS,hattlibrary.com,hattlibrary.com,claim:usac_erate_libraries,11
+W,state_or_other_list,b7736392e4876,HOMINY PUBLIC LIBRARY,library_system,OK,www.hominy.lib.ok.us,hominy.lib.ok.us,claim:usac_erate_libraries,12
+W,state_or_other_list,b52dfe6a50ca3,FORT BEND COUNTY MUD 162,water_system,TX,https://www.fbmud162.com,fbmud162.com,claim:texas_spd_entity,13
+W,state_or_other_list,b1fd32aaa8c72,POWERS MEMORIAL LIBRARY,library_system,WI,https://palmyra.lib.wi.us,palmyra.lib.wi.us,claim:wi_dpi_public_libraries,14
+W,state_or_other_list,bc7f46fb0a290,SEA GIRT LIBRARY,library_system,NJ,https://www.seagirtlibrary.com/,seagirtlibrary.com,claim:nj_dca_libraries,15
+W,state_or_other_list,b25b318cc719f,CARRINGTON CITY LIBRARY,library_system,ND,carringtonlibrary.org,carringtonlibrary.org,claim:usac_erate_libraries,16
+W,state_or_other_list,bd3225df64b9e,NANCY NAIL MEMORIAL LIBRARY,library_system,TX,https://www.martlibrary.org/,martlibrary.org,claim:tx_tslac_libraries,17
+W,state_or_other_list,bd27f5592576e,HARDIN COUNTY EMERGENCY SERVICES DISTRICT 2,special_district,TX,https://hcesd2.com/,hcesd2.com,claim:texas_spd_entity,18
+W,state_or_other_list,bb4f49e9b2611,BRAZORIA COUNTY MUD 18,special_district,TX,bcmud18.com,bcmud18.com,claim:texas_spd_entity,19
+W,state_or_other_list,bd71fefcf0f05,REUNION CENTER METROPOLITAN DISTRICT 1,special_district,CO,www.reunioncentermds.org,reunioncentermds.org,claim:co_dola_special_districts,20
+W,state_or_other_list,bf197454e74d4,DEER TRAILS METROPOLITAN DISTRICT,special_district,CO,https://deertrailsmetropolitandistrict.com/,deertrailsmetropolitandistrict.com,claim:co_dola_special_districts,21
+W,state_or_other_list,b6bbd695b1854,NORTHWEST HARRIS COUNTY MUD 5,water_system,TX,www.nwmud5.com,nwmud5.com,claim:texas_spd_entity,22
+W,state_or_other_list,b0b57d073b43d,BELLINGHAM PUBLIC LIBRARY,library_system,WA,http://www.bellinghampubliclibrary.org/,bellinghampubliclibrary.org,claim:wa_statewide_libraries,23
+W,state_or_other_list,bb748bf583de2,MONTGOMERY COUNTY MUD 89,special_district,TX,www.mcmud89.com,mcmud89.com,claim:texas_spd_entity,24
+W,state_or_other_list,b8482fca7e57b,HARRIS COUNTY MUD 221,water_system,TX,https://www.hcmud221.org/,hcmud221.org,claim:texas_spd_entity,25
+W,state_or_other_list,baf1221eec565,AUSTIN PUBLIC LIBRARY,library_system,MN,https://www.aplmn.org/,aplmn.org,claim:mn_mde_public_libraries,26
+W,state_or_other_list,b25b03461af5d,ANOKA COUNTY LIBRARY,library_system,MN,http://www.anokacountymn.gov/4180/Libraries,anokacountymn.gov,claim:mn_mde_public_libraries,27
+W,state_or_other_list,b22352704d98c,PORT TOWNSEND PUBLIC LIBRARY,library_system,WA,https://ptpubliclibrary.org/library,ptpubliclibrary.org,claim:usac_erate_libraries,28
+W,state_or_other_list,bf63d8e153ff7,PHELPS SUD,water_system,TX,PhelpsWater.net,phelpswater.net,claim:texas_spd_entity,29
+W,state_or_other_list,b0c3bca72e73b,DIXON PUBLIC LIBRARY,library_system,IL,www.dixonpubliclibrary.org,dixonpubliclibrary.org,claim:usac_erate_libraries,30
+W,wikidata,b325a513ae39e,BOROUGH OF QUARRYVILLE,municipality,PA,https://quarryvilleborough.com/,quarryvilleborough.com,claim:wd_places,1
+W,wikidata,ba8d30bc2c431,BIGELOW FREE PUBLIC LIBRARY,library_system,MA,https://www.bigelowlibrary.org/,bigelowlibrary.org,claim:wd_libraries,2
+W,wikidata,b40b508c78042,MEMPHIS PUBLIC LIBRARY AND INFORMATION CENTER,library_system,TN,http://www.memphislibrary.org/,memphislibrary.org,claim:wd_libraries,3
+W,wikidata,b4f83c8d2a871,PEABODY INSTITUTE LIBRARY,library_system,MA,https://www.danverslibrary.org/,danverslibrary.org,claim:wd_libraries,4
+W,wikidata,b16f896cadae0,CITY OF ELLSWORTH,municipality,ME,http://www.cityofellsworthme.org/,cityofellsworthme.org,claim:wd_places,5
+W,wikidata,bd9259e723325,ARCOLA PUBLIC LIBRARY DISTRICT,library_system,IL,https://www.arcola.lib.il.us/,arcola.lib.il.us,claim:wd_libraries,6
+W,wikidata,b5c4e9eedbee6,BOROUGH OF BELL ACRES,municipality,PA,http://www.bellacresborough.org,bellacresborough.org,claim:wd_places,7
+W,wikidata,bd6e5d8d78ae4,COMMUNITY LIBRARY OF CASTLE SHANNON,library_system,PA,http://castleshannonlibrary.org,castleshannonlibrary.org,claim:wd_libraries,8
+W,wikidata,b5d9e1edf400d,COUNTY OF POWELL,county,MT,http://www.powellcountymontana.com,powellcountymontana.com,claim:wd_counties,9
+W,wikidata,b375772d5091b,VILLAGE OF SOUTH BLOOMFIELD,municipality,OH,http://www.southbloomfieldoh.com/,southbloomfieldoh.com,claim:wd_places,10
+W,wikidata,ba4f2b5f68459,CITY OF BANCROFT,municipality,ID,http://www.cityofbancroft.com/,cityofbancroft.com,claim:wd_places,11
+W,wikidata,b12c6985d35bf,COUNTY OF DAWSON,county,TX,https://www.co.dawson.tx.us/,co.dawson.tx.us,claim:wd_counties,12
+W,wikidata,bbae57761982f,BOROUGH OF CENTRALIA,municipality,PA,http://centraliapa.com/,centraliapa.com,claim:wd_places,13
+W,wikidata,bb3a832c46df6,EDINBURGH WRIGHT-HAGEMAN PUBLIC LIBRARY,library_system,IN,http://www.edinburgh.lib.in.us,edinburgh.lib.in.us,claim:wd_libraries,14
+W,wikidata,b5fbf98a45624,HOUGHTON LAKE PUBLIC LIBRARY,library_system,MI,http://www.hlpl.org,hlpl.org,claim:wd_libraries,15
+W,wikidata,b6889bed9cf75,CITY OF GUTHRIE,municipality,KY,http://guthrieky.com/,guthrieky.com,claim:wd_places,16
+W,wikidata,b47b5ba3a1301,CHARLTON PUBLIC LIBRARY,library_system,MA,https://charltonlibrary.org/,charltonlibrary.org,claim:wd_libraries,17
+W,wikidata,b4cc24057efdb,SOMERSET PUBLIC LIBRARY,library_system,MA,https://www.somersetpubliclibrary.org/,somersetpubliclibrary.org,claim:wd_libraries,18
+W,wikidata,bd8cd458c0d24,CITY OF BURDETT,municipality,KS,http://www.burdettks.org/,burdettks.org,claim:wd_places,19
+W,wikidata,b0a16ae995398,VILLAGE OF CASHTON,municipality,WI,https://www.cashton.com/,cashton.com,claim:wd_places,20
+W,wikidata,bb26d51c9b71f,CITY OF RICHFIELD,municipality,ID,http://www.cityofrichfield.us/,cityofrichfield.us,claim:wd_places,21
+W,wikidata,bc5acd575427e,TOWNSHIP OF BRIDGEWATER,town_or_township,MN,http://www.bridgewatertwp.org/,bridgewatertwp.org,claim:wd_places,22
+W,wikidata,bbe55f7d0c1c3,COUNTY OF SIMPSON,county,MS,http://simpsoncountyms.com/,simpsoncountyms.com,claim:wd_counties,23
+W,wikidata,bd362967c8d5e,BOROUGH OF HI NELLA,municipality,NJ,https://www.hinellaboro.org/,hinellaboro.org,claim:wd_places,24
+W,wikidata,bba88f9e8bbc4,DIGHTON PUBLIC LIBRARY,library_system,MA,https://www.dightonlibrary.org/,dightonlibrary.org,claim:wd_libraries,25
+W,wikidata,b68529c6bbba2,BOROUGH OF FLEMINGTON,municipality,NJ,https://www.historicflemington.com/,historicflemington.com,claim:wd_places,26
+W,wikidata,b4203393a595b,VILLAGE OF COLUMBUS,municipality,NM,http://www.columbusnewmexico.com,columbusnewmexico.com,claim:wd_places,27
+W,wikidata,ba928a4538e43,TOWN OF LINDEN,municipality,IN,http://www.linden.in.gov/,linden.in.gov,claim:wd_places,28
+W,wikidata,b54716f8d219c,TOWN OF NORTH CANAAN,town_or_township,CT,http://www.northcanaan.org/,northcanaan.org,claim:wd_places,29
+W,wikidata,ba83225c5bbec,TOWN OF OLANTA,municipality,SC,http://www.olantasc.com/,olantasc.com,claim:wd_places,30

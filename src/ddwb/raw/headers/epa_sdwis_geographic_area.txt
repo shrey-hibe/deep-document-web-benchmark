@@ -1,0 +1,13 @@
+pwsid
+geo_id
+primacy_agency_code
+epa_region
+pws_activity_code
+pws_type_code
+tribal_code
+state_served
+ansi_entity_code
+zip_code_served
+city_served
+area_type_code
+county_served

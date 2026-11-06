@@ -1,0 +1,101 @@
+sample,stratum,body_id,name,entity_type,state,anchor_record_id,draw_rank
+N,fire_department,b6782905a647d,White Lake Fire Authority,fire_department,MI,usfa_fdid:MI-06118,1
+N,fire_department,b0191a173357b,Effie Volunteer Fire Department,fire_department,LA,usfa_fdid:LA-05015,2
+N,fire_department,b1d986101a44a,La Puebla Fire District of Santa Fe County Fire Department,fire_department,NM,usfa_fdid:NM-49043,3
+N,fire_department,b9e7e40516c10,Crothersville Vernon Township Fire Department,fire_department,IN,usfa_fdid:IN-36003,4
+N,fire_department,b207b4f717699,Morgan's Point Resort Fire Department,fire_department,TX,usfa_fdid:TX-AV328,5
+N,fire_department,bcaa3b5e873ee,Loyal Fire Department,fire_department,OK,usfa_fdid:OK-37005,6
+N,fire_department,bc49073331c7f,Town of Wausau Fire Department,fire_department,WI,usfa_fdid:WI-37240,7
+N,fire_department,b7a6850b1b9cc,Mineville-Witherbee Fire Department,fire_department,NY,usfa_fdid:NY-16013,8
+N,fire_department,bb4615c3ad176,Grandview Plaza Fire Department,fire_department,KS,usfa_fdid:KS-GE302,9
+N,fire_department,bf9cc2780060f,Holland Volunteer Fire Department (Suffolk Fire Department),fire_department,VA,usfa_fdid:VA-80003,10
+N,fire_department,bec530ded8c40,Rock Rapids Fire Department,fire_department,IA,usfa_fdid:IA-60008,11
+N,fire_department,b08b2a969864a,Somerville Volunteer Fire Department,fire_department,IN,usfa_fdid:IN-26013,12
+N,fire_department,b5c7bab23f427,Chattaroy Volunteer Fire Department,fire_department,WV,usfa_fdid:WV-29101,13
+N,fire_department,b8e47d4bd84af,Nogales Suburban Fire District,fire_department,AZ,usfa_fdid:AZ-13022,14
+N,fire_department,bb9a2eda875ac,Boothville-Venice Volunteer Fire Department,fire_department,LA,usfa_fdid:LA-38020,15
+N,fire_department,bc4cb70b1a500,McGuffey Volunteer Fire Company,fire_department,OH,usfa_fdid:OH-33233,16
+N,fire_department,bd5b80171e1de,Santa Teresa Volunteer Fire Department,fire_department,NM,usfa_fdid:NM-13091,17
+N,fire_department,bfc90a2e94cf4,Florence Volunteer Fire Company,fire_department,NY,usfa_fdid:NY-33012,18
+N,fire_department,b1bdf22813186,Fearnots Volunteer Fire Company,fire_department,PA,usfa_fdid:PA-40019,19
+N,fire_department,b1d21a556d715,Franklin Fire & Rescue,fire_department,NC,usfa_fdid:NC-05702,20
+N,fire_department,b6aa551d46f23,Cambridge Fire Department,fire_department,MN,usfa_fdid:MN-30102,21
+N,fire_department,bcafc2a27577a,Dutchman Creek Volunteer Fire Department,fire_department,SC,usfa_fdid:SC-20211,22
+N,fire_department,b3a137ba36288,Hubbard Volunteer Fire Department,fire_department,TX,usfa_fdid:TX-KP407,23
+N,fire_department,b6a98391f3770,Jeanerette Volunteer Fire Department,fire_department,LA,usfa_fdid:LA-23015,24
+N,fire_department,b2076899198a6,Glendive Fire Department,fire_department,MT,usfa_fdid:MT-16001,25
+N,library_system,b62e59db4c34b,EAST NORWALK LIBRARY,library_system,CT,imls_fscskey:CT0113,1
+N,library_system,bcc2d70a8cd67,EL PASO DISTRICT LIBRARY,library_system,IL,imls_fscskey:IL0169,2
+N,library_system,b6980faa1aa4d,POTTER COUNTY FREE LIBRARY,library_system,SD,imls_fscskey:SD0084,3
+N,library_system,bdb470a2f1404,LOIS JOHNSON MEMORIAL LIBRARY,library_system,NE,imls_fscskey:NE0159,4
+N,library_system,bbf8153015b42,PALMYRA MEMORIAL LIBRARY,library_system,NE,imls_fscskey:NE0172,5
+N,library_system,b9c592a44fcac,JOHN ROGERS MEMORIAL LIBRARY,library_system,NE,imls_fscskey:NE0074,6
+N,library_system,b220547275fe1,HOLLIS SOCIAL LIBRARY,library_system,NH,imls_fscskey:NH0008,7
+N,library_system,b0cc673ff746f,MOISE MEMORIAL LIBRARY,library_system,NM,imls_fscskey:NM0034,8
+N,library_system,bf611ff5673ab,HIAWATHA PUBLIC LIBRARY,library_system,IA,imls_fscskey:IA0458,9
+N,library_system,b926979c1a759,FRANKFORD PUBLIC LIBRARY,library_system,DE,imls_fscskey:DE0002,10
+N,library_system,b0d3f29a5d5c2,BUTLER COUNTY PUBLIC LIBRARY,library_system,KY,imls_fscskey:KY0015,11
+N,library_system,bfa5e63b7369e,SOUTH ENGLISH PUBLIC LIBRARY,library_system,IA,imls_fscskey:IA0296,12
+N,library_system,bfabf082895c3,MILFORD DISTRICT LIBRARY,library_system,IL,imls_fscskey:IL0338,13
+N,library_system,b747c94e369ce,MESCALERO COMMUNITY LIBRARY,library_system,NM,imls_fscskey:NM0119,14
+N,library_system,b894111213482,EXIRA PUBLIC LIBRARY,library_system,IA,imls_fscskey:IA0234,15
+N,special_district,b73e65b1206c9,SEVEN HICKORY-HUMBOLDT UNION DRAINAGE DISTRICT 3,special_district,IL,census_pid6:145594,1
+N,special_district,b500790b5094b,KING-HARVEL DRAINAGE DISTRICT 1,special_district,IL,census_pid6:125780,2
+N,special_district,bf2ef469cad20,TERRACE VIEW TRAIL IWDD 86,special_district,AZ,census_pid6:251919,3
+N,special_district,bbb240f8c4bc9,CARUTHERSVILLE CITY HOUSING AUTHORITY,special_district,MO,census_pid6:107960,4
+N,special_district,b5fb436c56b25,ASPEN ACRES ROAD DISTRICT,special_district,SD,census_pid6:195800,5
+N,special_district,b9fc5ce8b9b9c,BENKELMAN HOUSING AUTHORITY,special_district,NE,census_pid6:151681,6
+N,special_district,bcebb210a70d8,HYDE COUNTY DRAINAGE DISTRICT 8,special_district,NC,census_pid6:110155,7
+N,special_district,bf85161dc2b8e,POTTSTOWN BOROUGH (WATER AND SEWER) AUTHORITY,special_district,PA,census_pid6:156119,8
+N,special_district,bdda650a3049e,CLEARWATER CEMETERY DISTRICT,special_district,ID,census_pid6:145216,9
+N,special_district,bad2252eb8bee,LONGVIEW SANITARY DISTRICT,special_district,SD,census_government_id:464103219436,10
+N,special_district,be55c1b8e942d,GEORGETOWN FIRE DISTRICT,special_district,CT,census_pid6:144132,11
+N,special_district,bcb16a3eb0300,MEDFORD FIRE DISTRICT,special_district,NY,census_pid6:153283,12
+N,special_district,b2e12028a05f6,CADDO COUNTY RURAL WATER DISTRICT 1,special_district,OK,census_pid6:192845,13
+N,special_district,b7ab19bb4b8f7,LAKE ANDES-BAVINIA RURAL FIRE PROTECTION DISTRICT,special_district,SD,census_pid6:134796,14
+N,special_district,bd29b7bd8f72d,TWO BUTTES FIRE PROTECTION DISTRICT,special_district,CO,census_pid6:143496,15
+N,special_district,b7094c5a86191,SEWICKLEY TOWNSHIP MUNICIPAL SEWAGE AUTHORITY,special_district,PA,census_pid6:196383,16
+N,special_district,bcfcb1c3d134a,FALCON COVE BEACH WATER DISTRICT,special_district,OR,census_pid6:111644,17
+N,special_district,b3742bc0f5f79,NEELANDS CEMETERY DISTRICT 5,special_district,KS,census_pid6:148755,18
+N,special_district,b1a8f1e6110b9,PEMISCOT COUNTY CONSOLIDATED PUBLIC WATER DISTRICT 1,special_district,MO,census_pid6:192707,19
+N,special_district,bce1940928847,BUCKS COUNTY COMMUNITY COLLEGE AUTHORITY,special_district,PA,census_pid6:112405,20
+N,town_or_township,b1f88f273f87f,TOWNSHIP OF WASHINGTON,town_or_township,OH,census_pid6:193925,1
+N,town_or_township,b5df82e4b7f84,TOWNSHIP OF HAMLIN,town_or_township,MI,census_pid6:193505,2
+N,town_or_township,b37ef307e764b,TOWNSHIP OF GARFIELD,town_or_township,SD,census_pid6:134757,3
+N,town_or_township,bbb469bf318cb,TOWN OF COOKS VALLEY,town_or_township,WI,census_pid6:136631,4
+N,town_or_township,b5c90f1a3c981,TOWN OF UNION,town_or_township,WI,census_pid6:177807,5
+N,town_or_township,b7dd5a73b7057,TOWNSHIP OF DARLINGTON,town_or_township,SD,census_pid6:134633,6
+N,town_or_township,ba58056c3a66e,TOWNSHIP OF GREENFIELD,town_or_township,KS,census_pid6:165100,7
+N,town_or_township,b78bcda16ead1,TOWN OF CLIFTON,town_or_township,ME,census_pid6:204605,8
+N,town_or_township,bd5a5b631685b,TOWNSHIP OF EAGLE,town_or_township,OH,census_pid6:172747,9
+N,town_or_township,b0eb992d30ef7,TOWNSHIP OF COTTONWOOD,town_or_township,ND,census_pid6:171905,10
+N,town_or_township,b9b72e8a4cbab,TOWNSHIP OF NUMBER 8,town_or_township,KS,census_pid6:165377,11
+N,town_or_township,b1d39ebf79231,TOWNSHIP OF MADISON,town_or_township,KS,census_pid6:138406,12
+N,town_or_township,b5b7392af2cee,TOWNSHIP OF WESLEY,town_or_township,SD,census_pid6:134676,13
+N,town_or_township,b4af74409679e,TOWNSHIP OF GARFIELD,town_or_township,SD,census_pid6:175282,14
+N,town_or_township,bbbcfbbe80aaa,TOWNSHIP OF HOLLAND,town_or_township,MI,census_pid6:208399,15
+N,water_system,bdaf88577b9f3,"JOHNSON, VILLAGE OF",water_system,NE,epa_pwsid:NE3112708,1
+N,water_system,b0cc2ff4f2961,Pelican Rapids,water_system,MN,epa_pwsid:MN1560019,2
+N,water_system,b769a8dbb709b,"PARKER, CITY OF",water_system,KS,epa_pwsid:KS2010706,3
+N,water_system,bd6364f67502c,CITY OF SOUR LAKE,water_system,TX,epa_pwsid:TX1000003,4
+N,water_system,b09373033856b,JEISYVILLE,water_system,IL,epa_pwsid:IL0210200,5
+N,water_system,bef60239276bb,MIDDLE TWP WATER DISTRICT,water_system,NJ,epa_pwsid:NJ0506009,6
+N,water_system,b2315aa84cbef,WOOD TRACE MUD 1,water_system,TX,epa_pwsid:TX1700642,7
+N,water_system,b41d7795682c3,OLD WESTBURY (V),water_system,NY,epa_pwsid:NY2902843,8
+N,water_system,bb46a8e61ff22,COLBURN WATER ASSN,water_system,ID,epa_pwsid:ID1090021,9
+N,water_system,bfbe5868f03a9,"KING COUNTY WATER DISTRICT #125",water_system,WA,epa_pwsid:WA5341998,10
+N,water_system,b0e70feae0131,"ENGLEWOOD-HULLS WATER SYSTEM, INC.",water_system,AL,epa_pwsid:AL0001301,11
+N,water_system,babbd71b6a545,SOUTH CLE ELUM WATER DEPT,water_system,WA,epa_pwsid:WA5381600,12
+N,water_system,be3abf3409d4d,LOCKE-FERN DOLLARD RD WW PFB,water_system,AR,epa_pwsid:AR0000912,13
+N,water_system,b0d00dcdcfeda,GLENBROOK COVE AREA,water_system,IA,epa_pwsid:IA5751040,14
+N,water_system,b98a494710fd3,HARRISTOWN,water_system,IL,epa_pwsid:IL1150210,15
+N,water_system,b8ab7a705e3c7,CITY OF MURPHY,water_system,TX,epa_pwsid:TX0430042,16
+N,water_system,b4cc094b7a7d7,SUMMIT HILL WATER AUTHORITY,water_system,PA,epa_pwsid:PA3130013,17
+N,water_system,b3346d9be6006,MIDLAND CITY WATER DEPARTMENT,water_system,AL,epa_pwsid:AL0000438,18
+N,water_system,b123e83bd7a3f,"MARIANNA, CITY OF",water_system,FL,epa_pwsid:FL1320449,19
+N,water_system,b55f116530d00,ST. LEONARD,water_system,MD,epa_pwsid:MD0040013,20
+N,water_system,bf646c4804594,PRECINCT OF HAVERHILL CORNER,water_system,NH,epa_pwsid:NH1101010,21
+N,water_system,b24ede0377270,NEOSHO CO RWD 9,water_system,KS,epa_pwsid:KS2013301,22
+N,water_system,b2d9ea632ee89,BLUE VALLEY MD,water_system,CO,epa_pwsid:CO0125148,23
+N,water_system,bab79cef22840,OLD STRAITSVILLE-ROCKBRIDGE,water_system,OH,epa_pwsid:OH3740512,24
+N,water_system,b3f4cfb6c3312,CRAWFORD,water_system,GA,epa_pwsid:GA2210000,25

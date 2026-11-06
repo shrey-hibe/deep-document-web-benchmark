@@ -1,0 +1,3267 @@
+{
+ "built": "2026-11-05",
+ "by_kind": {
+  "charter_school": {
+   "bodies": 6393,
+   "bodies_with_a_known_portal": 164,
+   "portals": [
+    {
+     "bodies": 70,
+     "portal": "boarddocs",
+     "share": 0.427
+    },
+    {
+     "bodies": 54,
+     "portal": "boardontrack",
+     "share": 0.329
+    },
+    {
+     "bodies": 39,
+     "portal": "diligent",
+     "share": 0.238
+    },
+    {
+     "bodies": 5,
+     "portal": "simbli",
+     "share": 0.03
+    },
+    {
+     "bodies": 3,
+     "portal": "boardbook",
+     "share": 0.018
+    },
+    {
+     "bodies": 1,
+     "portal": "civicclerk",
+     "share": 0.006
+    },
+    {
+     "bodies": 1,
+     "portal": "municode_meetings",
+     "share": 0.006
+    },
+    {
+     "bodies": 1,
+     "portal": "granicus",
+     "share": 0.006
+    }
+   ]
+  },
+  "city_town": {
+   "bodies": 23729,
+   "bodies_with_a_known_portal": 1333,
+   "portals": [
+    {
+     "bodies": 435,
+     "portal": "civicclerk",
+     "share": 0.326
+    },
+    {
+     "bodies": 405,
+     "portal": "granicus",
+     "share": 0.304
+    },
+    {
+     "bodies": 152,
+     "portal": "legistar",
+     "share": 0.114
+    },
+    {
+     "bodies": 131,
+     "portal": "iqm2",
+     "share": 0.098
+    },
+    {
+     "bodies": 126,
+     "portal": "civicweb",
+     "share": 0.095
+    },
+    {
+     "bodies": 86,
+     "portal": "boarddocs",
+     "share": 0.065
+    },
+    {
+     "bodies": 64,
+     "portal": "municode_meetings",
+     "share": 0.048
+    },
+    {
+     "bodies": 54,
+     "portal": "primegov",
+     "share": 0.041
+    },
+    {
+     "bodies": 47,
+     "portal": "civicplus_agendacenter",
+     "share": 0.035
+    },
+    {
+     "bodies": 38,
+     "portal": "diligent",
+     "share": 0.029
+    },
+    {
+     "bodies": 33,
+     "portal": "novusagenda",
+     "share": 0.025
+    },
+    {
+     "bodies": 33,
+     "portal": "escribe",
+     "share": 0.025
+    },
+    {
+     "bodies": 9,
+     "portal": "streamline",
+     "share": 0.007
+    },
+    {
+     "bodies": 1,
+     "portal": "boardbook",
+     "share": 0.001
+    }
+   ]
+  },
+  "county": {
+   "bodies": 3031,
+   "bodies_with_a_known_portal": 372,
+   "portals": [
+    {
+     "bodies": 164,
+     "portal": "civicclerk",
+     "share": 0.441
+    },
+    {
+     "bodies": 83,
+     "portal": "iqm2",
+     "share": 0.223
+    },
+    {
+     "bodies": 78,
+     "portal": "granicus",
+     "share": 0.21
+    },
+    {
+     "bodies": 58,
+     "portal": "legistar",
+     "share": 0.156
+    },
+    {
+     "bodies": 18,
+     "portal": "civicweb",
+     "share": 0.048
+    },
+    {
+     "bodies": 13,
+     "portal": "boarddocs",
+     "share": 0.035
+    },
+    {
+     "bodies": 13,
+     "portal": "escribe",
+     "share": 0.035
+    },
+    {
+     "bodies": 13,
+     "portal": "civicplus_agendacenter",
+     "share": 0.035
+    },
+    {
+     "bodies": 9,
+     "portal": "diligent",
+     "share": 0.024
+    },
+    {
+     "bodies": 8,
+     "portal": "primegov",
+     "share": 0.022
+    },
+    {
+     "bodies": 4,
+     "portal": "novusagenda",
+     "share": 0.011
+    },
+    {
+     "bodies": 2,
+     "portal": "streamline",
+     "share": 0.005
+    },
+    {
+     "bodies": 2,
+     "portal": "municode_meetings",
+     "share": 0.005
+    }
+   ]
+  },
+  "school_district": {
+   "bodies": 15051,
+   "bodies_with_a_known_portal": 2286,
+   "portals": [
+    {
+     "bodies": 1235,
+     "portal": "boarddocs",
+     "share": 0.54
+    },
+    {
+     "bodies": 583,
+     "portal": "diligent",
+     "share": 0.255
+    },
+    {
+     "bodies": 345,
+     "portal": "boardbook",
+     "share": 0.151
+    },
+    {
+     "bodies": 336,
+     "portal": "simbli",
+     "share": 0.147
+    },
+    {
+     "bodies": 38,
+     "portal": "granicus",
+     "share": 0.017
+    },
+    {
+     "bodies": 13,
+     "portal": "escribe",
+     "share": 0.006
+    },
+    {
+     "bodies": 7,
+     "portal": "novusagenda",
+     "share": 0.003
+    },
+    {
+     "bodies": 7,
+     "portal": "civicweb",
+     "share": 0.003
+    },
+    {
+     "bodies": 7,
+     "portal": "streamline",
+     "share": 0.003
+    },
+    {
+     "bodies": 6,
+     "portal": "boardontrack",
+     "share": 0.003
+    },
+    {
+     "bodies": 4,
+     "portal": "legistar",
+     "share": 0.002
+    },
+    {
+     "bodies": 3,
+     "portal": "primegov",
+     "share": 0.001
+    },
+    {
+     "bodies": 2,
+     "portal": "civicclerk",
+     "share": 0.001
+    },
+    {
+     "bodies": 1,
+     "portal": "municode_meetings",
+     "share": 0.0
+    },
+    {
+     "bodies": 1,
+     "portal": "iqm2",
+     "share": 0.0
+    }
+   ]
+  },
+  "special_district:fire": {
+   "bodies": 32566,
+   "bodies_with_a_known_portal": 222,
+   "portals": [
+    {
+     "bodies": 215,
+     "portal": "streamline",
+     "share": 0.968
+    },
+    {
+     "bodies": 4,
+     "portal": "granicus",
+     "share": 0.018
+    },
+    {
+     "bodies": 2,
+     "portal": "diligent",
+     "share": 0.009
+    },
+    {
+     "bodies": 1,
+     "portal": "primegov",
+     "share": 0.005
+    }
+   ]
+  },
+  "special_district:health": {
+   "bodies": 933,
+   "bodies_with_a_known_portal": 38,
+   "portals": [
+    {
+     "bodies": 33,
+     "portal": "streamline",
+     "share": 0.868
+    },
+    {
+     "bodies": 3,
+     "portal": "diligent",
+     "share": 0.079
+    },
+    {
+     "bodies": 3,
+     "portal": "granicus",
+     "share": 0.079
+    }
+   ]
+  },
+  "special_district:hospital": {
+   "bodies": 626,
+   "bodies_with_a_known_portal": 12,
+   "portals": [
+    {
+     "bodies": 10,
+     "portal": "streamline",
+     "share": 0.833
+    },
+    {
+     "bodies": 2,
+     "portal": "diligent",
+     "share": 0.167
+    }
+   ]
+  },
+  "special_district:housing": {
+   "bodies": 3272,
+   "bodies_with_a_known_portal": 3,
+   "portals": [
+    {
+     "bodies": 1,
+     "portal": "legistar",
+     "share": 0.333
+    },
+    {
+     "bodies": 1,
+     "portal": "diligent",
+     "share": 0.333
+    },
+    {
+     "bodies": 1,
+     "portal": "granicus",
+     "share": 0.333
+    }
+   ]
+  },
+  "special_district:library": {
+   "bodies": 10917,
+   "bodies_with_a_known_portal": 65,
+   "portals": [
+    {
+     "bodies": 51,
+     "portal": "streamline",
+     "share": 0.785
+    },
+    {
+     "bodies": 4,
+     "portal": "diligent",
+     "share": 0.062
+    },
+    {
+     "bodies": 3,
+     "portal": "civicweb",
+     "share": 0.046
+    },
+    {
+     "bodies": 2,
+     "portal": "granicus",
+     "share": 0.031
+    },
+    {
+     "bodies": 2,
+     "portal": "escribe",
+     "share": 0.031
+    },
+    {
+     "bodies": 2,
+     "portal": "boarddocs",
+     "share": 0.031
+    },
+    {
+     "bodies": 1,
+     "portal": "civicclerk",
+     "share": 0.015
+    },
+    {
+     "bodies": 1,
+     "portal": "novusagenda",
+     "share": 0.015
+    }
+   ]
+  },
+  "special_district:other": {
+   "bodies": 19023,
+   "bodies_with_a_known_portal": 320,
+   "portals": [
+    {
+     "bodies": 264,
+     "portal": "streamline",
+     "share": 0.825
+    },
+    {
+     "bodies": 26,
+     "portal": "granicus",
+     "share": 0.081
+    },
+    {
+     "bodies": 14,
+     "portal": "diligent",
+     "share": 0.044
+    },
+    {
+     "bodies": 6,
+     "portal": "legistar",
+     "share": 0.019
+    },
+    {
+     "bodies": 5,
+     "portal": "primegov",
+     "share": 0.016
+    },
+    {
+     "bodies": 5,
+     "portal": "civicclerk",
+     "share": 0.016
+    },
+    {
+     "bodies": 5,
+     "portal": "civicweb",
+     "share": 0.016
+    },
+    {
+     "bodies": 3,
+     "portal": "boarddocs",
+     "share": 0.009
+    },
+    {
+     "bodies": 2,
+     "portal": "escribe",
+     "share": 0.006
+    },
+    {
+     "bodies": 2,
+     "portal": "novusagenda",
+     "share": 0.006
+    },
+    {
+     "bodies": 1,
+     "portal": "iqm2",
+     "share": 0.003
+    },
+    {
+     "bodies": 1,
+     "portal": "civicplus_agendacenter",
+     "share": 0.003
+    }
+   ]
+  },
+  "special_district:transit": {
+   "bodies": 2521,
+   "bodies_with_a_known_portal": 32,
+   "portals": [
+    {
+     "bodies": 16,
+     "portal": "granicus",
+     "share": 0.5
+    },
+    {
+     "bodies": 9,
+     "portal": "legistar",
+     "share": 0.281
+    },
+    {
+     "bodies": 6,
+     "portal": "streamline",
+     "share": 0.188
+    },
+    {
+     "bodies": 3,
+     "portal": "diligent",
+     "share": 0.094
+    },
+    {
+     "bodies": 3,
+     "portal": "civicweb",
+     "share": 0.094
+    },
+    {
+     "bodies": 1,
+     "portal": "iqm2",
+     "share": 0.031
+    },
+    {
+     "bodies": 1,
+     "portal": "escribe",
+     "share": 0.031
+    },
+    {
+     "bodies": 1,
+     "portal": "civicclerk",
+     "share": 0.031
+    }
+   ]
+  },
+  "special_district:water_sewer": {
+   "bodies": 8261,
+   "bodies_with_a_known_portal": 160,
+   "portals": [
+    {
+     "bodies": 125,
+     "portal": "streamline",
+     "share": 0.781
+    },
+    {
+     "bodies": 16,
+     "portal": "granicus",
+     "share": 0.1
+    },
+    {
+     "bodies": 7,
+     "portal": "diligent",
+     "share": 0.044
+    },
+    {
+     "bodies": 6,
+     "portal": "civicclerk",
+     "share": 0.037
+    },
+    {
+     "bodies": 5,
+     "portal": "legistar",
+     "share": 0.031
+    },
+    {
+     "bodies": 4,
+     "portal": "civicweb",
+     "share": 0.025
+    },
+    {
+     "bodies": 3,
+     "portal": "escribe",
+     "share": 0.019
+    },
+    {
+     "bodies": 2,
+     "portal": "boarddocs",
+     "share": 0.013
+    },
+    {
+     "bodies": 2,
+     "portal": "iqm2",
+     "share": 0.013
+    },
+    {
+     "bodies": 2,
+     "portal": "primegov",
+     "share": 0.013
+    },
+    {
+     "bodies": 1,
+     "portal": "municode_meetings",
+     "share": 0.006
+    },
+    {
+     "bodies": 1,
+     "portal": "civicplus_agendacenter",
+     "share": 0.006
+    }
+   ]
+  },
+  "township": {
+   "bodies": 11850,
+   "bodies_with_a_known_portal": 18,
+   "portals": [
+    {
+     "bodies": 8,
+     "portal": "boarddocs",
+     "share": 0.444
+    },
+    {
+     "bodies": 5,
+     "portal": "civicweb",
+     "share": 0.278
+    },
+    {
+     "bodies": 3,
+     "portal": "granicus",
+     "share": 0.167
+    },
+    {
+     "bodies": 1,
+     "portal": "iqm2",
+     "share": 0.056
+    },
+    {
+     "bodies": 1,
+     "portal": "civicclerk",
+     "share": 0.056
+    },
+    {
+     "bodies": 1,
+     "portal": "municode_meetings",
+     "share": 0.056
+    }
+   ]
+  }
+ },
+ "by_kind_and_state": {
+  "charter_school|CA": {
+   "bodies_with_a_known_portal": 55,
+   "portals": [
+    {
+     "bodies": 20,
+     "portal": "boardontrack",
+     "share": 0.364
+    },
+    {
+     "bodies": 19,
+     "portal": "boarddocs",
+     "share": 0.345
+    },
+    {
+     "bodies": 16,
+     "portal": "diligent",
+     "share": 0.291
+    },
+    {
+     "bodies": 5,
+     "portal": "simbli",
+     "share": 0.091
+    }
+   ]
+  },
+  "charter_school|MI": {
+   "bodies_with_a_known_portal": 21,
+   "portals": [
+    {
+     "bodies": 21,
+     "portal": "boarddocs",
+     "share": 1.0
+    }
+   ]
+  },
+  "city_town|AZ": {
+   "bodies_with_a_known_portal": 33,
+   "portals": [
+    {
+     "bodies": 14,
+     "portal": "granicus",
+     "share": 0.424
+    },
+    {
+     "bodies": 7,
+     "portal": "legistar",
+     "share": 0.212
+    },
+    {
+     "bodies": 7,
+     "portal": "civicclerk",
+     "share": 0.212
+    },
+    {
+     "bodies": 4,
+     "portal": "iqm2",
+     "share": 0.121
+    },
+    {
+     "bodies": 2,
+     "portal": "municode_meetings",
+     "share": 0.061
+    },
+    {
+     "bodies": 1,
+     "portal": "boarddocs",
+     "share": 0.03
+    },
+    {
+     "bodies": 1,
+     "portal": "primegov",
+     "share": 0.03
+    },
+    {
+     "bodies": 1,
+     "portal": "streamline",
+     "share": 0.03
+    },
+    {
+     "bodies": 1,
+     "portal": "civicweb",
+     "share": 0.03
+    },
+    {
+     "bodies": 1,
+     "portal": "novusagenda",
+     "share": 0.03
+    }
+   ]
+  },
+  "city_town|CA": {
+   "bodies_with_a_known_portal": 201,
+   "portals": [
+    {
+     "bodies": 87,
+     "portal": "granicus",
+     "share": 0.433
+    },
+    {
+     "bodies": 41,
+     "portal": "civicclerk",
+     "share": 0.204
+    },
+    {
+     "bodies": 38,
+     "portal": "legistar",
+     "share": 0.189
+    },
+    {
+     "bodies": 28,
+     "portal": "primegov",
+     "share": 0.139
+    },
+    {
+     "bodies": 24,
+     "portal": "iqm2",
+     "share": 0.119
+    },
+    {
+     "bodies": 14,
+     "portal": "escribe",
+     "share": 0.07
+    },
+    {
+     "bodies": 8,
+     "portal": "civicweb",
+     "share": 0.04
+    },
+    {
+     "bodies": 8,
+     "portal": "civicplus_agendacenter",
+     "share": 0.04
+    },
+    {
+     "bodies": 7,
+     "portal": "boarddocs",
+     "share": 0.035
+    },
+    {
+     "bodies": 5,
+     "portal": "municode_meetings",
+     "share": 0.025
+    },
+    {
+     "bodies": 4,
+     "portal": "novusagenda",
+     "share": 0.02
+    },
+    {
+     "bodies": 1,
+     "portal": "diligent",
+     "share": 0.005
+    },
+    {
+     "bodies": 1,
+     "portal": "streamline",
+     "share": 0.005
+    }
+   ]
+  },
+  "city_town|CO": {
+   "bodies_with_a_known_portal": 52,
+   "portals": [
+    {
+     "bodies": 20,
+     "portal": "civicclerk",
+     "share": 0.385
+    },
+    {
+     "bodies": 14,
+     "portal": "granicus",
+     "share": 0.269
+    },
+    {
+     "bodies": 6,
+     "portal": "civicweb",
+     "share": 0.115
+    },
+    {
+     "bodies": 5,
+     "portal": "boarddocs",
+     "share": 0.096
+    },
+    {
+     "bodies": 5,
+     "portal": "legistar",
+     "share": 0.096
+    },
+    {
+     "bodies": 4,
+     "portal": "primegov",
+     "share": 0.077
+    },
+    {
+     "bodies": 4,
+     "portal": "diligent",
+     "share": 0.077
+    },
+    {
+     "bodies": 4,
+     "portal": "streamline",
+     "share": 0.077
+    },
+    {
+     "bodies": 1,
+     "portal": "municode_meetings",
+     "share": 0.019
+    },
+    {
+     "bodies": 1,
+     "portal": "iqm2",
+     "share": 0.019
+    },
+    {
+     "bodies": 1,
+     "portal": "escribe",
+     "share": 0.019
+    }
+   ]
+  },
+  "city_town|FL": {
+   "bodies_with_a_known_portal": 103,
+   "portals": [
+    {
+     "bodies": 39,
+     "portal": "granicus",
+     "share": 0.379
+    },
+    {
+     "bodies": 38,
+     "portal": "civicclerk",
+     "share": 0.369
+    },
+    {
+     "bodies": 20,
+     "portal": "legistar",
+     "share": 0.194
+    },
+    {
+     "bodies": 8,
+     "portal": "civicweb",
+     "share": 0.078
+    },
+    {
+     "bodies": 6,
+     "portal": "iqm2",
+     "share": 0.058
+    },
+    {
+     "bodies": 5,
+     "portal": "novusagenda",
+     "share": 0.049
+    },
+    {
+     "bodies": 4,
+     "portal": "municode_meetings",
+     "share": 0.039
+    },
+    {
+     "bodies": 4,
+     "portal": "escribe",
+     "share": 0.039
+    },
+    {
+     "bodies": 3,
+     "portal": "primegov",
+     "share": 0.029
+    },
+    {
+     "bodies": 1,
+     "portal": "boarddocs",
+     "share": 0.01
+    }
+   ]
+  },
+  "city_town|GA": {
+   "bodies_with_a_known_portal": 47,
+   "portals": [
+    {
+     "bodies": 15,
+     "portal": "granicus",
+     "share": 0.319
+    },
+    {
+     "bodies": 14,
+     "portal": "civicclerk",
+     "share": 0.298
+    },
+    {
+     "bodies": 14,
+     "portal": "iqm2",
+     "share": 0.298
+    },
+    {
+     "bodies": 5,
+     "portal": "municode_meetings",
+     "share": 0.106
+    },
+    {
+     "bodies": 1,
+     "portal": "primegov",
+     "share": 0.021
+    },
+    {
+     "bodies": 1,
+     "portal": "civicweb",
+     "share": 0.021
+    },
+    {
+     "bodies": 1,
+     "portal": "novusagenda",
+     "share": 0.021
+    },
+    {
+     "bodies": 1,
+     "portal": "civicplus_agendacenter",
+     "share": 0.021
+    },
+    {
+     "bodies": 1,
+     "portal": "legistar",
+     "share": 0.021
+    },
+    {
+     "bodies": 1,
+     "portal": "escribe",
+     "share": 0.021
+    },
+    {
+     "bodies": 1,
+     "portal": "boarddocs",
+     "share": 0.021
+    }
+   ]
+  },
+  "city_town|IA": {
+   "bodies_with_a_known_portal": 21,
+   "portals": [
+    {
+     "bodies": 10,
+     "portal": "civicclerk",
+     "share": 0.476
+    },
+    {
+     "bodies": 6,
+     "portal": "granicus",
+     "share": 0.286
+    },
+    {
+     "bodies": 4,
+     "portal": "novusagenda",
+     "share": 0.19
+    },
+    {
+     "bodies": 4,
+     "portal": "civicweb",
+     "share": 0.19
+    },
+    {
+     "bodies": 3,
+     "portal": "boarddocs",
+     "share": 0.143
+    },
+    {
+     "bodies": 1,
+     "portal": "iqm2",
+     "share": 0.048
+    },
+    {
+     "bodies": 1,
+     "portal": "diligent",
+     "share": 0.048
+    }
+   ]
+  },
+  "city_town|IL": {
+   "bodies_with_a_known_portal": 45,
+   "portals": [
+    {
+     "bodies": 14,
+     "portal": "civicclerk",
+     "share": 0.311
+    },
+    {
+     "bodies": 12,
+     "portal": "granicus",
+     "share": 0.267
+    },
+    {
+     "bodies": 5,
+     "portal": "civicplus_agendacenter",
+     "share": 0.111
+    },
+    {
+     "bodies": 4,
+     "portal": "civicweb",
+     "share": 0.089
+    },
+    {
+     "bodies": 4,
+     "portal": "legistar",
+     "share": 0.089
+    },
+    {
+     "bodies": 4,
+     "portal": "iqm2",
+     "share": 0.089
+    },
+    {
+     "bodies": 3,
+     "portal": "diligent",
+     "share": 0.067
+    },
+    {
+     "bodies": 3,
+     "portal": "municode_meetings",
+     "share": 0.067
+    },
+    {
+     "bodies": 2,
+     "portal": "boarddocs",
+     "share": 0.044
+    }
+   ]
+  },
+  "city_town|IN": {
+   "bodies_with_a_known_portal": 16,
+   "portals": [
+    {
+     "bodies": 8,
+     "portal": "boarddocs",
+     "share": 0.5
+    },
+    {
+     "bodies": 5,
+     "portal": "granicus",
+     "share": 0.312
+    },
+    {
+     "bodies": 2,
+     "portal": "municode_meetings",
+     "share": 0.125
+    },
+    {
+     "bodies": 1,
+     "portal": "primegov",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "civicclerk",
+     "share": 0.062
+    }
+   ]
+  },
+  "city_town|MA": {
+   "bodies_with_a_known_portal": 36,
+   "portals": [
+    {
+     "bodies": 10,
+     "portal": "civicplus_agendacenter",
+     "share": 0.278
+    },
+    {
+     "bodies": 10,
+     "portal": "granicus",
+     "share": 0.278
+    },
+    {
+     "bodies": 9,
+     "portal": "civicclerk",
+     "share": 0.25
+    },
+    {
+     "bodies": 8,
+     "portal": "iqm2",
+     "share": 0.222
+    },
+    {
+     "bodies": 2,
+     "portal": "primegov",
+     "share": 0.056
+    },
+    {
+     "bodies": 2,
+     "portal": "legistar",
+     "share": 0.056
+    },
+    {
+     "bodies": 1,
+     "portal": "municode_meetings",
+     "share": 0.028
+    },
+    {
+     "bodies": 1,
+     "portal": "boarddocs",
+     "share": 0.028
+    }
+   ]
+  },
+  "city_town|MD": {
+   "bodies_with_a_known_portal": 17,
+   "portals": [
+    {
+     "bodies": 10,
+     "portal": "granicus",
+     "share": 0.588
+    },
+    {
+     "bodies": 4,
+     "portal": "civicclerk",
+     "share": 0.235
+    },
+    {
+     "bodies": 4,
+     "portal": "legistar",
+     "share": 0.235
+    },
+    {
+     "bodies": 2,
+     "portal": "iqm2",
+     "share": 0.118
+    },
+    {
+     "bodies": 2,
+     "portal": "municode_meetings",
+     "share": 0.118
+    },
+    {
+     "bodies": 1,
+     "portal": "civicplus_agendacenter",
+     "share": 0.059
+    }
+   ]
+  },
+  "city_town|MI": {
+   "bodies_with_a_known_portal": 35,
+   "portals": [
+    {
+     "bodies": 12,
+     "portal": "civicweb",
+     "share": 0.343
+    },
+    {
+     "bodies": 11,
+     "portal": "civicclerk",
+     "share": 0.314
+    },
+    {
+     "bodies": 7,
+     "portal": "granicus",
+     "share": 0.2
+    },
+    {
+     "bodies": 3,
+     "portal": "iqm2",
+     "share": 0.086
+    },
+    {
+     "bodies": 2,
+     "portal": "municode_meetings",
+     "share": 0.057
+    },
+    {
+     "bodies": 1,
+     "portal": "legistar",
+     "share": 0.029
+    },
+    {
+     "bodies": 1,
+     "portal": "boarddocs",
+     "share": 0.029
+    },
+    {
+     "bodies": 1,
+     "portal": "escribe",
+     "share": 0.029
+    }
+   ]
+  },
+  "city_town|MN": {
+   "bodies_with_a_known_portal": 49,
+   "portals": [
+    {
+     "bodies": 20,
+     "portal": "civicclerk",
+     "share": 0.408
+    },
+    {
+     "bodies": 19,
+     "portal": "granicus",
+     "share": 0.388
+    },
+    {
+     "bodies": 6,
+     "portal": "civicweb",
+     "share": 0.122
+    },
+    {
+     "bodies": 4,
+     "portal": "diligent",
+     "share": 0.082
+    },
+    {
+     "bodies": 3,
+     "portal": "legistar",
+     "share": 0.061
+    },
+    {
+     "bodies": 1,
+     "portal": "municode_meetings",
+     "share": 0.02
+    },
+    {
+     "bodies": 1,
+     "portal": "streamline",
+     "share": 0.02
+    },
+    {
+     "bodies": 1,
+     "portal": "iqm2",
+     "share": 0.02
+    },
+    {
+     "bodies": 1,
+     "portal": "civicplus_agendacenter",
+     "share": 0.02
+    }
+   ]
+  },
+  "city_town|MO": {
+   "bodies_with_a_known_portal": 26,
+   "portals": [
+    {
+     "bodies": 9,
+     "portal": "civicclerk",
+     "share": 0.346
+    },
+    {
+     "bodies": 6,
+     "portal": "boarddocs",
+     "share": 0.231
+    },
+    {
+     "bodies": 4,
+     "portal": "granicus",
+     "share": 0.154
+    },
+    {
+     "bodies": 2,
+     "portal": "municode_meetings",
+     "share": 0.077
+    },
+    {
+     "bodies": 2,
+     "portal": "iqm2",
+     "share": 0.077
+    },
+    {
+     "bodies": 2,
+     "portal": "civicplus_agendacenter",
+     "share": 0.077
+    },
+    {
+     "bodies": 1,
+     "portal": "novusagenda",
+     "share": 0.038
+    },
+    {
+     "bodies": 1,
+     "portal": "diligent",
+     "share": 0.038
+    },
+    {
+     "bodies": 1,
+     "portal": "legistar",
+     "share": 0.038
+    }
+   ]
+  },
+  "city_town|NC": {
+   "bodies_with_a_known_portal": 60,
+   "portals": [
+    {
+     "bodies": 19,
+     "portal": "civicclerk",
+     "share": 0.317
+    },
+    {
+     "bodies": 14,
+     "portal": "granicus",
+     "share": 0.233
+    },
+    {
+     "bodies": 11,
+     "portal": "civicweb",
+     "share": 0.183
+    },
+    {
+     "bodies": 9,
+     "portal": "municode_meetings",
+     "share": 0.15
+    },
+    {
+     "bodies": 6,
+     "portal": "iqm2",
+     "share": 0.1
+    },
+    {
+     "bodies": 5,
+     "portal": "legistar",
+     "share": 0.083
+    },
+    {
+     "bodies": 4,
+     "portal": "escribe",
+     "share": 0.067
+    },
+    {
+     "bodies": 3,
+     "portal": "diligent",
+     "share": 0.05
+    },
+    {
+     "bodies": 2,
+     "portal": "civicplus_agendacenter",
+     "share": 0.033
+    },
+    {
+     "bodies": 1,
+     "portal": "novusagenda",
+     "share": 0.017
+    }
+   ]
+  },
+  "city_town|NJ": {
+   "bodies_with_a_known_portal": 26,
+   "portals": [
+    {
+     "bodies": 9,
+     "portal": "iqm2",
+     "share": 0.346
+    },
+    {
+     "bodies": 8,
+     "portal": "civicclerk",
+     "share": 0.308
+    },
+    {
+     "bodies": 5,
+     "portal": "granicus",
+     "share": 0.192
+    },
+    {
+     "bodies": 2,
+     "portal": "boarddocs",
+     "share": 0.077
+    },
+    {
+     "bodies": 2,
+     "portal": "municode_meetings",
+     "share": 0.077
+    },
+    {
+     "bodies": 1,
+     "portal": "civicplus_agendacenter",
+     "share": 0.038
+    },
+    {
+     "bodies": 1,
+     "portal": "legistar",
+     "share": 0.038
+    },
+    {
+     "bodies": 1,
+     "portal": "novusagenda",
+     "share": 0.038
+    },
+    {
+     "bodies": 1,
+     "portal": "civicweb",
+     "share": 0.038
+    }
+   ]
+  },
+  "city_town|NY": {
+   "bodies_with_a_known_portal": 36,
+   "portals": [
+    {
+     "bodies": 13,
+     "portal": "civicclerk",
+     "share": 0.361
+    },
+    {
+     "bodies": 8,
+     "portal": "granicus",
+     "share": 0.222
+    },
+    {
+     "bodies": 8,
+     "portal": "iqm2",
+     "share": 0.222
+    },
+    {
+     "bodies": 5,
+     "portal": "boarddocs",
+     "share": 0.139
+    },
+    {
+     "bodies": 2,
+     "portal": "civicweb",
+     "share": 0.056
+    },
+    {
+     "bodies": 2,
+     "portal": "civicplus_agendacenter",
+     "share": 0.056
+    },
+    {
+     "bodies": 2,
+     "portal": "diligent",
+     "share": 0.056
+    },
+    {
+     "bodies": 1,
+     "portal": "escribe",
+     "share": 0.028
+    }
+   ]
+  },
+  "city_town|OH": {
+   "bodies_with_a_known_portal": 39,
+   "portals": [
+    {
+     "bodies": 12,
+     "portal": "boarddocs",
+     "share": 0.308
+    },
+    {
+     "bodies": 12,
+     "portal": "civicclerk",
+     "share": 0.308
+    },
+    {
+     "bodies": 7,
+     "portal": "granicus",
+     "share": 0.179
+    },
+    {
+     "bodies": 5,
+     "portal": "legistar",
+     "share": 0.128
+    },
+    {
+     "bodies": 4,
+     "portal": "civicweb",
+     "share": 0.103
+    },
+    {
+     "bodies": 3,
+     "portal": "iqm2",
+     "share": 0.077
+    },
+    {
+     "bodies": 2,
+     "portal": "diligent",
+     "share": 0.051
+    },
+    {
+     "bodies": 1,
+     "portal": "municode_meetings",
+     "share": 0.026
+    },
+    {
+     "bodies": 1,
+     "portal": "escribe",
+     "share": 0.026
+    }
+   ]
+  },
+  "city_town|OK": {
+   "bodies_with_a_known_portal": 15,
+   "portals": [
+    {
+     "bodies": 6,
+     "portal": "civicclerk",
+     "share": 0.4
+    },
+    {
+     "bodies": 3,
+     "portal": "civicweb",
+     "share": 0.2
+    },
+    {
+     "bodies": 2,
+     "portal": "iqm2",
+     "share": 0.133
+    },
+    {
+     "bodies": 2,
+     "portal": "legistar",
+     "share": 0.133
+    },
+    {
+     "bodies": 2,
+     "portal": "granicus",
+     "share": 0.133
+    },
+    {
+     "bodies": 1,
+     "portal": "municode_meetings",
+     "share": 0.067
+    }
+   ]
+  },
+  "city_town|OR": {
+   "bodies_with_a_known_portal": 20,
+   "portals": [
+    {
+     "bodies": 9,
+     "portal": "civicclerk",
+     "share": 0.45
+    },
+    {
+     "bodies": 5,
+     "portal": "granicus",
+     "share": 0.25
+    },
+    {
+     "bodies": 3,
+     "portal": "civicweb",
+     "share": 0.15
+    },
+    {
+     "bodies": 2,
+     "portal": "civicplus_agendacenter",
+     "share": 0.1
+    },
+    {
+     "bodies": 2,
+     "portal": "iqm2",
+     "share": 0.1
+    },
+    {
+     "bodies": 1,
+     "portal": "legistar",
+     "share": 0.05
+    },
+    {
+     "bodies": 1,
+     "portal": "escribe",
+     "share": 0.05
+    },
+    {
+     "bodies": 1,
+     "portal": "diligent",
+     "share": 0.05
+    },
+    {
+     "bodies": 1,
+     "portal": "primegov",
+     "share": 0.05
+    }
+   ]
+  },
+  "city_town|PA": {
+   "bodies_with_a_known_portal": 31,
+   "portals": [
+    {
+     "bodies": 11,
+     "portal": "boarddocs",
+     "share": 0.355
+    },
+    {
+     "bodies": 9,
+     "portal": "granicus",
+     "share": 0.29
+    },
+    {
+     "bodies": 7,
+     "portal": "civicclerk",
+     "share": 0.226
+    },
+    {
+     "bodies": 4,
+     "portal": "diligent",
+     "share": 0.129
+    },
+    {
+     "bodies": 1,
+     "portal": "legistar",
+     "share": 0.032
+    },
+    {
+     "bodies": 1,
+     "portal": "iqm2",
+     "share": 0.032
+    },
+    {
+     "bodies": 1,
+     "portal": "novusagenda",
+     "share": 0.032
+    }
+   ]
+  },
+  "city_town|TN": {
+   "bodies_with_a_known_portal": 16,
+   "portals": [
+    {
+     "bodies": 7,
+     "portal": "civicclerk",
+     "share": 0.438
+    },
+    {
+     "bodies": 6,
+     "portal": "granicus",
+     "share": 0.375
+    },
+    {
+     "bodies": 3,
+     "portal": "legistar",
+     "share": 0.188
+    },
+    {
+     "bodies": 2,
+     "portal": "civicweb",
+     "share": 0.125
+    },
+    {
+     "bodies": 2,
+     "portal": "iqm2",
+     "share": 0.125
+    },
+    {
+     "bodies": 1,
+     "portal": "municode_meetings",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "primegov",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "boarddocs",
+     "share": 0.062
+    }
+   ]
+  },
+  "city_town|TX": {
+   "bodies_with_a_known_portal": 110,
+   "portals": [
+    {
+     "bodies": 49,
+     "portal": "civicclerk",
+     "share": 0.445
+    },
+    {
+     "bodies": 33,
+     "portal": "granicus",
+     "share": 0.3
+    },
+    {
+     "bodies": 19,
+     "portal": "legistar",
+     "share": 0.173
+    },
+    {
+     "bodies": 11,
+     "portal": "civicweb",
+     "share": 0.1
+    },
+    {
+     "bodies": 9,
+     "portal": "municode_meetings",
+     "share": 0.082
+    },
+    {
+     "bodies": 6,
+     "portal": "iqm2",
+     "share": 0.055
+    },
+    {
+     "bodies": 4,
+     "portal": "diligent",
+     "share": 0.036
+    },
+    {
+     "bodies": 4,
+     "portal": "primegov",
+     "share": 0.036
+    },
+    {
+     "bodies": 2,
+     "portal": "boarddocs",
+     "share": 0.018
+    },
+    {
+     "bodies": 2,
+     "portal": "novusagenda",
+     "share": 0.018
+    }
+   ]
+  },
+  "city_town|UT": {
+   "bodies_with_a_known_portal": 16,
+   "portals": [
+    {
+     "bodies": 9,
+     "portal": "civicclerk",
+     "share": 0.562
+    },
+    {
+     "bodies": 5,
+     "portal": "granicus",
+     "share": 0.312
+    },
+    {
+     "bodies": 1,
+     "portal": "legistar",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "civicplus_agendacenter",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "primegov",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "diligent",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "streamline",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "iqm2",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "boarddocs",
+     "share": 0.062
+    }
+   ]
+  },
+  "city_town|VA": {
+   "bodies_with_a_known_portal": 22,
+   "portals": [
+    {
+     "bodies": 12,
+     "portal": "granicus",
+     "share": 0.545
+    },
+    {
+     "bodies": 4,
+     "portal": "civicclerk",
+     "share": 0.182
+    },
+    {
+     "bodies": 3,
+     "portal": "legistar",
+     "share": 0.136
+    },
+    {
+     "bodies": 2,
+     "portal": "municode_meetings",
+     "share": 0.091
+    },
+    {
+     "bodies": 2,
+     "portal": "iqm2",
+     "share": 0.091
+    },
+    {
+     "bodies": 1,
+     "portal": "civicweb",
+     "share": 0.045
+    },
+    {
+     "bodies": 1,
+     "portal": "civicplus_agendacenter",
+     "share": 0.045
+    },
+    {
+     "bodies": 1,
+     "portal": "boarddocs",
+     "share": 0.045
+    }
+   ]
+  },
+  "city_town|WA": {
+   "bodies_with_a_known_portal": 53,
+   "portals": [
+    {
+     "bodies": 24,
+     "portal": "civicclerk",
+     "share": 0.453
+    },
+    {
+     "bodies": 11,
+     "portal": "granicus",
+     "share": 0.208
+    },
+    {
+     "bodies": 10,
+     "portal": "civicweb",
+     "share": 0.189
+    },
+    {
+     "bodies": 4,
+     "portal": "municode_meetings",
+     "share": 0.075
+    },
+    {
+     "bodies": 3,
+     "portal": "legistar",
+     "share": 0.057
+    },
+    {
+     "bodies": 3,
+     "portal": "primegov",
+     "share": 0.057
+    },
+    {
+     "bodies": 2,
+     "portal": "novusagenda",
+     "share": 0.038
+    },
+    {
+     "bodies": 2,
+     "portal": "boarddocs",
+     "share": 0.038
+    },
+    {
+     "bodies": 2,
+     "portal": "iqm2",
+     "share": 0.038
+    }
+   ]
+  },
+  "city_town|WI": {
+   "bodies_with_a_known_portal": 38,
+   "portals": [
+    {
+     "bodies": 10,
+     "portal": "civicclerk",
+     "share": 0.263
+    },
+    {
+     "bodies": 9,
+     "portal": "granicus",
+     "share": 0.237
+    },
+    {
+     "bodies": 8,
+     "portal": "legistar",
+     "share": 0.211
+    },
+    {
+     "bodies": 6,
+     "portal": "civicweb",
+     "share": 0.158
+    },
+    {
+     "bodies": 5,
+     "portal": "iqm2",
+     "share": 0.132
+    },
+    {
+     "bodies": 2,
+     "portal": "municode_meetings",
+     "share": 0.053
+    },
+    {
+     "bodies": 2,
+     "portal": "boarddocs",
+     "share": 0.053
+    },
+    {
+     "bodies": 1,
+     "portal": "civicplus_agendacenter",
+     "share": 0.026
+    },
+    {
+     "bodies": 1,
+     "portal": "escribe",
+     "share": 0.026
+    }
+   ]
+  },
+  "county|CA": {
+   "bodies_with_a_known_portal": 24,
+   "portals": [
+    {
+     "bodies": 9,
+     "portal": "iqm2",
+     "share": 0.375
+    },
+    {
+     "bodies": 7,
+     "portal": "legistar",
+     "share": 0.292
+    },
+    {
+     "bodies": 7,
+     "portal": "civicclerk",
+     "share": 0.292
+    },
+    {
+     "bodies": 6,
+     "portal": "granicus",
+     "share": 0.25
+    },
+    {
+     "bodies": 2,
+     "portal": "primegov",
+     "share": 0.083
+    },
+    {
+     "bodies": 1,
+     "portal": "boarddocs",
+     "share": 0.042
+    },
+    {
+     "bodies": 1,
+     "portal": "escribe",
+     "share": 0.042
+    }
+   ]
+  },
+  "county|CO": {
+   "bodies_with_a_known_portal": 16,
+   "portals": [
+    {
+     "bodies": 8,
+     "portal": "civicclerk",
+     "share": 0.5
+    },
+    {
+     "bodies": 3,
+     "portal": "iqm2",
+     "share": 0.188
+    },
+    {
+     "bodies": 2,
+     "portal": "escribe",
+     "share": 0.125
+    },
+    {
+     "bodies": 2,
+     "portal": "boarddocs",
+     "share": 0.125
+    },
+    {
+     "bodies": 2,
+     "portal": "granicus",
+     "share": 0.125
+    },
+    {
+     "bodies": 1,
+     "portal": "municode_meetings",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "legistar",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "civicplus_agendacenter",
+     "share": 0.062
+    }
+   ]
+  },
+  "county|FL": {
+   "bodies_with_a_known_portal": 38,
+   "portals": [
+    {
+     "bodies": 15,
+     "portal": "civicclerk",
+     "share": 0.395
+    },
+    {
+     "bodies": 12,
+     "portal": "granicus",
+     "share": 0.316
+    },
+    {
+     "bodies": 9,
+     "portal": "legistar",
+     "share": 0.237
+    },
+    {
+     "bodies": 9,
+     "portal": "iqm2",
+     "share": 0.237
+    },
+    {
+     "bodies": 2,
+     "portal": "diligent",
+     "share": 0.053
+    },
+    {
+     "bodies": 1,
+     "portal": "streamline",
+     "share": 0.026
+    },
+    {
+     "bodies": 1,
+     "portal": "civicplus_agendacenter",
+     "share": 0.026
+    },
+    {
+     "bodies": 1,
+     "portal": "primegov",
+     "share": 0.026
+    },
+    {
+     "bodies": 1,
+     "portal": "novusagenda",
+     "share": 0.026
+    },
+    {
+     "bodies": 1,
+     "portal": "civicweb",
+     "share": 0.026
+    }
+   ]
+  },
+  "county|GA": {
+   "bodies_with_a_known_portal": 24,
+   "portals": [
+    {
+     "bodies": 13,
+     "portal": "civicclerk",
+     "share": 0.542
+    },
+    {
+     "bodies": 8,
+     "portal": "iqm2",
+     "share": 0.333
+    },
+    {
+     "bodies": 7,
+     "portal": "granicus",
+     "share": 0.292
+    },
+    {
+     "bodies": 1,
+     "portal": "legistar",
+     "share": 0.042
+    },
+    {
+     "bodies": 1,
+     "portal": "novusagenda",
+     "share": 0.042
+    }
+   ]
+  },
+  "county|MN": {
+   "bodies_with_a_known_portal": 16,
+   "portals": [
+    {
+     "bodies": 7,
+     "portal": "civicclerk",
+     "share": 0.438
+    },
+    {
+     "bodies": 5,
+     "portal": "iqm2",
+     "share": 0.312
+    },
+    {
+     "bodies": 3,
+     "portal": "granicus",
+     "share": 0.188
+    },
+    {
+     "bodies": 2,
+     "portal": "legistar",
+     "share": 0.125
+    },
+    {
+     "bodies": 1,
+     "portal": "civicweb",
+     "share": 0.062
+    }
+   ]
+  },
+  "county|NC": {
+   "bodies_with_a_known_portal": 32,
+   "portals": [
+    {
+     "bodies": 16,
+     "portal": "civicclerk",
+     "share": 0.5
+    },
+    {
+     "bodies": 6,
+     "portal": "iqm2",
+     "share": 0.188
+    },
+    {
+     "bodies": 5,
+     "portal": "legistar",
+     "share": 0.156
+    },
+    {
+     "bodies": 5,
+     "portal": "granicus",
+     "share": 0.156
+    },
+    {
+     "bodies": 3,
+     "portal": "civicweb",
+     "share": 0.094
+    },
+    {
+     "bodies": 2,
+     "portal": "escribe",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "novusagenda",
+     "share": 0.031
+    },
+    {
+     "bodies": 1,
+     "portal": "boarddocs",
+     "share": 0.031
+    },
+    {
+     "bodies": 1,
+     "portal": "civicplus_agendacenter",
+     "share": 0.031
+    }
+   ]
+  },
+  "county|TX": {
+   "bodies_with_a_known_portal": 19,
+   "portals": [
+    {
+     "bodies": 8,
+     "portal": "civicclerk",
+     "share": 0.421
+    },
+    {
+     "bodies": 6,
+     "portal": "granicus",
+     "share": 0.316
+    },
+    {
+     "bodies": 4,
+     "portal": "legistar",
+     "share": 0.211
+    },
+    {
+     "bodies": 3,
+     "portal": "iqm2",
+     "share": 0.158
+    },
+    {
+     "bodies": 2,
+     "portal": "civicweb",
+     "share": 0.105
+    },
+    {
+     "bodies": 1,
+     "portal": "municode_meetings",
+     "share": 0.053
+    },
+    {
+     "bodies": 1,
+     "portal": "primegov",
+     "share": 0.053
+    }
+   ]
+  },
+  "county|VA": {
+   "bodies_with_a_known_portal": 28,
+   "portals": [
+    {
+     "bodies": 15,
+     "portal": "civicclerk",
+     "share": 0.536
+    },
+    {
+     "bodies": 4,
+     "portal": "granicus",
+     "share": 0.143
+    },
+    {
+     "bodies": 4,
+     "portal": "iqm2",
+     "share": 0.143
+    },
+    {
+     "bodies": 3,
+     "portal": "civicweb",
+     "share": 0.107
+    },
+    {
+     "bodies": 2,
+     "portal": "escribe",
+     "share": 0.071
+    },
+    {
+     "bodies": 2,
+     "portal": "diligent",
+     "share": 0.071
+    },
+    {
+     "bodies": 1,
+     "portal": "legistar",
+     "share": 0.036
+    },
+    {
+     "bodies": 1,
+     "portal": "primegov",
+     "share": 0.036
+    }
+   ]
+  },
+  "county|WI": {
+   "bodies_with_a_known_portal": 15,
+   "portals": [
+    {
+     "bodies": 8,
+     "portal": "civicclerk",
+     "share": 0.533
+    },
+    {
+     "bodies": 3,
+     "portal": "iqm2",
+     "share": 0.2
+    },
+    {
+     "bodies": 3,
+     "portal": "legistar",
+     "share": 0.2
+    },
+    {
+     "bodies": 2,
+     "portal": "granicus",
+     "share": 0.133
+    },
+    {
+     "bodies": 1,
+     "portal": "boarddocs",
+     "share": 0.067
+    },
+    {
+     "bodies": 1,
+     "portal": "civicweb",
+     "share": 0.067
+    }
+   ]
+  },
+  "school_district|AR": {
+   "bodies_with_a_known_portal": 19,
+   "portals": [
+    {
+     "bodies": 17,
+     "portal": "diligent",
+     "share": 0.895
+    },
+    {
+     "bodies": 3,
+     "portal": "boarddocs",
+     "share": 0.158
+    }
+   ]
+  },
+  "school_district|AZ": {
+   "bodies_with_a_known_portal": 72,
+   "portals": [
+    {
+     "bodies": 51,
+     "portal": "diligent",
+     "share": 0.708
+    },
+    {
+     "bodies": 49,
+     "portal": "boarddocs",
+     "share": 0.681
+    },
+    {
+     "bodies": 1,
+     "portal": "civicweb",
+     "share": 0.014
+    },
+    {
+     "bodies": 1,
+     "portal": "escribe",
+     "share": 0.014
+    }
+   ]
+  },
+  "school_district|CA": {
+   "bodies_with_a_known_portal": 446,
+   "portals": [
+    {
+     "bodies": 329,
+     "portal": "simbli",
+     "share": 0.738
+    },
+    {
+     "bodies": 113,
+     "portal": "boarddocs",
+     "share": 0.253
+    },
+    {
+     "bodies": 96,
+     "portal": "diligent",
+     "share": 0.215
+    },
+    {
+     "bodies": 13,
+     "portal": "granicus",
+     "share": 0.029
+    },
+    {
+     "bodies": 2,
+     "portal": "novusagenda",
+     "share": 0.004
+    },
+    {
+     "bodies": 1,
+     "portal": "legistar",
+     "share": 0.002
+    },
+    {
+     "bodies": 1,
+     "portal": "streamline",
+     "share": 0.002
+    },
+    {
+     "bodies": 1,
+     "portal": "civicweb",
+     "share": 0.002
+    },
+    {
+     "bodies": 1,
+     "portal": "primegov",
+     "share": 0.002
+    }
+   ]
+  },
+  "school_district|CO": {
+   "bodies_with_a_known_portal": 15,
+   "portals": [
+    {
+     "bodies": 10,
+     "portal": "diligent",
+     "share": 0.667
+    },
+    {
+     "bodies": 7,
+     "portal": "boarddocs",
+     "share": 0.467
+    },
+    {
+     "bodies": 1,
+     "portal": "streamline",
+     "share": 0.067
+    }
+   ]
+  },
+  "school_district|FL": {
+   "bodies_with_a_known_portal": 21,
+   "portals": [
+    {
+     "bodies": 12,
+     "portal": "diligent",
+     "share": 0.571
+    },
+    {
+     "bodies": 9,
+     "portal": "boarddocs",
+     "share": 0.429
+    },
+    {
+     "bodies": 5,
+     "portal": "granicus",
+     "share": 0.238
+    },
+    {
+     "bodies": 1,
+     "portal": "novusagenda",
+     "share": 0.048
+    },
+    {
+     "bodies": 1,
+     "portal": "civicweb",
+     "share": 0.048
+    },
+    {
+     "bodies": 1,
+     "portal": "legistar",
+     "share": 0.048
+    }
+   ]
+  },
+  "school_district|IL": {
+   "bodies_with_a_known_portal": 174,
+   "portals": [
+    {
+     "bodies": 79,
+     "portal": "boarddocs",
+     "share": 0.454
+    },
+    {
+     "bodies": 69,
+     "portal": "boardbook",
+     "share": 0.397
+    },
+    {
+     "bodies": 68,
+     "portal": "diligent",
+     "share": 0.391
+    },
+    {
+     "bodies": 2,
+     "portal": "granicus",
+     "share": 0.011
+    }
+   ]
+  },
+  "school_district|IN": {
+   "bodies_with_a_known_portal": 98,
+   "portals": [
+    {
+     "bodies": 90,
+     "portal": "boarddocs",
+     "share": 0.918
+    },
+    {
+     "bodies": 14,
+     "portal": "diligent",
+     "share": 0.143
+    }
+   ]
+  },
+  "school_district|KS": {
+   "bodies_with_a_known_portal": 52,
+   "portals": [
+    {
+     "bodies": 32,
+     "portal": "boarddocs",
+     "share": 0.615
+    },
+    {
+     "bodies": 29,
+     "portal": "diligent",
+     "share": 0.558
+    }
+   ]
+  },
+  "school_district|LA": {
+   "bodies_with_a_known_portal": 16,
+   "portals": [
+    {
+     "bodies": 10,
+     "portal": "boarddocs",
+     "share": 0.625
+    },
+    {
+     "bodies": 4,
+     "portal": "diligent",
+     "share": 0.25
+    },
+    {
+     "bodies": 1,
+     "portal": "novusagenda",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "legistar",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "civicclerk",
+     "share": 0.062
+    }
+   ]
+  },
+  "school_district|MI": {
+   "bodies_with_a_known_portal": 68,
+   "portals": [
+    {
+     "bodies": 54,
+     "portal": "boarddocs",
+     "share": 0.794
+    },
+    {
+     "bodies": 9,
+     "portal": "boardbook",
+     "share": 0.132
+    },
+    {
+     "bodies": 7,
+     "portal": "diligent",
+     "share": 0.103
+    },
+    {
+     "bodies": 1,
+     "portal": "granicus",
+     "share": 0.015
+    }
+   ]
+  },
+  "school_district|MO": {
+   "bodies_with_a_known_portal": 42,
+   "portals": [
+    {
+     "bodies": 27,
+     "portal": "diligent",
+     "share": 0.643
+    },
+    {
+     "bodies": 15,
+     "portal": "boarddocs",
+     "share": 0.357
+    },
+    {
+     "bodies": 2,
+     "portal": "escribe",
+     "share": 0.048
+    },
+    {
+     "bodies": 1,
+     "portal": "novusagenda",
+     "share": 0.024
+    }
+   ]
+  },
+  "school_district|NC": {
+   "bodies_with_a_known_portal": 22,
+   "portals": [
+    {
+     "bodies": 14,
+     "portal": "diligent",
+     "share": 0.636
+    },
+    {
+     "bodies": 10,
+     "portal": "boarddocs",
+     "share": 0.455
+    },
+    {
+     "bodies": 4,
+     "portal": "granicus",
+     "share": 0.182
+    }
+   ]
+  },
+  "school_district|NJ": {
+   "bodies_with_a_known_portal": 68,
+   "portals": [
+    {
+     "bodies": 62,
+     "portal": "boarddocs",
+     "share": 0.912
+    },
+    {
+     "bodies": 8,
+     "portal": "diligent",
+     "share": 0.118
+    }
+   ]
+  },
+  "school_district|NY": {
+   "bodies_with_a_known_portal": 337,
+   "portals": [
+    {
+     "bodies": 293,
+     "portal": "boarddocs",
+     "share": 0.869
+    },
+    {
+     "bodies": 58,
+     "portal": "diligent",
+     "share": 0.172
+    },
+    {
+     "bodies": 6,
+     "portal": "simbli",
+     "share": 0.018
+    },
+    {
+     "bodies": 2,
+     "portal": "streamline",
+     "share": 0.006
+    },
+    {
+     "bodies": 1,
+     "portal": "iqm2",
+     "share": 0.003
+    }
+   ]
+  },
+  "school_district|OH": {
+   "bodies_with_a_known_portal": 136,
+   "portals": [
+    {
+     "bodies": 130,
+     "portal": "boarddocs",
+     "share": 0.956
+    },
+    {
+     "bodies": 5,
+     "portal": "diligent",
+     "share": 0.037
+    },
+    {
+     "bodies": 1,
+     "portal": "escribe",
+     "share": 0.007
+    },
+    {
+     "bodies": 1,
+     "portal": "civicclerk",
+     "share": 0.007
+    },
+    {
+     "bodies": 1,
+     "portal": "boardbook",
+     "share": 0.007
+    }
+   ]
+  },
+  "school_district|OR": {
+   "bodies_with_a_known_portal": 31,
+   "portals": [
+    {
+     "bodies": 22,
+     "portal": "boardbook",
+     "share": 0.71
+    },
+    {
+     "bodies": 3,
+     "portal": "diligent",
+     "share": 0.097
+    },
+    {
+     "bodies": 2,
+     "portal": "boarddocs",
+     "share": 0.065
+    },
+    {
+     "bodies": 1,
+     "portal": "granicus",
+     "share": 0.032
+    },
+    {
+     "bodies": 1,
+     "portal": "civicweb",
+     "share": 0.032
+    },
+    {
+     "bodies": 1,
+     "portal": "novusagenda",
+     "share": 0.032
+    },
+    {
+     "bodies": 1,
+     "portal": "simbli",
+     "share": 0.032
+    },
+    {
+     "bodies": 1,
+     "portal": "boardontrack",
+     "share": 0.032
+    },
+    {
+     "bodies": 1,
+     "portal": "streamline",
+     "share": 0.032
+    }
+   ]
+  },
+  "school_district|PA": {
+   "bodies_with_a_known_portal": 69,
+   "portals": [
+    {
+     "bodies": 67,
+     "portal": "boarddocs",
+     "share": 0.971
+    },
+    {
+     "bodies": 1,
+     "portal": "boardbook",
+     "share": 0.014
+    },
+    {
+     "bodies": 1,
+     "portal": "diligent",
+     "share": 0.014
+    }
+   ]
+  },
+  "school_district|SC": {
+   "bodies_with_a_known_portal": 19,
+   "portals": [
+    {
+     "bodies": 17,
+     "portal": "diligent",
+     "share": 0.895
+    },
+    {
+     "bodies": 5,
+     "portal": "boarddocs",
+     "share": 0.263
+    },
+    {
+     "bodies": 1,
+     "portal": "streamline",
+     "share": 0.053
+    },
+    {
+     "bodies": 1,
+     "portal": "escribe",
+     "share": 0.053
+    }
+   ]
+  },
+  "school_district|TX": {
+   "bodies_with_a_known_portal": 250,
+   "portals": [
+    {
+     "bodies": 234,
+     "portal": "boardbook",
+     "share": 0.936
+    },
+    {
+     "bodies": 12,
+     "portal": "diligent",
+     "share": 0.048
+    },
+    {
+     "bodies": 5,
+     "portal": "boarddocs",
+     "share": 0.02
+    },
+    {
+     "bodies": 3,
+     "portal": "granicus",
+     "share": 0.012
+    },
+    {
+     "bodies": 1,
+     "portal": "municode_meetings",
+     "share": 0.004
+    },
+    {
+     "bodies": 1,
+     "portal": "novusagenda",
+     "share": 0.004
+    }
+   ]
+  },
+  "school_district|UT": {
+   "bodies_with_a_known_portal": 18,
+   "portals": [
+    {
+     "bodies": 11,
+     "portal": "boarddocs",
+     "share": 0.611
+    },
+    {
+     "bodies": 11,
+     "portal": "diligent",
+     "share": 0.611
+    },
+    {
+     "bodies": 1,
+     "portal": "granicus",
+     "share": 0.056
+    },
+    {
+     "bodies": 1,
+     "portal": "primegov",
+     "share": 0.056
+    },
+    {
+     "bodies": 1,
+     "portal": "boardbook",
+     "share": 0.056
+    }
+   ]
+  },
+  "school_district|VA": {
+   "bodies_with_a_known_portal": 22,
+   "portals": [
+    {
+     "bodies": 13,
+     "portal": "diligent",
+     "share": 0.591
+    },
+    {
+     "bodies": 10,
+     "portal": "boarddocs",
+     "share": 0.455
+    },
+    {
+     "bodies": 1,
+     "portal": "civicweb",
+     "share": 0.045
+    }
+   ]
+  },
+  "school_district|WA": {
+   "bodies_with_a_known_portal": 57,
+   "portals": [
+    {
+     "bodies": 33,
+     "portal": "boarddocs",
+     "share": 0.579
+    },
+    {
+     "bodies": 23,
+     "portal": "diligent",
+     "share": 0.404
+    },
+    {
+     "bodies": 5,
+     "portal": "boardontrack",
+     "share": 0.088
+    }
+   ]
+  },
+  "school_district|WI": {
+   "bodies_with_a_known_portal": 82,
+   "portals": [
+    {
+     "bodies": 73,
+     "portal": "boarddocs",
+     "share": 0.89
+    },
+    {
+     "bodies": 10,
+     "portal": "diligent",
+     "share": 0.122
+    },
+    {
+     "bodies": 2,
+     "portal": "escribe",
+     "share": 0.024
+    }
+   ]
+  },
+  "school_district|WY": {
+   "bodies_with_a_known_portal": 23,
+   "portals": [
+    {
+     "bodies": 22,
+     "portal": "boarddocs",
+     "share": 0.957
+    },
+    {
+     "bodies": 6,
+     "portal": "diligent",
+     "share": 0.261
+    }
+   ]
+  },
+  "special_district:fire|CA": {
+   "bodies_with_a_known_portal": 55,
+   "portals": [
+    {
+     "bodies": 51,
+     "portal": "streamline",
+     "share": 0.927
+    },
+    {
+     "bodies": 3,
+     "portal": "granicus",
+     "share": 0.055
+    },
+    {
+     "bodies": 1,
+     "portal": "primegov",
+     "share": 0.018
+    }
+   ]
+  },
+  "special_district:fire|CO": {
+   "bodies_with_a_known_portal": 45,
+   "portals": [
+    {
+     "bodies": 45,
+     "portal": "streamline",
+     "share": 1.0
+    }
+   ]
+  },
+  "special_district:fire|OR": {
+   "bodies_with_a_known_portal": 41,
+   "portals": [
+    {
+     "bodies": 41,
+     "portal": "streamline",
+     "share": 1.0
+    }
+   ]
+  },
+  "special_district:fire|WA": {
+   "bodies_with_a_known_portal": 19,
+   "portals": [
+    {
+     "bodies": 19,
+     "portal": "streamline",
+     "share": 1.0
+    }
+   ]
+  },
+  "special_district:health|CA": {
+   "bodies_with_a_known_portal": 29,
+   "portals": [
+    {
+     "bodies": 25,
+     "portal": "streamline",
+     "share": 0.862
+    },
+    {
+     "bodies": 3,
+     "portal": "granicus",
+     "share": 0.103
+    },
+    {
+     "bodies": 2,
+     "portal": "diligent",
+     "share": 0.069
+    }
+   ]
+  },
+  "special_district:library|IL": {
+   "bodies_with_a_known_portal": 16,
+   "portals": [
+    {
+     "bodies": 13,
+     "portal": "streamline",
+     "share": 0.812
+    },
+    {
+     "bodies": 1,
+     "portal": "boarddocs",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "diligent",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "civicclerk",
+     "share": 0.062
+    }
+   ]
+  },
+  "special_district:library|MI": {
+   "bodies_with_a_known_portal": 18,
+   "portals": [
+    {
+     "bodies": 17,
+     "portal": "streamline",
+     "share": 0.944
+    },
+    {
+     "bodies": 1,
+     "portal": "civicweb",
+     "share": 0.056
+    }
+   ]
+  },
+  "special_district:other|CA": {
+   "bodies_with_a_known_portal": 146,
+   "portals": [
+    {
+     "bodies": 123,
+     "portal": "streamline",
+     "share": 0.842
+    },
+    {
+     "bodies": 9,
+     "portal": "granicus",
+     "share": 0.062
+    },
+    {
+     "bodies": 5,
+     "portal": "primegov",
+     "share": 0.034
+    },
+    {
+     "bodies": 4,
+     "portal": "diligent",
+     "share": 0.027
+    },
+    {
+     "bodies": 4,
+     "portal": "civicweb",
+     "share": 0.027
+    },
+    {
+     "bodies": 2,
+     "portal": "civicclerk",
+     "share": 0.014
+    },
+    {
+     "bodies": 2,
+     "portal": "legistar",
+     "share": 0.014
+    },
+    {
+     "bodies": 2,
+     "portal": "escribe",
+     "share": 0.014
+    },
+    {
+     "bodies": 2,
+     "portal": "boarddocs",
+     "share": 0.014
+    },
+    {
+     "bodies": 1,
+     "portal": "novusagenda",
+     "share": 0.007
+    },
+    {
+     "bodies": 1,
+     "portal": "civicplus_agendacenter",
+     "share": 0.007
+    }
+   ]
+  },
+  "special_district:other|CO": {
+   "bodies_with_a_known_portal": 61,
+   "portals": [
+    {
+     "bodies": 60,
+     "portal": "streamline",
+     "share": 0.984
+    },
+    {
+     "bodies": 1,
+     "portal": "granicus",
+     "share": 0.016
+    }
+   ]
+  },
+  "special_district:other|FL": {
+   "bodies_with_a_known_portal": 16,
+   "portals": [
+    {
+     "bodies": 10,
+     "portal": "streamline",
+     "share": 0.625
+    },
+    {
+     "bodies": 5,
+     "portal": "granicus",
+     "share": 0.312
+    },
+    {
+     "bodies": 1,
+     "portal": "iqm2",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "diligent",
+     "share": 0.062
+    },
+    {
+     "bodies": 1,
+     "portal": "novusagenda",
+     "share": 0.062
+    }
+   ]
+  },
+  "special_district:other|IL": {
+   "bodies_with_a_known_portal": 15,
+   "portals": [
+    {
+     "bodies": 8,
+     "portal": "diligent",
+     "share": 0.533
+    },
+    {
+     "bodies": 3,
+     "portal": "granicus",
+     "share": 0.2
+    },
+    {
+     "bodies": 3,
+     "portal": "streamline",
+     "share": 0.2
+    },
+    {
+     "bodies": 2,
+     "portal": "legistar",
+     "share": 0.133
+    }
+   ]
+  },
+  "special_district:other|OR": {
+   "bodies_with_a_known_portal": 32,
+   "portals": [
+    {
+     "bodies": 30,
+     "portal": "streamline",
+     "share": 0.938
+    },
+    {
+     "bodies": 1,
+     "portal": "granicus",
+     "share": 0.031
+    },
+    {
+     "bodies": 1,
+     "portal": "boarddocs",
+     "share": 0.031
+    },
+    {
+     "bodies": 1,
+     "portal": "legistar",
+     "share": 0.031
+    }
+   ]
+  },
+  "special_district:other|TX": {
+   "bodies_with_a_known_portal": 16,
+   "portals": [
+    {
+     "bodies": 12,
+     "portal": "streamline",
+     "share": 0.75
+    },
+    {
+     "bodies": 4,
+     "portal": "granicus",
+     "share": 0.25
+    },
+    {
+     "bodies": 1,
+     "portal": "legistar",
+     "share": 0.062
+    }
+   ]
+  },
+  "special_district:water_sewer|CA": {
+   "bodies_with_a_known_portal": 83,
+   "portals": [
+    {
+     "bodies": 63,
+     "portal": "streamline",
+     "share": 0.759
+    },
+    {
+     "bodies": 13,
+     "portal": "granicus",
+     "share": 0.157
+    },
+    {
+     "bodies": 5,
+     "portal": "civicclerk",
+     "share": 0.06
+    },
+    {
+     "bodies": 3,
+     "portal": "legistar",
+     "share": 0.036
+    },
+    {
+     "bodies": 2,
+     "portal": "civicweb",
+     "share": 0.024
+    },
+    {
+     "bodies": 2,
+     "portal": "primegov",
+     "share": 0.024
+    },
+    {
+     "bodies": 2,
+     "portal": "escribe",
+     "share": 0.024
+    },
+    {
+     "bodies": 1,
+     "portal": "municode_meetings",
+     "share": 0.012
+    },
+    {
+     "bodies": 1,
+     "portal": "diligent",
+     "share": 0.012
+    },
+    {
+     "bodies": 1,
+     "portal": "iqm2",
+     "share": 0.012
+    },
+    {
+     "bodies": 1,
+     "portal": "civicplus_agendacenter",
+     "share": 0.012
+    }
+   ]
+  },
+  "special_district:water_sewer|CO": {
+   "bodies_with_a_known_portal": 36,
+   "portals": [
+    {
+     "bodies": 35,
+     "portal": "streamline",
+     "share": 0.972
+    },
+    {
+     "bodies": 1,
+     "portal": "diligent",
+     "share": 0.028
+    }
+   ]
+  }
+ },
+ "source": "work/registry: v_entity_full (active, sample_eligible) joined with sources_source accepted platform links",
+ "what": "Which meeting portals each kind of public body uses: a soft prior for where to look first, never an exclusive list. Shares are among bodies whose portal the registry knows; most bodies publish on their own sites."
+}

@@ -1,0 +1,28 @@
+list,unit_type_code,entity_type,note
+census_gus_2026_general_purpose,1,county,Census UNIT_TYPE 1 - COUNTY
+census_gus_2026_general_purpose,2,municipality,Census UNIT_TYPE 2 - MUNICIPAL
+census_gus_2026_general_purpose,3,town_or_township,Census UNIT_TYPE 3 - TOWNSHIP (the Census counts New England towns here)
+census_gus_2026_special_district,*,special_district,the Special District tab
+census_gus_2026_school_district,*,school_district,the School District tab: independent school districts and educational service agencies
+census_gus_2026_dependent_school_district,*,dependent_school_system,the DEP School Dist tab: school systems run by another government (PARENT_CENSUS_ID_PID6)
+census_gus_2026_public_pension_system,*,public_pension_system,the Public Pension Sys tab
+census_finance_2022_units,0,state,Census ID position 3 (type) 0
+census_finance_2022_units,1,county,Census ID position 3 (type) 1
+census_finance_2022_units,2,municipality,Census ID position 3 (type) 2
+census_finance_2022_units,3,town_or_township,Census ID position 3 (type) 3
+census_finance_2022_units,4,special_district,Census ID position 3 (type) 4
+census_finance_2022_units,5,school_district,Census ID position 3 (type) 5
+nces_lea_directory_2025_26,1,k12_district,NCES LEA_TYPE 1: regular district not in a supervisory union
+nces_lea_directory_2025_26,2,k12_su_component,NCES LEA_TYPE 2: regular district that is a component of a supervisory union
+nces_lea_directory_2025_26,3,k12_supervisory_union,NCES LEA_TYPE 3
+nces_lea_directory_2025_26,4,k12_service_agency,NCES LEA_TYPE 4
+nces_lea_directory_2025_26,5,k12_state_operated,NCES LEA_TYPE 5
+nces_lea_directory_2025_26,6,k12_federal_operated,NCES LEA_TYPE 6
+nces_lea_directory_2025_26,7,k12_charter_lea,NCES LEA_TYPE 7: independent charter district
+nces_lea_directory_2025_26,8,k12_other_lea,NCES LEA_TYPE 8
+nces_lea_directory_2025_26,9,k12_specialized,NCES LEA_TYPE 9
+nces_school_directory_2025_26,*,k12_charter_school,charter schools whose district is not itself a charter district
+epa_sdwis_water_system,*,water_system,
+imls_pls_fy2024_administrative_entity,*,library_system,
+usfa_registry,*,fire_department,
+ntd_reporters_2025,*,transit_reporter,

@@ -1,0 +1,68 @@
+[
+ {
+  "ExternalCalendar": false,
+  "Id": 4925,
+  "MeetingDate": "2025-12-18",
+  "MeetingDateTime": "2025-12-18 18:00",
+  "MeetingLocation": "Wasilla City Hall, Council Chambers, 290 E Herning Ave, Wasilla",
+  "MeetingTime": "06:00 PM",
+  "Name": "CANCELED - Airport Advisory Commission Regular - 18 Dec 2025",
+  "Published": false,
+  "TypeId": 21
+ },
+ {
+  "ExternalCalendar": false,
+  "Id": 4861,
+  "MeetingDate": "2025-12-15",
+  "MeetingDateTime": "2025-12-15 18:00",
+  "MeetingLocation": "Wasilla City Hall, Council Chambers, 290 E Herning Ave, Wasilla",
+  "MeetingTime": "06:00 PM",
+  "Name": "City Council Regular - 15 Dec 2025",
+  "Published": true,
+  "TypeId": 10
+ },
+ {
+  "ExternalCalendar": false,
+  "Id": 4903,
+  "MeetingDate": "2025-12-09",
+  "MeetingDateTime": "2025-12-09 18:00",
+  "MeetingLocation": "Wasilla City Hall, Council Chambers, 290 E Herning Ave, Wasilla",
+  "MeetingTime": "06:00 PM",
+  "Name": "Planning Commission Regular  - 09 Dec 2025",
+  "Published": true,
+  "TypeId": 18
+ },
+ {
+  "ExternalCalendar": false,
+  "Id": 4860,
+  "MeetingDate": "2025-11-24",
+  "MeetingDateTime": "2025-11-24 18:00",
+  "MeetingLocation": "Wasilla City Hall, Council Chambers, 290 E Herning Ave, Wasilla",
+  "MeetingTime": "06:00 PM",
+  "Name": "City Council Regular - 24 Nov 2025",
+  "Published": true,
+  "TypeId": 10
+ },
+ {
+  "ExternalCalendar": false,
+  "Id": 125,
+  "MeetingDate": "2013-01-07",
+  "MeetingDateTime": "2013-01-07 18:30",
+  "MeetingLocation": "WASILLA CITY COUNCIL CHAMBERS",
+  "MeetingTime": "06:30 PM",
+  "Name": "Special City Council - 07 Jan 2013",
+  "Published": true,
+  "TypeId": 16
+ },
+ {
+  "ExternalCalendar": false,
+  "Id": 5003,
+  "MeetingDate": "2026-12-29",
+  "MeetingDateTime": "2026-12-29 18:00",
+  "MeetingLocation": "Wasilla City Hall, Council Chambers, 290 E Herning Ave, Wasilla",
+  "MeetingTime": "06:00 PM",
+  "Name": "Planning Commission Regular  - 29 Dec 2026 (Canceled)*",
+  "Published": false,
+  "TypeId": 18
+ }
+]

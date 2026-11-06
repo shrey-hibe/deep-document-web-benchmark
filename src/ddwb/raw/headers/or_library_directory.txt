@@ -1,0 +1,20 @@
+LIBID
+Library Name
+Alt/Branch Library Name
+Library Type
+Location Type
+County
+Physical Address
+Physical City
+Physical State
+Physical Zip
+Mailing Street
+Mailing City
+Mailing State
+Mailing Zip
+Phone
+Email
+Website
+Resource Network
+Population Served
+Geocoded Address

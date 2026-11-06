@@ -1,0 +1,38 @@
+[
+ {
+  "BodyId": 138,
+  "BodyName": "Board of Commissioners",
+  "BodyTypeId": 42,
+  "BodyTypeName": "Primary Legislative Body"
+ },
+ {
+  "BodyId": 172,
+  "BodyName": "Board of Commissioners - Work Session",
+  "BodyTypeId": 42,
+  "BodyTypeName": "Primary Legislative Body"
+ },
+ {
+  "BodyId": 261,
+  "BodyName": "Board of Commissioners - Retreat",
+  "BodyTypeId": 42,
+  "BodyTypeName": "Primary Legislative Body"
+ },
+ {
+  "BodyId": 138,
+  "BodyName": "Board of Commissioners",
+  "BodyTypeId": 42,
+  "BodyTypeName": "Primary Legislative Body"
+ },
+ {
+  "BodyId": 139,
+  "BodyName": "Guilford County Homelessness Taskforce",
+  "BodyTypeId": 43,
+  "BodyTypeName": "Sub-Committee"
+ },
+ {
+  "BodyId": 172,
+  "BodyName": "Board of Commissioners - Work Session",
+  "BodyTypeId": 42,
+  "BodyTypeName": "Primary Legislative Body"
+ }
+]

@@ -1,0 +1,8 @@
+aun
+school
+instname
+addressline1
+city
+state
+zipcode
+webaddress

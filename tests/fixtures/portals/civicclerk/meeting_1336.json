@@ -1,0 +1,713 @@
+{
+ "id": 1336,
+ "items": [
+  {
+   "id": 20100,
+   "agendaObjectItemOutlineNumber": "1.",
+   "agendaObjectItemName": "ROLL CALL",
+   "agendaObjectItemDescription": null,
+   "isSection": 1,
+   "sortOrder": 1,
+   "agendaObjectItemNumber": "",
+   "attachmentsList": [],
+   "childItems": []
+  },
+  {
+   "id": 20101,
+   "agendaObjectItemOutlineNumber": "2.",
+   "agendaObjectItemName": "PLEDGE OF ALLEGIANCE",
+   "agendaObjectItemDescription": null,
+   "isSection": 1,
+   "sortOrder": 2,
+   "agendaObjectItemNumber": "",
+   "attachmentsList": [],
+   "childItems": []
+  },
+  {
+   "id": 20112,
+   "agendaObjectItemOutlineNumber": "3.",
+   "agendaObjectItemName": "AB 2449 NOTIFICATIONS AND CONSIDERATIONS",
+   "agendaObjectItemDescription": null,
+   "isSection": 1,
+   "sortOrder": 3,
+   "agendaObjectItemNumber": "",
+   "attachmentsList": [],
+   "childItems": []
+  },
+  {
+   "id": 20102,
+   "agendaObjectItemOutlineNumber": "4.",
+   "agendaObjectItemName": "PROCLAMATIONS/INTRODUCTIONS/PRESENTATIONS",
+   "agendaObjectItemDescription": null,
+   "isSection": 1,
+   "sortOrder": 4,
+   "agendaObjectItemNumber": "",
+   "attachmentsList": [],
+   "childItems": [
+    {
+     "id": 20409,
+     "agendaObjectItemOutlineNumber": "a.",
+     "agendaObjectItemName": "Community Partnership Update and Introduction of PG&E Government Liaison.",
+     "agendaObjectItemDescription": "Receive presentation.",
+     "isSection": 0,
+     "sortOrder": 5,
+     "agendaObjectItemNumber": "2025-197",
+     "attachmentsList": [
+      {
+       "id": 12710,
+       "fileName": "Presentation",
+       "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+       "fileSize": 1038735,
+       "isPublished": true,
+       "mediaFileName": "Presentation.pptx"
+      }
+     ],
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "id": 20103,
+   "agendaObjectItemOutlineNumber": "5.",
+   "agendaObjectItemName": "PETITIONS AND COMMUNICATIONS",
+   "agendaObjectItemDescription": null,
+   "isSection": 1,
+   "sortOrder": 6,
+   "agendaObjectItemNumber": "",
+   "attachmentsList": [],
+   "childItems": []
+  },
+  {
+   "id": 20111,
+   "agendaObjectItemOutlineNumber": "6.",
+   "agendaObjectItemName": "APPROVAL OF MINUTES",
+   "agendaObjectItemDescription": null,
+   "isSection": 1,
+   "sortOrder": 7,
+   "agendaObjectItemNumber": "",
+   "attachmentsList": [],
+   "childItems": [
+    {
+     "id": 20411,
+     "agendaObjectItemOutlineNumber": "a.",
+     "agendaObjectItemName": "Approval of the Minutes for the February 19, 2025, Special Joint Meeting.",
+     "agendaObjectItemDescription": "Approve the Minutes for the February 19, 2025, Special Joint Meeting.",
+     "isSection": 0,
+     "sortOrder": 8,
+     "agendaObjectItemNumber": "2025-199",
+     "attachmentsList": [
+      {
+       "id": 12594,
+       "fileName": "2025-02-19 Draft Minutes - Special Joint Meeting",
+       "contentType": "application/pdf",
+       "fileSize": 392645,
+       "isPublished": true,
+       "mediaFileName": "2025-02-19 Draft Minutes - Special Joint Meeting.pdf"
+      }
+     ],
+     "childItems": []
+    },
+    {
+     "id": 20119,
+     "agendaObjectItemOutlineNumber": "b.",
+     "agendaObjectItemName": "Approval of the Minutes for the February 19, 2025, Regular Meeting.",
+     "agendaObjectItemDescription": "Approve the Minutes for the February 19, 2025, Regular Meeting.",
+     "isSection": 0,
+     "sortOrder": 9,
+     "agendaObjectItemNumber": "2025-132",
+     "attachmentsList": [
+      {
+       "id": 12663,
+       "fileName": "2025-02-19 Draft Minutes - Regular Meeting",
+       "contentType": "application/pdf",
+       "fileSize": 113985,
+       "isPublished": true,
+       "mediaFileName": "2025-02-19 Draft Minutes - Regular Meeting.pdf"
+      }
+     ],
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "id": 20097,
+   "agendaObjectItemOutlineNumber": "7.",
+   "agendaObjectItemName": "RIGHT TO APPEAL DECISION",
+   "agendaObjectItemDescription": "Persons who are dissatisfied with a decision of the City Council may have the right to a review of that decision by a court. The City has adopted Section 1094.6 of the California Code of Civil Procedure, which generally limits to ninety days (90) the time within which the decision of the City Boards and Agencies may be judicially challenged.",
+   "isSection": 1,
+   "sortOrder": 10,
+   "agendaObjectItemNumber": "",
+   "attachmentsList": [],
+   "childItems": []
+  },
+  {
+   "id": 20104,
+   "agendaObjectItemOutlineNumber": "8.",
+   "agendaObjectItemName": "CONSENT CALENDAR",
+   "agendaObjectItemDescription": "The following items listed are considered routine and will be enacted by a single motion and roll call vote by the City Council. Items may be removed from the Consent Calendar upon request of a Councilmember or a citizen in which event the item will be considered at the completion of all other items on the agenda. The motion by the City Council on the Consent Calendar will approve and make findings in accordance with Administrative Staff and/or Planning Commission recommendations.",
+   "isSection": 1,
+   "sortOrder": 11,
+   "agendaObjectItemNumber": "",
+   "attachmentsList": [],
+   "childItems": [
+    {
+     "id": 20162,
+     "agendaObjectItemOutlineNumber": "a.",
+     "agendaObjectItemName": "Authorize the City Manager to Negotiate and Execute a Purchase Order Change Order in the Amount of $153,500 with Milsoft for Utility Billing for Ukiah Valley Water Authority Members",
+     "agendaObjectItemDescription": "Authorize the City Manager to negotiate and execute a purchase order change order with Milsoft for a not-to-exceed amount of $153,500 for utility billing and data conversion services for Ukiah Valley Water Authority members, and approve a corresponding budget amendment.",
+     "isSection": 0,
+     "sortOrder": 12,
+     "agendaObjectItemNumber": "2025-145",
+     "attachmentsList": [
+      {
+       "id": 12510,
+       "fileName": "Milsoft Proposal",
+       "contentType": "application/pdf",
+       "fileSize": 320013,
+       "isPublished": true,
+       "mediaFileName": "Milsoft Proposal.pdf"
+      }
+     ],
+     "childItems": []
+    },
+    {
+     "id": 20408,
+     "agendaObjectItemOutlineNumber": "b.",
+     "agendaObjectItemName": "Adopt Resolution Amending Resolution 2025-07, \"<em>Rat</em><em>ifying the Proclamation of a Local Emergency Due to Ongoing Atmospheric Rivers Causing Damaging to Public Infrastructure,\"\u00a0</em>and Affirming that the Local Emergency Remains in Effect.",
+     "agendaObjectItemDescription": "Adopt Resolution amending Resolution 2025-07, \"<em>R</em><em>atifying the Proclamation of a Local Emergency Due to Ongoing Atmospheric Rivers Causing Damaging to Public Infrastructure,\" a</em>nd affirming that the local emergency remains in effect",
+     "isSection": 0,
+     "sortOrder": 13,
+     "agendaObjectItemNumber": "2025-196",
+     "attachmentsList": [
+      {
+       "id": 12590,
+       "fileName": "14b Resolution 2025 - Ratify Proclamation",
+       "contentType": "application/pdf",
+       "fileSize": 387560,
+       "isPublished": true,
+       "mediaFileName": "14b Resolution 2025 - Ratify Proclamation.dotx.pdf"
+      },
+      {
+       "id": 12639,
+       "fileName": "Amendment to Resolution 2025-07",
+       "contentType": "application/pdf",
+       "fileSize": 95439,
+       "isPublished": true,
+       "mediaFileName": "Amendment to Resolution 2025-07.pdf"
+      }
+     ],
+     "childItems": []
+    },
+    {
+     "id": 20410,
+     "agendaObjectItemOutlineNumber": "c.",
+     "agendaObjectItemName": "Adoption of an Ordinance Modifying Ukiah City Code to Preserve and Strengthen Agricultural Uses In and Around Ukiah Consistent with the Ukiah 2040 General Plan.",
+     "agendaObjectItemDescription": "Adopt an Ordinance amending and adding various sections of the Ukiah City Code modifying Ukiah City Code to preserve and strengthen agricultural uses in and around Ukiah consistent with the Ukiah 2040 General Plan.",
+     "isSection": 0,
+     "sortOrder": 14,
+     "agendaObjectItemNumber": "2025-198",
+     "attachmentsList": [
+      {
+       "id": 12592,
+       "fileName": "City of Ukiah Agriculture Element",
+       "contentType": "application/pdf",
+       "fileSize": 459450,
+       "isPublished": true,
+       "mediaFileName": "City of Ukiah Agriculture Element.pdf"
+      },
+      {
+       "id": 12637,
+       "fileName": "ORDINANCE - Agricultural Consistency",
+       "contentType": "application/pdf",
+       "fileSize": 289857,
+       "isPublished": true,
+       "mediaFileName": "ORDINANCE - Agricultural Consistency.pdf"
+      },
+      {
+       "id": 12593,
+       "fileName": "CEQA Guidelines Section 15183 Findings of Consistency",
+       "contentType": "application/pdf",
+       "fileSize": 829670,
+       "isPublished": true,
+       "mediaFileName": "CEQA Guidelines Section 15183 Findings of Consistency.pdf"
+      }
+     ],
+     "childItems": []
+    },
+    {
+     "id": 20413,
+     "agendaObjectItemOutlineNumber": "d.",
+     "agendaObjectItemName": "Adoption of Resolution Reappointing Eric Crane and Randal S. Beckler to the Airport Commission.",
+     "agendaObjectItemDescription": "Adopt resolution reappointing Eric Crane and Randal S. Beckler to the 'City Resident' positions on the Airport Commission, terms to expire March 5, 2028.",
+     "isSection": 0,
+     "sortOrder": 15,
+     "agendaObjectItemNumber": "2025-201",
+     "attachmentsList": [
+      {
+       "id": 12619,
+       "fileName": "Resolution 2014-48",
+       "contentType": "application/pdf",
+       "fileSize": 344719,
+       "isPublished": true,
+       "mediaFileName": "1 Resolution 2014-48.pdf"
+      },
+      {
+       "id": 12669,
+       "fileName": "Eric Crane - Application and Nomination",
+       "contentType": "application/pdf",
+       "fileSize": 1688979,
+       "isPublished": true,
+       "mediaFileName": "Eric Crane - Application and Nomination.pdf"
+      },
+      {
+       "id": 12670,
+       "fileName": "Randal S. Beckler - Application and Nomination",
+       "contentType": "application/pdf",
+       "fileSize": 414158,
+       "isPublished": true,
+       "mediaFileName": "Randal S. Beckler - Application and Nomination.pdf"
+      },
+      {
+       "id": 12671,
+       "fileName": "Proposed Resolution",
+       "contentType": "application/pdf",
+       "fileSize": 46804,
+       "isPublished": true,
+       "mediaFileName": "Proposed Resolution.pdf"
+      },
+      {
+       "id": 12701,
+       "fileName": "Lester Marston - Airport Application - Redacted",
+       "contentType": "application/pdf",
+       "fileSize": 3848194,
+       "isPublished": true,
+       "mediaFileName": "Lester Marston - Airport Application - Redacted.pdf"
+      }
+     ],
+     "childItems": []
+    },
+    {
+     "id": 20418,
+     "agendaObjectItemOutlineNumber": "e.",
+     "agendaObjectItemName": "<p data-pm-slice=\"1 1 []\" id=\"isPasted\">Assignment and Assumption Agreement \u2013 Ukiah Valley Sanitation District and Willow County Water District</p>",
+     "agendaObjectItemDescription": "<ol data-spread=\"false\" start=\"1\"><li>Approve the Assignment and Assumption Agreement in substantial form;</li><li>Authorize the City Manager to finalize negotiations and the Agreement; and</li><li>Direct Staff to coordinate with UVSD and Willow for the transition of services.</li></ol>",
+     "isSection": 0,
+     "sortOrder": 16,
+     "agendaObjectItemNumber": "2025-206",
+     "attachmentsList": [
+      {
+       "id": 12656,
+       "fileName": "ASSIGNMENT AND ASSUMPTION AGREEMENT- UVSD (002)-c1",
+       "contentType": "application/pdf",
+       "fileSize": 718667,
+       "isPublished": true,
+       "mediaFileName": "ASSIGNMENT AND ASSUMPTION AGREEMENT- UVSD (002)-c1.pdf"
+      },
+      {
+       "id": 12657,
+       "fileName": "MSA w Amendments",
+       "contentType": "application/pdf",
+       "fileSize": 1922544,
+       "isPublished": true,
+       "mediaFileName": "MSA w Amendments.pdf"
+      }
+     ],
+     "childItems": []
+    },
+    {
+     "id": 20430,
+     "agendaObjectItemOutlineNumber": "f.",
+     "agendaObjectItemName": "Approve the Purchase of a Pierce-International 2100 Gallon Water Tender from Golden State Fire Apparatus for the amount of $574,948.03, and Approval of Corresponding Buget Amendment.",
+     "agendaObjectItemDescription": "Approve the purchase of the Water Tender in the amount of $584,874, and corresponding budget amendment.",
+     "isSection": 0,
+     "sortOrder": 17,
+     "agendaObjectItemNumber": "2025-210",
+     "attachmentsList": [
+      {
+       "id": 12643,
+       "fileName": "Pierce-GSFA Proposal - IHC 2100 Gallon Water Tender - 2-23-25",
+       "contentType": "application/pdf",
+       "fileSize": 4363223,
+       "isPublished": true,
+       "mediaFileName": "Pierce-GSFA Proposal - IHC 2100 Gallon Water Tender - 2-23-25.pdf"
+      }
+     ],
+     "childItems": []
+    },
+    {
+     "id": 20452,
+     "agendaObjectItemOutlineNumber": "g.",
+     "agendaObjectItemName": "Notification of Change Order to Ghilotti Construction Inc. for Work Related to the Urban Core Project and Approval of Corresponding Budget Amendments.",
+     "agendaObjectItemDescription": "Receive report of change order to Ghilotti Construction Inc. for work related to the Urban Core Project and approve corresponding budget amendment.",
+     "isSection": 0,
+     "sortOrder": 19,
+     "agendaObjectItemNumber": "2025-222",
+     "attachmentsList": [
+      {
+       "id": 12674,
+       "fileName": "RFC-29 -School Street Impv Combined Rev 1",
+       "contentType": "application/pdf",
+       "fileSize": 167510,
+       "isPublished": true,
+       "mediaFileName": "RFC-29 -School Street Impv Combined Rev 1.pdf"
+      }
+     ],
+     "childItems": []
+    },
+    {
+     "id": 20462,
+     "agendaObjectItemOutlineNumber": "h.",
+     "agendaObjectItemName": "Report of Contract with Placer Labs Inc. for an up to 3-Year Agreement for the Purpose of Demographic Data for Use by Multiple Departments.",
+     "agendaObjectItemDescription": "Receive report of purchase of a contract with Placer Labs, Inc for demographic data for a period of up to three years.",
+     "isSection": 0,
+     "sortOrder": 41,
+     "agendaObjectItemNumber": "2025-232",
+     "attachmentsList": [
+      {
+       "id": 12679,
+       "fileName": "Placer.ai Contract",
+       "contentType": "application/pdf",
+       "fileSize": 1293653,
+       "isPublished": true,
+       "mediaFileName": "Placer.ai Contract.pdf"
+      }
+     ],
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "id": 20105,
+   "agendaObjectItemOutlineNumber": "9.",
+   "agendaObjectItemName": "AUDIENCE COMMENTS ON NON-AGENDA ITEMS",
+   "agendaObjectItemDescription": "The City Council welcomes input from the audience.  If there is a matter of business on the agenda that you are interested in, you may address the Council when this matter is considered.  If you wish to speak on a matter that is not on this agenda that is within the subject matter jurisdiction of the City Council, you may do so at this time.  In order for everyone to be heard, please limit your comments to three (3) minutes per person and not more than ten (10) minutes per subject.  The Brown Act regulations do not allow action to be taken on audience comments in which the subject is not listed on the agenda.",
+   "isSection": 1,
+   "sortOrder": 20,
+   "agendaObjectItemNumber": "",
+   "attachmentsList": [],
+   "childItems": []
+  },
+  {
+   "id": 20106,
+   "agendaObjectItemOutlineNumber": "10.",
+   "agendaObjectItemName": "COUNCIL REPORTS",
+   "agendaObjectItemDescription": null,
+   "isSection": 1,
+   "sortOrder": 21,
+   "agendaObjectItemNumber": "",
+   "attachmentsList": [],
+   "childItems": []
+  },
+  {
+   "id": 20107,
+   "agendaObjectItemOutlineNumber": "11.",
+   "agendaObjectItemName": "CITY MANAGER/CITY CLERK REPORTS",
+   "agendaObjectItemDescription": null,
+   "isSection": 1,
+   "sortOrder": 22,
+   "agendaObjectItemNumber": "",
+   "attachmentsList": [],
+   "childItems": []
+  },
+  {
+   "id": 20098,
+   "agendaObjectItemOutlineNumber": "12.",
+   "agendaObjectItemName": "PUBLIC HEARINGS (5:30 PM)",
+   "agendaObjectItemDescription": null,
+   "isSection": 1,
+   "sortOrder": 23,
+   "agendaObjectItemNumber": "",
+   "attachmentsList": [],
+   "childItems": []
+  },
+  {
+   "id": 20108,
+   "agendaObjectItemOutlineNumber": "13.",
+   "agendaObjectItemName": "UNFINISHED BUSINESS",
+   "agendaObjectItemDescription": null,
+   "isSection": 1,
+   "sortOrder": 24,
+   "agendaObjectItemNumber": "",
+   "attachmentsList": [],
+   "childItems": [
+    {
+     "id": 20120,
+     "agendaObjectItemOutlineNumber": "a.",
+     "agendaObjectItemName": "Annual Military Equipment Report from Ukiah Police Department, in Compliance with California Assembly Bill No. 481.",
+     "agendaObjectItemDescription": "Receive and Approve Annual Military Equipment Report.",
+     "isSection": 0,
+     "sortOrder": 25,
+     "agendaObjectItemNumber": "2025-133",
+     "attachmentsList": [
+      {
+       "id": 12468,
+       "fileName": "MilitaryEquipAttachment",
+       "contentType": "application/pdf",
+       "fileSize": 612189,
+       "isPublished": true,
+       "mediaFileName": "MilitaryEquipAttachment.pdf"
+      }
+     ],
+     "childItems": []
+    },
+    {
+     "id": 20414,
+     "agendaObjectItemOutlineNumber": "b.",
+     "agendaObjectItemName": "Discussion with Possible Direction to Staff Regarding Alternatives for Completion of an Updated Historic Resources Survey and a City of Ukiah Historic Preservation Code.",
+     "agendaObjectItemDescription": "Discuss and provide direction to Staff regarding possible alternatives for completion of an updated Historic Resources Survey and a City of Ukiah Historic Preservation Code.",
+     "isSection": 0,
+     "sortOrder": 26,
+     "agendaObjectItemNumber": "2025-202",
+     "attachmentsList": [
+      {
+       "id": 12640,
+       "fileName": "RFP Architectural and Historical Resource Survey Preparation",
+       "contentType": "application/pdf",
+       "fileSize": 262383,
+       "isPublished": true,
+       "mediaFileName": "RFP Architectural and Historical Resource Survey Preparation.pdf"
+      },
+      {
+       "id": 12697,
+       "fileName": "Correspondence Received - Alyssa Ballard",
+       "contentType": "application/pdf",
+       "fileSize": 467667,
+       "isPublished": true,
+       "mediaFileName": "Correspondence Received - Alyssa Ballard.pdf"
+      },
+      {
+       "id": 12699,
+       "fileName": "13b - Correspondence Received - Phillip Gary",
+       "contentType": "application/pdf",
+       "fileSize": 163848,
+       "isPublished": true,
+       "mediaFileName": "13b - Correspondence Received - Phillip Gary.pdf"
+      }
+     ],
+     "childItems": []
+    },
+    {
+     "id": 20056,
+     "agendaObjectItemOutlineNumber": "c.",
+     "agendaObjectItemName": "Presentation of City's Audited Annual Comprehensive Financial Report (ACFR) and Audit Reports for the Year Ended June 30, 2024.",
+     "agendaObjectItemDescription": "Receive and file Annual Comprehensive Financial Report (ACFR).",
+     "isSection": 0,
+     "sortOrder": 27,
+     "agendaObjectItemNumber": "2025-113",
+     "attachmentsList": [
+      {
+       "id": 12654,
+       "fileName": "Annual-ACFR-Report-City-June-30-2024",
+       "contentType": "application/pdf",
+       "fileSize": 10500378,
+       "isPublished": true,
+       "mediaFileName": "Annual-ACFR-Report-City-June-30-2024 (1).pdf"
+      },
+      {
+       "id": 12655,
+       "fileName": "ACFR Presentation, 2024",
+       "contentType": "application/pdf",
+       "fileSize": 1336374,
+       "isPublished": true,
+       "mediaFileName": "ACFR Presentation, 2024.pdf"
+      },
+      {
+       "id": 12681,
+       "fileName": "Ukiah Internal Control Report FY 2024",
+       "contentType": "application/pdf",
+       "fileSize": 602023,
+       "isPublished": true,
+       "mediaFileName": "Ukiah Internal Control Report FY 2024.pdf"
+      },
+      {
+       "id": 12682,
+       "fileName": "Ukiah Audit Conclusion Letter FY 2024",
+       "contentType": "application/pdf",
+       "fileSize": 1181165,
+       "isPublished": true,
+       "mediaFileName": "Ukiah Audit Conclusion Letter FY 2024.pdf"
+      }
+     ],
+     "childItems": []
+    },
+    {
+     "id": 20417,
+     "agendaObjectItemOutlineNumber": "d.",
+     "agendaObjectItemName": "Second Quarter Financial Report and Mid-Year Budget Review",
+     "agendaObjectItemDescription": "Receive and file report.",
+     "isSection": 0,
+     "sortOrder": 28,
+     "agendaObjectItemNumber": "2025-205",
+     "attachmentsList": [
+      {
+       "id": 12711,
+       "fileName": "Mid-Year Report Presentation",
+       "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+       "fileSize": 3785879,
+       "isPublished": true,
+       "mediaFileName": "Mid-Year Report Presentation.pptx"
+      }
+     ],
+     "childItems": []
+    },
+    {
+     "id": 20357,
+     "agendaObjectItemOutlineNumber": "e.",
+     "agendaObjectItemName": "Status Report on Emergency Contract with Diamond D Construction, LLC for the Emergency Repair of the Western Hills Mudslide at the City Water Tank (Pressure Zone 1-North, or PZ1-N) and Request for Authorization to Continue Work Under This Emergency Contract",
+     "agendaObjectItemDescription": "Receive report and approve the continued work on the emergency contract with Diamond D Construction for the emergency repair of the Western Hills mudslide at the City water tank PZI-N.",
+     "isSection": 0,
+     "sortOrder": 29,
+     "agendaObjectItemNumber": "2025-180",
+     "attachmentsList": [
+      {
+       "id": 12660,
+       "fileName": "Resolution 2025-08 - Emergency Procurement for Mudslide at PZ1",
+       "contentType": "application/pdf",
+       "fileSize": 85671,
+       "isPublished": true,
+       "mediaFileName": "Resolution 2025-08 - Emergency Procurement for Mudslide at PZ1.pdf"
+      },
+      {
+       "id": 12661,
+       "fileName": "Diamond D Estimate for PZ1",
+       "contentType": "application/pdf",
+       "fileSize": 106689,
+       "isPublished": true,
+       "mediaFileName": "Diamond D Estimate for PZ1.pdf"
+      },
+      {
+       "id": 12662,
+       "fileName": "Purchae Order for Diamond D Slide",
+       "contentType": "application/pdf",
+       "fileSize": 200355,
+       "isPublished": true,
+       "mediaFileName": "Purchae Order for Diamond D Slide.pdf"
+      }
+     ],
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "id": 20109,
+   "agendaObjectItemOutlineNumber": "14.",
+   "agendaObjectItemName": "NEW BUSINESS",
+   "agendaObjectItemDescription": null,
+   "isSection": 1,
+   "sortOrder": 30,
+   "agendaObjectItemNumber": "",
+   "attachmentsList": [],
+   "childItems": [
+    {
+     "id": 20412,
+     "agendaObjectItemOutlineNumber": "a.",
+     "agendaObjectItemName": "Receive Updates on City Council Committee and Ad Hoc Assignments, and, if Necessary, Consider Modifications to Assignments and/or the Creation/Elimination of Ad Hoc(s).",
+     "agendaObjectItemDescription": "Receive report(s). The Council will consider modifications to committee and ad hoc assignments along with the creation/elimination ad hoc(s).",
+     "isSection": 0,
+     "sortOrder": 31,
+     "agendaObjectItemNumber": "2025-200",
+     "attachmentsList": [
+      {
+       "id": 12618,
+       "fileName": "2025 City Council Special Assignments and Ad Hocs",
+       "contentType": "application/pdf",
+       "fileSize": 288605,
+       "isPublished": true,
+       "mediaFileName": "2025 City Council Special Assignments and Ad Hocs.pdf"
+      }
+     ],
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "id": 20099,
+   "agendaObjectItemOutlineNumber": "15.",
+   "agendaObjectItemName": "CLOSED SESSION - CLOSED SESSION MAY BE HELD AT ANY TIME DURING THE MEETING",
+   "agendaObjectItemDescription": null,
+   "isSection": 1,
+   "sortOrder": 32,
+   "agendaObjectItemNumber": "",
+   "attachmentsList": [],
+   "childItems": [
+    {
+     "id": 20113,
+     "agendaObjectItemOutlineNumber": "a.",
+     "agendaObjectItemName": "<strong><u>Conference with Legal Counsel &ndash; Anticipated Litigation</u></strong><br>(Government Code Section 54956.9(d)(4))<br id=\"isPasted\">Initiation of litigation (4 cases)&nbsp;",
+     "agendaObjectItemDescription": "",
+     "isSection": 0,
+     "sortOrder": 33,
+     "agendaObjectItemNumber": "2025-126",
+     "attachmentsList": [],
+     "childItems": []
+    },
+    {
+     "id": 20115,
+     "agendaObjectItemOutlineNumber": "b.",
+     "agendaObjectItemName": "<strong><u>Conference with Legal Counsel &ndash; Existing Litigation &nbsp;</u></strong><br>(Government Code Section 54956.9(d)(1))<br>Name of case: Vichy Springs Resort v. City of Ukiah, Et Al; Case No. SCUK-CVPT-2018-70200",
+     "agendaObjectItemDescription": "",
+     "isSection": 0,
+     "sortOrder": 34,
+     "agendaObjectItemNumber": "2025-128",
+     "attachmentsList": [],
+     "childItems": []
+    },
+    {
+     "id": 20116,
+     "agendaObjectItemOutlineNumber": "c.",
+     "agendaObjectItemName": "<strong id=\"isPasted\"><u>Conference with Legal Counsel &ndash; Existing Litigation</u></strong><br>(Government Code Section 54956.9(d)(1))<br>Name of case: Vichy Springs Resort, Inc v. City of Ukiah, et al.; Case No. 24-cv-07106-JSC",
+     "agendaObjectItemDescription": "",
+     "isSection": 0,
+     "sortOrder": 35,
+     "agendaObjectItemNumber": "2025-129",
+     "attachmentsList": [],
+     "childItems": []
+    },
+    {
+     "id": 20117,
+     "agendaObjectItemOutlineNumber": "d.",
+     "agendaObjectItemName": "<strong><u>Conference with Legal Counsel &ndash; Existing Litigation &nbsp;</u></strong><br>(Government Code Section 54956.9(d)(1))<br>Name of case: Russian River Keepers et al. v. City of Ukiah, Case No. SCUK-CVPT-20-74612",
+     "agendaObjectItemDescription": "",
+     "isSection": 0,
+     "sortOrder": 36,
+     "agendaObjectItemNumber": "2025-130",
+     "attachmentsList": [],
+     "childItems": []
+    },
+    {
+     "id": 20310,
+     "agendaObjectItemOutlineNumber": "e.",
+     "agendaObjectItemName": "<strong><u>CONFERENCE INVOLVING A JOINT POWERS AGENCY (Inland Water and Power Commission)</u></strong><br id=\"isPasted\">City representative on IWPC Board (Mari Rodin)<br>Discussion will concern: (Conference with Real Property Negotiators (Gov\u2019t Code \u00a754956.8)&nbsp;<br>Property: &nbsp; PG&amp;E Potter Valley Project; &nbsp;<br>Agency Negotiators: &nbsp;Scott Shapiro, Janet Pauli.&nbsp;<br>Negotiating Parties: &nbsp;IWPC and PG&amp;E&nbsp;<br>Under Negotiation: &nbsp;Price and Terms)",
+     "agendaObjectItemDescription": "",
+     "isSection": 0,
+     "sortOrder": 37,
+     "agendaObjectItemNumber": "2025-170",
+     "attachmentsList": [],
+     "childItems": []
+    },
+    {
+     "id": 20118,
+     "agendaObjectItemOutlineNumber": "f.",
+     "agendaObjectItemName": "<strong><u>Conference with Labor Negotiator (54957.6)</u></strong><br>Agency Designated Representative: Sage Sangiacomo, City Manager<br id=\"isPasted\">Employee Organizations: All bargaining units<br>Unrepresented Employee: Police Chief<br>",
+     "agendaObjectItemDescription": "",
+     "isSection": 0,
+     "sortOrder": 38,
+     "agendaObjectItemNumber": "2025-131",
+     "attachmentsList": [],
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "id": 20110,
+   "agendaObjectItemOutlineNumber": "16.",
+   "agendaObjectItemName": "ADJOURNMENT",
+   "agendaObjectItemDescription": null,
+   "isSection": 1,
+   "sortOrder": 39,
+   "agendaObjectItemNumber": "",
+   "attachmentsList": [],
+   "childItems": []
+  }
+ ]
+}

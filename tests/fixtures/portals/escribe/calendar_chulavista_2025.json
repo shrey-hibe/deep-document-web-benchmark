@@ -1,0 +1,104 @@
+{
+ "d": [
+  {
+   "ID": "3a6304b5-97b9-4bcc-aecd-72b8c188e73c",
+   "MeetingName": "Board of Ethics Regular Meeting",
+   "StartDate": "2025/12/17 17:15:00",
+   "FormattedStart": "Wednesday, December 17, 2025 @ 5:15 PM",
+   "EndDate": "2025/12/17 18:15:00",
+   "Description": "City Hall, Bldg. A, Executive Conference Room #103<br/>276 Fourth Avenue, Chula Vista, CA ",
+   "Url": "https://pub-chulavista.escribemeetings.com/MeetingsCalendarView.aspx/Meeting?Id=3a6304b5-97b9-4bcc-aecd-72b8c188e73c",
+   "Location": "City Hall, Bldg. A, Executive Conference Room #103",
+   "ShareUrl": "Sharing.aspx?u=https%3A%2F%2Fpub-chulavista.escribemeetings.com%2FMeetingsCalendarView.aspx%2FMeeting%3FId%3D3a6304b5-97b9-4bcc-aecd-72b8c188e73c",
+   "MeetingType": "Board of Ethics Regular Meeting",
+   "ClassName": "mt-21-111",
+   "LanguageName": "English",
+   "HasAgenda": true,
+   "Sharing": true,
+   "MeetingDocumentLink": [
+    {
+     "Format": ".pdf",
+     "Title": "Agenda Cover Page (PDF)",
+     "Type": "AgendaCover",
+     "Url": "FileStream.ashx?DocumentId=56974",
+     "LanguageId": 9,
+     "MeetingName": "Board of Ethics Regular Meeting 12/17/2025 5:15:00 PM",
+     "HasVideo": false,
+     "HasLiveVideo": false,
+     "HasLiveVideoPassed": false,
+     "Sequence": null
+    },
+    {
+     "Format": ".pdf",
+     "Title": "Agenda (PDF)",
+     "Type": "Agenda",
+     "Url": "FileStream.ashx?DocumentId=56975",
+     "LanguageId": 9,
+     "MeetingName": "Board of Ethics Regular Meeting 12/17/2025 5:15:00 PM",
+     "HasVideo": false,
+     "HasLiveVideo": false,
+     "HasLiveVideoPassed": false,
+     "Sequence": null
+    },
+    {
+     "Format": "HTML",
+     "Title": "Agenda (HTML)",
+     "Type": "Agenda",
+     "Url": "Meeting.aspx?Id=3a6304b5-97b9-4bcc-aecd-72b8c188e73c&Agenda=Agenda&lang=English",
+     "LanguageId": 9,
+     "MeetingName": "Board of Ethics Regular Meeting 12/17/2025 5:15:00 PM",
+     "HasVideo": false,
+     "HasLiveVideo": false,
+     "HasLiveVideoPassed": false,
+     "Sequence": null
+    },
+    {
+     "Format": ".pdf",
+     "Title": "Post Agenda (PDF)",
+     "Type": "PostAgenda",
+     "Url": "FileStream.ashx?DocumentId=57161",
+     "LanguageId": 9,
+     "MeetingName": "Board of Ethics Regular Meeting 12/17/2025 5:15:00 PM",
+     "HasVideo": false,
+     "HasLiveVideo": false,
+     "HasLiveVideoPassed": false,
+     "Sequence": null
+    },
+    {
+     "Format": "HTML",
+     "Title": "Post Agenda (HTML)",
+     "Type": "PostAgenda",
+     "Url": "Meeting.aspx?Id=3a6304b5-97b9-4bcc-aecd-72b8c188e73c&Agenda=PostAgenda&lang=English",
+     "LanguageId": 9,
+     "MeetingName": "Board of Ethics Regular Meeting 12/17/2025 5:15:00 PM",
+     "HasVideo": false,
+     "HasLiveVideo": false,
+     "HasLiveVideoPassed": false,
+     "Sequence": null
+    },
+    {
+     "Format": ".pdf",
+     "Title": "Board of Ethics Regular Meeting Agenda - Spanish",
+     "Type": "AdditionalDocuments",
+     "Url": "FileStream.ashx?DocumentId=56983",
+     "LanguageId": 0,
+     "MeetingName": "Board of Ethics Regular Meeting",
+     "HasVideo": false,
+     "HasLiveVideo": false,
+     "HasLiveVideoPassed": false,
+     "Sequence": 7
+    }
+   ],
+   "PortalId": "05a6d986-3816-4a09-96fd-a5d8f75bdf24",
+   "DelegationRequestLink": "",
+   "HasLiveVideo": false,
+   "HasVideo": false,
+   "HasVideoLivePassed": false,
+   "MeetingPassed": true,
+   "AllowPublicComments": false,
+   "TimeOverride": "",
+   "TimeOverrideFR": "",
+   "IsMP3": false
+  }
+ ]
+}

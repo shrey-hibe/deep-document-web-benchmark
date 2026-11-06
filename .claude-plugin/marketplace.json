@@ -1,0 +1,16 @@
+{
+  "name": "public-signals",
+  "owner": {
+    "name": "Shrey Goyal"
+  },
+  "plugins": [
+    {
+      "name": "public-records",
+      "source": "./",
+      "description": "Public bodies' meeting records as answers: what was bought, decided and who changed roles, with coverage."
+    }
+  ],
+  "metadata": {
+    "description": "Public-records tools for agents: US public bodies' meeting records as cited answers, with coverage."
+  }
+}

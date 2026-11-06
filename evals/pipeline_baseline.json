@@ -1,0 +1,17 @@
+{
+ "from_run": "20261105-nav3",
+ "arm": "haiku-jev-solo",
+ "at": "2026-11-06T05:34:16+00:00",
+ "bodies": {
+  "pueblo-library-co": {
+   "recall": 0.909,
+   "precision": 1.0,
+   "cache_misses": 0
+  },
+  "cortez-co": {
+   "recall": 0.952,
+   "precision": 0.8,
+   "cache_misses": 0
+  }
+ }
+}

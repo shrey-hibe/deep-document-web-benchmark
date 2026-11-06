@@ -1,0 +1,66 @@
+# providers.example.toml: which provider does each kind of work. Copy it to ./providers.toml (this folder) or to
+# ~/.config/public-records/providers.toml and change what you need. Environment variables win over both files:
+#   DDWB_SEARCH, DDWB_SCRAPE, DDWB_JUDGE, DDWB_BROWSE   one provider, or several separated by commas (tried in order
+#                                                        when one gives no answer; never when it answers "nothing")
+#   DDWB_<KIND>_HEADERS                                  request headers for an MCP server, as a JSON object
+#   DDWB_MAX_CALLS, DDWB_MAX_USD                         this run's limits
+# Check what is in force with:  uv run python -m ddwb.providers show
+#
+# A provider is one of:
+#   mcp:<url>        a vendor's MCP server (we are the client, over streamable HTTP)
+#   api:parallel     Parallel Search API         needs PARALLEL_API_KEY in the environment
+#   api:exa          Exa search API              needs EXA_API_KEY
+#   api:firecrawl    Firecrawl scrape API        needs FIRECRAWL_API_KEY
+#   api:treg         Firecrawl through treg      needs TREG_TOKEN
+#   api:vercel       Vercel AI Gateway: Jev      needs AI_GATEWAY_API_KEY
+#   agent            search only: the agent uses its own web search tool
+#   off              not done here
+#
+# Keys are never written in this file. Name them as ${ENV_NAME} references; they are read from the environment at the
+# moment of a call and never logged, cached or printed.
+
+[search]
+# Default: Parallel's keyless search MCP, then the agent's own search tool.
+use = ["mcp:https://search.parallel.ai/mcp", "agent"]
+# On your own Parallel key (paid, higher limits):
+# headers = { Authorization = "Bearer ${PARALLEL_API_KEY}" }
+# Exa's MCP needs a key in its URL:
+# use = ["mcp:https://mcp.exa.ai/mcp?exaApiKey=${EXA_API_KEY}", "agent"]
+# The direct APIs the benchmark measured:
+# use = "api:parallel"   or   use = "api:exa"
+
+[scrape]
+# Default: Firecrawl's keyless MCP (trial limits), else off: our own plain fetch only. Pages built by script need a
+# scrape provider; plain HTML pages never do. Firecrawl is never asked for a stealth or enhanced proxy.
+use = ["mcp:https://mcp.firecrawl.dev/v2/mcp", "off"]
+# On your own Firecrawl key:
+# use = ["mcp:https://mcp.firecrawl.dev/${FIRECRAWL_API_KEY}/v2/mcp", "off"]   or   use = "api:firecrawl"
+# Through treg (the same Firecrawl call, relayed and billed by treg):
+# use = "api:treg"
+
+[judge]
+# Jev answers yes/no and choice questions (is this the body's own site? is this a buying decision?). Optional and
+# off by default: connect it with your Vercel AI Gateway key.
+use = "off"
+# use = "api:vercel"
+model = "typesafe-ai/jev-1.14.0"
+
+[browse]
+# A browser agent for portals that need real interaction: work in progress, not available yet.
+use = "off"
+
+[limits]
+# Per run. A call that would pass either limit is refused (an error, never an empty answer). "none" = no limit.
+max_calls = 1000   # calls to any one provider
+max_usd = 1.00     # estimated spend across providers (keyless MCP servers cost $0 here)
+
+[keys]
+# Which environment variable holds each vendor's key, if not the usual name. References only.
+# parallel = "${PARALLEL_API_KEY}"
+# exa = "${EXA_API_KEY}"
+# firecrawl = "${FIRECRAWL_API_KEY}"
+# vercel = "${AI_GATEWAY_API_KEY}"
+
+# Prices for chat models not in the built-in table (USD per million tokens), so their cost can be checked:
+# [prices.models]
+# "some-vendor/some-model" = { input_per_mtok = 0.10, output_per_mtok = 0.50 }

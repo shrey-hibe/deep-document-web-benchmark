@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "public-records": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--quiet",
+        "--extra",
+        "browser",
+        "--project",
+        "${CLAUDE_PLUGIN_ROOT}",
+        "public-records-mcp"
+      ],
+      "env": {
+        "DDWB_DATA_DIR": "${CLAUDE_PLUGIN_DATA}/data",
+        "DDWB_WORK_DIR": "${CLAUDE_PLUGIN_DATA}/work",
+        "DDWB_CACHE_DIR": "${CLAUDE_PLUGIN_DATA}/cache",
+        "DDWB_BROWSER": "${user_config.browser}",
+        "DDWB_JUDGE": "${user_config.jev}",
+        "AI_GATEWAY_API_KEY": "${user_config.ai_gateway_api_key}",
+        "DDWB_SEARCH": "${user_config.search}",
+        "DDWB_SCRAPE": "${user_config.scrape}",
+        "PARALLEL_API_KEY": "${user_config.parallel_api_key}",
+        "EXA_API_KEY": "${user_config.exa_api_key}",
+        "FIRECRAWL_API_KEY": "${user_config.firecrawl_api_key}",
+        "TREG_TOKEN": "${user_config.treg_token}"
+      }
+    }
+  }
+}

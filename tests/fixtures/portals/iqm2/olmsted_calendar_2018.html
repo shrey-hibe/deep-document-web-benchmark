@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head id="HeadMain"><title>
+ Meeting Calendar - Olmsted County, Minnesota
+</title>
+</head>
+<body id="MainLayout">
+ <form method="post" action="./calendar.aspx?From=1%2f1%2f2018&amp;To=12%2f31%2f2018" id="aspnetForm" enctype="multipart/form-data">
+ <div style="display: none">
+ <input type="submit" name="ctl00$btnRefreshPageAfterLogin" value="Button" id="btnRefreshPageAfterLogin" class="btnRefreshPage" />
+ <input name="ctl00$hfShowPopupOnLoad" type="hidden" id="hfShowPopupOnLoad" class="hfShowPopup" />
+ </div>
+ <span id="lblScript"></span>
+ <div id="MainWindow">
+ <div id="Banner" role="banner" >
+ <img usemap="#bannerMap" src="/Citizens/GetImage.aspx?ID=1010&TimeStamp=635617503000000000" alt="IQM2 Meeting Portal" />
+ <map name="bannerMap">
+ <area href="/Citizens/Default.aspx" id="lnkBanner" shape="rect" alt="Home" Target="_self" />
+ </map>
+ <div id="LogoHeaderTextHolder">
+ </div>
+ </div>
+ <div id="ToolStrip" role="navigation" aria-label="site">
+ <div id="Tabs">
+ <div class="Shadow"></div>
+ <a href="http://www.co.olmsted.mn.us/boardofcommissioners/Pages/default.aspx" id="lnkMainSite" class="Tab LeftTab"><div><span>&laquo;Back to Main Site</span></div></a>
+ <a href="/Citizens/default.aspx" class="Tab NormalTab"><div><span id="tabWelcome">Welcome</span></div></a>
+ <a href="/Citizens/calendar.aspx" class="Tab NormalTab"><div><span id="tabMeetings">Meetings</span></div></a> 
+ <a href="/Citizens/" style="display:none" class="Tab NormalTab"><div dropdown="Browse"><span>Browse</span></div></a>
+ <a href="/Citizens/Media.aspx" id="lnkMedia" class="Tab NormalTab"><div><span id="tabMedia">Media</span></div></a> 
+ <a href="/Citizens/LegalNotice.aspx" id="lnkNotices" class="Tab NormalTab"><div id="tabNotices"><span>Notices</span></div></a> 
+ <a href="/Citizens/Board" class="Tab NormalTab"><div><span id="tabContactUs">Boards+</span></div></a> 
+ </div>
+ <div id="TopExtraBoxTransparentBG"></div>
+ <div id="TopExtraBox"> 
+ <div id="TopLine">
+ <a href="../MasterPages/#" id="lnkLogin" onclick="javascript:return PopupWindowShow(&#39;/Citizens/Login.aspx&#39;);">Log in</a><span id="spnThatOneStupidBar"> | </span> <a href="mailto:support@accela.com" id="lnkHelp">Help</a> <span id="spnHelpBar">|</span> <a href="../MasterPages/#" id="lnkRegister" onclick="javascript:return PopupWindowShow(&#39;/Citizens/MyAccount.aspx&#39;);">Register</a> 
+ </div> 
+ <div id="BottomLine"> 
+ </div> 
+ <input id="txtQuickSearch" type="text" value="Search" title="Search" />
+ <img id="btnQuickSearch" style="cursor:pointer" alt="Search" src="/Lib/images/search.png" alt="search" /> 
+ </div> 
+ </div>
+ <table class="LayoutTable" role="presentation">
+ <tr>
+ <td id="tdLeftPanel" class="LeftPanel">
+ <div role="navigation" aria-label="Meeting Group">
+ </div>
+ <div class="DetailBox">
+ <img src="/Citizens/images/Print.gif" border="0" alt="Print" />
+ <a href="/Citizens/calendar.aspx?From=1/1/2018&To=12/31/2018&Print=Yes" id="lnkPrint" class="PrintButton" target="_blank">Print This Page</a> 
+ </div>
+ </td>
+ <td id="MainContentHolder">
+ <div style="width:100%;height:100%;position:relative;margin:0;padding:0;border:0;">
+ <div id="MainContentLeftShadow"> 
+ </div> 
+ <div class="MainContentPlaceholder" role="main">
+ <div style="display:none">
+ <img src='/Lib/images/Loading_Snake_32x32.gif' alt='Please wait...'/> 
+ </div>
+ <div id="ContentPlaceholder1_pnlStart">
+ <table border="0" width="100%" id="table1" cellpadding="5" role="presentation">
+ <tr>
+ <td class="PageHeading">Meeting Calendar</td>
+ <td align="right"><a class="RSSInline" href="/Services/RSS.aspx?Feed=Calendar" title="RSS Calendar"><img src="images/RSS_60x20.png" alt="RSS Calendar" /></a></td>
+ </tr>
+ <tr>
+ <td colspan="2" align="left" valign="top" width="100%" role="presentation">
+ <table cellspacing="3" class="CalendarSettingsTable">
+ <tr><td colspan="2" style="color:#777777; font-style:italic; padding-bottom: 6px;"><span id="ContentPlaceholder1_lblFilterSummary">Displaying 160 meetings from 1/1/2018 to 12/31/2018 for All Meeting Groups</span></td></tr>
+ <tr><td valign="top" ><strong>Date:</strong></td><td><span id="ContentPlaceholder1_lblCalendarRange"><a href='/Citizens/calendar.aspx?From=1/1/2019&To=12/31/2019'>2019</a>, <a href='/Citizens/calendar.aspx?From=1/1/2018&To=12/31/2018'><strong>2018</strong><span class='hidden-date'>Selected</span></a>, <a href='/Citizens/calendar.aspx?From=1/1/2017&To=12/31/2017'>2017</a>, <a href='/Citizens/calendar.aspx?From=1/1/2016&To=12/31/2016'>2016</a>, <a href='/Citizens/calendar.aspx?From=1/1/2015&To=12/31/2015'>2015</a>, <a href='/Citizens/calendar.aspx?From=1/1/2014&To=12/31/2014'>2014</a>, <a href='/Citizens/calendar.aspx?From=1/1/2013&To=12/31/2013'>2013</a>, <a href='/Citizens/calendar.aspx?From=1/1/2012&To=12/31/2012'>2012</a>, <a href='/Citizens/calendar.aspx?From=1/1/2011&To=12/31/2011'>2011</a>, <a href='/Citizens/calendar.aspx?From=1/1/2010&To=12/31/2010'>2010</a>, <a href='/Citizens/calendar.aspx?From=1/1/2009&To=12/31/2009'>2009</a>, <a href='/Citizens/calendar.aspx?From=1/1/2008&To=12/31/2008'>2008</a>, <a href='/Citizens/calendar.aspx?From=1/1/1900&To=12/31/9999'>All</a></span></td></tr>
+ <tr><td valign="top" ><label for="ContentPlaceholder1_DepartmentID" style="font-weight: bold;">Group:</label></td><td><select name="ctl00$ContentPlaceholder1$DepartmentID" id="ContentPlaceholder1_DepartmentID" class="MeetingGroupDropdown">
+ <option selected="selected" value="0">All Meeting Groups</option>
+ <option value="1029">Administrative Committee</option>
+ <option value="1000">Board of County Commissioners</option>
+ <option value="1033">City Planning &amp; Zoning Commission</option>
+ <option value="1043">Committee of the Whole</option>
+ <option value="1046">Environmental Commission</option>
+ <option value="1038">Health, Housing &amp; Human Services Committee</option>
+ <option value="1037">Olmsted County Building Authority</option>
+ <option value="1040">Olmsted County Housing and Redevelopment Authority</option>
+ <option value="1045">Olmsted County Parks Commission</option>
+ <option value="1026">Olmsted County Planning Advisory Commission</option>
+ <option value="1035">Olmsted County Regional Railroad Authority</option>
+ <option value="1027">Olmsted County Zoning Board of Adjustment</option>
+ <option value="1030">Oronoco Planning Advisory Commission</option>
+ <option value="1039">Physical Development Committee</option>
+ <option value="1042">Planning Administrative Services Committee (PASC)</option>
+ <option value="1034">Rochester Olmsted Council of Governments (ROCOG)</option>
+ <option value="1044">Soil and Water Conservation District Board (SWCD)</option>
+ </select></td></tr>
+ <tr><td valign="top" ><strong>View:</strong></td><td><a href="/Citizens/calendar.aspx?From=1/1/2018&To=12/31/2018&View=List" id="ContentPlaceholder1_lnkListView" style="font-weight:bold;">List<span class="hidden-date">Selected</span></a>&nbsp;|&nbsp;<a href="/Citizens/calendar.aspx?From=1/1/2018&To=12/31/2018&View=Calendar" id="ContentPlaceholder1_lnkCalendarView" style="font-weight:;">Calendar</a></td></tr>
+ </table>
+ <br />
+ <div id="ContentPlaceholder1_pnlMeetings" class="Section">
+ <div id="ContentPlaceholder1_ctlMeetings_rptMeetings_divMonthDivider_0" class="Row MonthHeader">January, 2018</div>
+ <div class="Row MeetingRow" id="divRow"> 
+ <div class="RowTop">
+ <div class="RowIcon"><a href="javascript:void(0);"><img class='MeetingIcon' src='images/MeetingIcon.gif' style='cursor:help;' title="TUESDAY, JANUARY 2, 2018 3:00 PM&#13;&#13;Board:&#09;Board of County Commissioners&#13;Type:&#09;Regular Meeting&#13;Status:&#09;Closed&#13;&#13;&#09;Council/Board Chambers&#13;&#09;151 4Th St SE, Rochester, MN 55904" alt='info' /></a></div> 
+ <div class="RowLink"><a href="/Citizens/Detail_Meeting.aspx?ID=1661" title="TUESDAY, JANUARY 2, 2018 3:00 PM&#13;&#13;Board:&#09;Board of County Commissioners&#13;Type:&#09;Regular Meeting&#13;Status:&#09;Closed&#13;&#13;&#09;Council/Board Chambers&#13;&#09;151 4Th St SE, Rochester, MN 55904" >Jan 2, 2018 3:00 PM </a></div> 
+ <div id="ContentPlaceholder1_ctlMeetings_rptMeetings_DownloadLinks_0" class="RowRight MeetingLinks">
+ <div>&nbsp;<a href='FileOpen.aspx?Type=14&ID=1425&Inline=True' class='' target='_blank'>Agenda</a>&nbsp;</div>
+ <div>&nbsp;<a href='FileOpen.aspx?Type=1&ID=1425&Inline=True' class='' target='_blank'>Agenda Packet</a>&nbsp;</div>
+ <div>&nbsp;<a href='FileOpen.aspx?Type=15&ID=1441&Inline=True' class='' target='_blank'>Summary</a>&nbsp;</div>
+ <div>&nbsp;<a href='FileOpen.aspx?Type=12&ID=1441&Inline=True' class='' target='_blank'>Minutes</a>&nbsp;</div>
+ <div class="WithoutSeparator">&nbsp;<a href="javascript:void(0)" id="ContentPlaceholder1_ctlMeetings_rptMeetings_lnkMeetingVideo_0" onclick="javascript:OpenWindow(&quot;/Citizens/SplitView.aspx?Mode=Video&amp;MeetingID=1661&amp;Format=Minutes&quot;);">Video</a>&nbsp;</div> 
+ </div>
+ </div> 
+ <div class="RowBottom"><div class="RowIcon">&nbsp;</div><div id="ContentPlaceholder1_ctlMeetings_rptMeetings_lblMeetingText_0" class="MainScreenText RowDetails">Board of County Commissioners - Regular Meeting</div></div> 
+ </div>
+ <div class="Row MeetingRow Alt" > 
+ <div class="RowTop">
+ <div class="RowIcon"><a href="javascript:void(0);"><img class='MeetingIcon' src='images/MeetingIcon.gif' style='cursor:help;' title="TUESDAY, JANUARY 2, 2018 3:45 PM&#13;&#13;Board:&#09;Olmsted County Regional Railroad Authority&#13;Type:&#09;Regular Meeting&#13;Status:&#09;Scheduled&#13;&#13;&#09;Council/Board Chambers&#13;&#09;151 4Th St SE, Rochester, MN 55904" alt='info' /></a></div> 
+ <div class="RowLink"><a href="/Citizens/Detail_Meeting.aspx?ID=1687" title="TUESDAY, JANUARY 2, 2018 3:45 PM&#13;&#13;Board:&#09;Olmsted County Regional Railroad Authority&#13;Type:&#09;Regular Meeting&#13;Status:&#09;Scheduled&#13;&#13;&#09;Council/Board Chambers&#13;&#09;151 4Th St SE, Rochester, MN 55904" >Jan 2, 2018 3:45 PM </a></div> 
+ <div id="ContentPlaceholder1_ctlMeetings_rptMeetings_DownloadLinks_1" class="RowRight MeetingLinks">
+ <div>&nbsp;<a href='' class='HiddenDocumentLink' target=''>Agenda</a>&nbsp;</div>
+ <div>&nbsp;<a href='' class='HiddenDocumentLink' target=''>Agenda Packet</a>&nbsp;</div>
+ <div>&nbsp;<a href='' class='HiddenDocumentLink' target=''>Summary</a>&nbsp;</div>
+ <div>&nbsp;<a href='' class='HiddenDocumentLink' target=''>Minutes</a>&nbsp;</div>
+ <div class="WithoutSeparator">&nbsp;<a href="#" id="ContentPlaceholder1_ctlMeetings_rptMeetings_lnkMeetingVideo_1" class="HiddenDocumentLink">Video</a>&nbsp;</div> 
+ </div>
+ </div>
+ <div class="RowBottom"><div class="RowIcon">&nbsp;</div><div id="ContentPlaceholder1_ctlMeetings_rptMeetings_lblMeetingText_1" class="MainScreenText RowDetails">Olmsted County Regional Railroad Authority - Regular Meeting</div></div> 
+ </div>
+ <div class="Row MeetingRow" id="divRow"> 
+ <div class="RowTop">
+ <div class="RowIcon"><a href="javascript:void(0);"><img class='MeetingIcon' src='images/MeetingIcon.gif' style='cursor:help;' title="TUESDAY, JANUARY 2, 2018 3:45 PM&#13;&#13;Board:&#09;Olmsted County Building Authority&#13;Type:&#09;Regular Meeting&#13;Status:&#09;Scheduled&#13;&#13;&#09;Council/Board Chambers&#13;&#09;151 4Th St SE, Rochester, MN 55904" alt='info' /></a></div> 
+ <div class="RowLink"><a href="/Citizens/Detail_Meeting.aspx?ID=1688" title="TUESDAY, JANUARY 2, 2018 3:45 PM&#13;&#13;Board:&#09;Olmsted County Building Authority&#13;Type:&#09;Regular Meeting&#13;Status:&#09;Scheduled&#13;&#13;&#09;Council/Board Chambers&#13;&#09;151 4Th St SE, Rochester, MN 55904" >Jan 2, 2018 3:45 PM </a></div> 
+ <div id="ContentPlaceholder1_ctlMeetings_rptMeetings_DownloadLinks_2" class="RowRight MeetingLinks">
+ <div>&nbsp;<a href='' class='HiddenDocumentLink' target=''>Agenda</a>&nbsp;</div>
+ <div>&nbsp;<a href='' class='HiddenDocumentLink' target=''>Agenda Packet</a>&nbsp;</div>
+ <div>&nbsp;<a href='' class='HiddenDocumentLink' target=''>Summary</a>&nbsp;</div>
+ <div>&nbsp;<a href='' class='HiddenDocumentLink' target=''>Minutes</a>&nbsp;</div>
+ <div class="WithoutSeparator">&nbsp;<a href="#" id="ContentPlaceholder1_ctlMeetings_rptMeetings_lnkMeetingVideo_2" class="HiddenDocumentLink">Video</a>&nbsp;</div> 
+ </div>
+ </div> 
+ <div class="RowBottom"><div class="RowIcon">&nbsp;</div><div id="ContentPlaceholder1_ctlMeetings_rptMeetings_lblMeetingText_2" class="MainScreenText RowDetails">Olmsted County Building Authority - Regular Meeting</div></div> 
+ </div>
+ <div class="Row MeetingRow Alt" > 
+ <div class="RowTop">
+ <div class="RowIcon"><a href="javascript:void(0);"><img class='MeetingIcon' src='images/MeetingIcon.gif' style='cursor:help;' title="THURSDAY, JANUARY 4, 2018 7:00 PM&#13;&#13;Board:&#09;Olmsted County Planning Advisory Commission&#13;Type:&#09;Regular Meeting&#13;Status:&#09;Closed&#13;&#13;&#09;Council/Board Chambers&#13;&#09;151 4Th St SE, Rochester, MN 55904" alt='info' /></a></div> 
+ <div class="RowLink"><a href="/Citizens/Detail_Meeting.aspx?ID=1595" title="THURSDAY, JANUARY 4, 2018 7:00 PM&#13;&#13;Board:&#09;Olmsted County Planning Advisory Commission&#13;Type:&#09;Regular Meeting&#13;Status:&#09;Closed&#13;&#13;&#09;Council/Board Chambers&#13;&#09;151 4Th St SE, Rochester, MN 55904" >Jan 4, 2018 7:00 PM </a></div> 
+ <div id="ContentPlaceholder1_ctlMeetings_rptMeetings_DownloadLinks_3" class="RowRight MeetingLinks">
+ <div>&nbsp;<a href='FileOpen.aspx?Type=14&ID=1428&Inline=True' class='' target='_blank'>Agenda</a>&nbsp;</div>
+ <div>&nbsp;<a href='FileOpen.aspx?Type=1&ID=1428&Inline=True' class='' target='_blank'>Agenda Packet</a>&nbsp;</div>
+ <div>&nbsp;<a href='FileOpen.aspx?Type=15&ID=1443&Inline=True' class='' target='_blank'>Summary</a>&nbsp;</div>
+ <div>&nbsp;<a href='FileOpen.aspx?Type=12&ID=1443&Inline=True' class='' target='_blank'>Minutes</a>&nbsp;</div>
+ <div class="WithoutSeparator">&nbsp;<a href="javascript:void(0)" id="ContentPlaceholder1_ctlMeetings_rptMeetings_lnkMeetingVideo_3" onclick="javascript:OpenWindow(&quot;/Citizens/SplitView.aspx?Mode=Video&amp;MeetingID=1595&amp;Format=Minutes&quot;);">Video</a>&nbsp;</div> 
+ </div>
+ </div>
+ <div class="RowBottom"><div class="RowIcon">&nbsp;</div><div id="ContentPlaceholder1_ctlMeetings_rptMeetings_lblMeetingText_3" class="MainScreenText RowDetails">Olmsted County Planning Advisory Commission - Regular Meeting</div></div> 
+ </div>
+ <div class="Row MeetingRow" id="divRow"> 
+ <div class="RowTop">
+ <div class="RowIcon"><a href="javascript:void(0);"><img class='MeetingIcon' src='images/MeetingCancelled.png' style='cursor:help;' title="THURSDAY, JANUARY 11, 2018 7:00 PM&#13;&#13;Board:&#09;Olmsted County Zoning Board of Adjustment&#13;Type:&#09;Regular Meeting&#13;Status:&#09;Cancelled&#13;&#13;&#09;Council/Board Chambers&#13;&#09;151 4Th St SE, Rochester, MN 55904" alt='info' /></a></div> 
+ <div class="RowLink"><a href="/Citizens/Detail_Meeting.aspx?ID=1564" title="THURSDAY, JANUARY 11, 2018 7:00 PM&#13;&#13;Board:&#09;Olmsted County Zoning Board of Adjustment&#13;Type:&#09;Regular Meeting&#13;Status:&#09;Cancelled&#13;&#13;&#09;Council/Board Chambers&#13;&#09;151 4Th St SE, Rochester, MN 55904" >Jan 11, 2018 7:00 PM </a></div> 
+ <div id="ContentPlaceholder1_ctlMeetings_rptMeetings_CancelledMessage_4" class="RowRight"><span class='MeetingCancelled'>Cancelled</span></div> 
+ </div> 
+ <div class="RowBottom"><div class="RowIcon">&nbsp;</div><div id="ContentPlaceholder1_ctlMeetings_rptMeetings_lblMeetingText_4" class="MainScreenText RowDetails">Olmsted County Zoning Board of Adjustment - Regular Meeting</div></div> 
+ </div>
+ 
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,1515 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>New Smyrna Beach FL View Page - Granicus Content</title>
+ <meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <meta http-equiv="pragma" content="no-cache">
+ <link rel="alternate" type="application/rss+xml" href="//cityofnsb.granicus.com/ViewPublisherRSS.php?view_id=1&mode=agendas" title="RSS feed for Agenda documents on this page">
+ <link rel="alternate" type="application/rss+xml" href="//cityofnsb.granicus.com/ViewPublisherRSS.php?view_id=1&mode=minutes" title="RSS feed for Minutes documents on this page">
+</head>
+<body>
+ <div id="granicus">
+ <div id="intro">
+ <a name="top"></a>
+ <div class="InstructionalText"><div><span style="font-size: 18px;">Meetings are arranged by date, with the most recent at the top of the list. Click </span><b><span style="font-size: 18px;">Video</span></b><span style="font-size: 18px;"> to listen to the meeting and view agenda documents, or </span><b><span style="font-size: 18px;">Agenda</span></b><span style="font-size: 18px;"> or </span><b><span style="font-size: 18px;">Minutes</span></b><span style="font-size: 18px;"> to see just the documents. You can also search the archives by typing keywords into the Search box. <span style="color: rgb(230, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">To view a </span><b><span style="color: rgb(0, 0, 0);">LIVE</span></b><span style="color: rgb(0, 0, 0);"> meeting, click "View Event" at the scheduled start time of the meeting. Please remember to refresh your page for the latest content.</span></span></div><div><br></div><div><b><span style="font-size: 32px;">&nbsp;</span></b></div></div>
+ <p><a onClick="window.open('//support.granicus.com/s/article/Public-Help-Video-Streaming')" href="javascript:void(0);" class="" style="">Streaming Video Help</a></p>
+ </div>
+ <div id="GranicusMainViewContent"> 
+<link href="//cityofnsb.granicus.com/gqueryplugins/ui/gquery.ui.css" rel="stylesheet" media="screen" type="text/css">
+<link href="//cityofnsb.granicus.com/gqueryplugins/pagination/pagination.css" rel="stylesheet" media="screen" type="text/css">
+<link href="//cityofnsb.granicus.com/css/search.css" rel="stylesheet" media="screen" type="text/css">
+ <div class='gas_basic search-form' id='unified_searchForm' data-past-meeting-source='clip' data-advanced-search-enabled='1' data-search-rss-enabled='0'>
+ <div class='gas_rss' style='display:none'>
+ <div class='gas_header'>
+ <div class='gas_text'>RSS feeds <img alt="RSS Icon" src='//cityofnsb.granicus.com/images/icons/rss_icon.gif' /></div>
+ </div>
+ <div class='gas_links'>
+ <a href='//cityofnsb.granicus.com/ViewPublisherRSS.php?view_id=1&mode=agendas'>Agenda</a>
+ <a href='//cityofnsb.granicus.com/ViewPublisherRSS.php?view_id=1&mode=minutes'>Minutes</a>
+ <a href='//cityofnsb.granicus.com/ViewPublisherRSS.php?view_id=1&mode=podcast'>Podcast</a>
+ <a href='//cityofnsb.granicus.com/ViewPublisherRSS.php?view_id=1&mode=vpodcast'>Video Podcast</a>
+ </div>
+ </div>
+ <div class='gas_basicSearch'>
+ <form action='//cityofnsb.granicus.com/ViewSearchResults.php' method='get' role='search' aria-label='Search meetings'>
+ <input type='hidden' name='view_id' value='1'>
+ <input type='hidden' name='types[Clip]' value='on'><input type='hidden' name='types[AgendaItem]' value='on'><input type='hidden' name='types[AttachmentItem]' value='on'>
+ <input type='hidden' name='types[Note]' value='on'>
+ <input type='hidden' name='types[Vote,Motion]' value='on'>
+ <input type='hidden' name='types[Caption]' value='on'>
+ <label for='gas_keywords' class='gas_title'>Search:</label>
+ <input title='Enter Keywords here' type='text' id='gas_keywords' class='search-keywords' name='keywords' value="" maxlength='255'/>
+ &nbsp;<button type="submit" value="Search" class="gas_searchButton">Search</button>
+ <a class="gas_toggleSearch gas_advanced" href="javascript:void(0);" aria-expanded="false" aria-controls="unified_advancedSection" style="display:none">Advanced Search</a>
+ <fieldset class='unified_scopeSelector'>
+ <legend>Search scope</legend>
+ <label for='unified_scope_upcoming'>
+ <input type='radio' id='unified_scope_upcoming' name='search_scope' value='upcoming' checked/>
+ Upcoming Events
+ </label>
+ <label for='unified_scope_past'>
+ <input type='radio' id='unified_scope_past' name='search_scope' value='past' />
+ Available Archives
+ </label>
+ </fieldset>
+ </form>
+ </div>
+ <div class='gas_advancedSearch' id='unified_advancedSection' aria-live='polite'>
+ <form action='//cityofnsb.granicus.com/ViewSearchResults.php' method='get' id='gas_searchFormAdvanced' class='search-form-advanced'>
+ <input type='hidden' name='view_id' value='1'>
+ <input type='hidden' name='search_scope' value='past'>
+ <fieldset class='unified_typeCheckboxes'>
+ <legend>Search types</legend>
+ <div class='gas_options'>
+ <p class='gas_title'>Search:</p>
+ <div class='gas_option' style='display:inline'>
+ <input style='display:inline' id='granicus-inc-clip' type='checkbox' name="types[Clip]" />
+ <label for='granicus-inc-clip'>Name &amp; Description</label>
+ </div>
+ <div class='gas_option' style='display:inline'>
+ <input style='display:inline' id='granicus-inc-agenda' type='checkbox' name="types[AgendaItem]" />
+ <label for='granicus-inc-agenda'>Agenda Items</label>
+ </div>
+ <div class='gas_option' style='display:inline'>
+ <input style='display:inline' id='granicus-inc-attachment' type='checkbox' name="types[AttachmentItem]" />
+ <label for='granicus-inc-attachment'>Attachment Items</label>
+ </div>
+ <div class='gas_option' style='display:inline'>
+ <input style='display:inline' id='granicus-inc-notes' class='search-checkbox-notes' type='checkbox' name="types[Note]" />
+ <label for='granicus-inc-notes'>Notes</label>
+ </div>
+ <div class='gas_option' style='display:inline'>
+ <input style='display:inline' id='granicus-inc-actions' class='search-checkbox-actions' type='checkbox' name="types[Vote,Motion]" />
+ <label for='granicus-inc-actions'>Motions/Votes</label>
+ </div>
+ <div class='gas_option' style='display:inline'>
+ <input style='display:inline' id='granicus-inc-captions' class='search-checkbox-captions' type='checkbox' name="types[Caption]" />
+ <label for='granicus-inc-captions'>Captions</label>
+ </div>
+ </div>
+ </fieldset>
+ <div class='gas_row'>
+ <label for="gas_allwords">All these words:</label>
+ <div class='gas_input'>
+ <input title='Enter keywords, ordinance or resolution' type='text' id='gas_allwords' class='search-allwords' name="allwords" maxlength="255" value=""/>
+ </div>
+ </div>
+ <div class='gas_row'>
+ <label for="phrase">This exact phrase:</label>
+ <div class='gas_input'>
+ <input type='text' id="phrase" name="phrase" maxlength="255" value=""/>
+ </div>
+ </div>
+ <div class='gas_row'>
+ <label for="unified_orwords_1">One or more of these words:</label>
+ <div class='gas_input gas_mini'>
+ <input type='text' id="unified_orwords_1" name="orwords[]" maxlength="255" value=""/>
+ <span>or</span>
+ <input type='text' id="unified_orwords_2" aria-label="optional second word" name="orwords[]" maxlength="255" value=""/>
+ <span>or</span>
+ <input type='text' id="unified_orwords_3" aria-label="optional third word" name="orwords[]" maxlength="255" value=""/>
+ </div>
+ </div>
+ <div class='gas_row'>
+ <label for="excludewords">But none of these words:</label>
+ <div class='gas_input'>
+ <input type='text' id="excludewords" maxlength="255" name="excludewords" value=""/>
+ </div>
+ </div>
+ <div class='gas_row'>
+ <label for="gas_date1">Date Range:</label>
+ <div class='gas_input gas_mini'>
+ <input aria-label="Start date" class='gas_date gas_dateRange search-date-from' type='text' id="gas_date1" name="startdate" value=""/>
+ <span><label for="gas_date2">through</label></span>
+ <input aria-label="End date" class='gas_date gas_dateRange search-date-to' type='text' id="gas_date2" name="enddate" value=""/>
+ </div>
+ </div>
+ <div class='gas_action'>
+ &nbsp;<button type="submit" value="Search" class="gas_searchButton">Search</button>
+ <a class='gas_toggleSearch gas_basic' href='javascript:void(0);'>Return to basic search</a>
+ </div>
+ </form>
+ </div>
+ </div>
+ <h2>Upcoming Events</h2>
+ <h2>
+ Past Meetings
+ </h2>
+ <div class="archive">
+ <div id="CollapsiblePanel1" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Airport Advisory Board - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel1" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ <table class="listingTable" id="archive" summary="This table lists the details of, and links to view the Video and Documents related to Archived Videos as published by New Smyrna Beach, FL. There is one item per table row.">
+ <thead>
+ <tr>
+ <th class="Name listHeader" scope="col">Meeting Name</th>
+ <th class="Date listHeader" scope="col">Date</th>
+ <th class="Minutes listHeader" scope="col">Minutes</th>
+ <th class="Video listHeader" scope="col">View Video</th>
+ <th class="MP4Link listHeader" scope="col">Download Video</th>
+ <th id="AgendaPacketLink" class="listHeader" scope="col">Agenda Packet</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr class="listingRow">
+ <td class="listItem" headers="Name" id="Airport-Advisory-Board-Regular" scope="row">
+ Airport Advisory Board Regular
+ </td>
+ <td class="listItem" headers="Date Airport-Advisory-Board-Regular">
+ Monday,&nbsp;January&nbsp;26,&nbsp;2026
+ -
+ 5:28&nbsp;PM
+ </td>
+ <td class="listItem">
+ <a href="//cityofnsb.granicus.com/MinutesViewer.php?view_id=1&clip_id=915&doc_id=80467afe-4952-11f1-9b4d-005056a89546" target="_blank">AAB Minutes 01.26.2026</a>
+ </td>
+ <td class="listItem" headers="VideoLink Airport-Advisory-Board-Regular">
+ <a href="javascript:void(0);" onClick="window.open('//cityofnsb.granicus.com/MediaPlayer.php?view_id=1&clip_id=915','player','toolbar=no,directories=no,status=yes,scrollbars=yes,resizable=yes,menubar=no')">
+ Video
+ </a>
+ </td>
+ <td class="listItem" headers="MP4Link Airport-Advisory-Board-Regular">
+ <a href="https://archive-video.granicus.com/cityofnsb/cityofnsb_8a22ecad-05d1-4304-837d-ad49232507b5.mp4" target="_blank" style="white-space:nowrap;">MP4 Video</a>
+ </td>
+ <td class="listItem" headers="AgendaPacketLink"><a href="https://d3n9y02raazwpg.cloudfront.net/cityofnsb/cdca3b0d-b408-11f0-8df7-005056a89546-c79cae32-1131-41db-9272-dd340d3a1c14-1769027889.pdf" target="_blank">Agenda Packet</a></td>
+ </tr>
+ </tbody>
+ </table>
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel2" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Airport Advisory Board - Workshop Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel2" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel3" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Animal Control Board - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel3" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel4" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Animal Control Board Dangerous Dogs</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel4" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel5" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Building Trades Board - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel5" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel6" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Charter Review Committee - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel6" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel7" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">City Commission - Regular Meetings</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel7" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel8" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">City Commission - Special Meetings</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel8" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel9" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">City Commission - Workshop Meetings</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel9" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel10" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Code Compliance Board - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel10" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel11" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Code Enforcement Special Magistrate - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel11" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel12" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Community Development Grant Block Advisory Board - Regular Meeting (Babe James)</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel12" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel13" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Community Engagement and Enhancement Committee</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel13" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel14" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Community Redevelopment Agency - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel14" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel15" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Economic Development Advisory Board - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel15" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel16" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Fire Pension Board - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel16" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel17" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Golf Advisory Board - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel17" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel18" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Historic Preservation Commission - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel18" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel19" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Housing Authority - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel19" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel20" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Joint City Commission and Utilities Commission</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel20" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel21" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Leisure Activities Advisory Board - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel21" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel22" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Neighborhood Council - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel22" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel23" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Personnel Board</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel23" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel24" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Planning and Zoning Board - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel24" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel25" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Police Pension Board - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel25" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel26" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Public Forums</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel26" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel27" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">State Of The City Address </div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel27" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel28" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Turnbull Creek Land Preservation Committee - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel28" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div id="CollapsiblePanel29" class="CollapsiblePanel">
+ <div class="CollapsiblePanelTab" tabindex="0">Youth Council Task Force - Regular Meeting</div>
+ <div class="CollapsiblePanelContent">
+ <div id="TabbedPanel29" class="TabbedPanels">
+ <ul class="TabbedPanelsTabGroup">
+ <li class="TabbedPanelsTab" tabindex="0">2026</li>
+ <li class="TabbedPanelsTab" tabindex="0">2025</li>
+ <li class="TabbedPanelsTab" tabindex="0">2024</li>
+ <li class="TabbedPanelsTab" tabindex="0">2023</li>
+ <li class="TabbedPanelsTab" tabindex="0">2022</li>
+ <li class="TabbedPanelsTab" tabindex="0">2021</li>
+ <li class="TabbedPanelsTab" tabindex="0">2020</li>
+ </ul>
+ <div class="TabbedPanelsContentGroup">
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ <div class="TabbedPanelsContent">
+ <div class="archive">
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div>
+ </div>
+ </div>
+</body>
+</html>

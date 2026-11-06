@@ -1,0 +1,26 @@
+FDID
+Fire dept name
+HQ addr1
+HQ addr2
+HQ city
+HQ state
+HQ zip
+Mail addr1
+Mail addr2
+Mail PO box
+Mail city
+Mail state
+Mail zip
+HQ phone
+HQ fax
+County
+Dept Type
+Organization Type
+Website
+Number Of Stations
+Active Firefighters - Career
+Active Firefighters - Volunteer
+Active Firefighters - Paid per Call
+Non-Firefighting - Civilian
+Non-Firefighting - Volunteer
+Primary agency for emergency mgmt
