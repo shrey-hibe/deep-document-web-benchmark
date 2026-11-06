@@ -159,14 +159,27 @@ def as_bool(v) -> bool | None:
     return None
 
 
+def card_of(ref, items: dict[int, dict]) -> int | None:
+    """The card an answer means: its card number ([3], "3"), else the agenda's own item number shown on one card
+    ("item 25-0417"), which models often give instead."""
+    text = str(ref if ref is not None else "").strip().strip("[]").strip()
+    if text.isdigit() and int(text) in items:
+        return int(text)
+    key = re.sub(r"^item\s+", "", text, flags=re.I).strip().lower()
+    hits = [n for n, it in items.items() if key and str(it.get("number") or "").strip().lower() == key]
+    return hits[0] if len(hits) == 1 else None
+
+
+def words_only(s: str | None) -> str:
+    """Letters and digits only: a quote copied with other spacing or punctuation is still the item's words."""
+    return re.sub(r"[^a-z0-9]+", "", norm(s))
+
+
 def check(obj: dict, items: dict[int, dict]) -> tuple[dict | None, str | None]:
     """One object of the reply, checked. Returns (clean answer, None) or (None, the reason it failed)."""
-    try:
-        n = int(obj.get("item"))
-    except (TypeError, ValueError):
+    n = card_of(obj.get("item"), items)
+    if n is None:
         return None, f"item {obj.get('item')!r} is not one of the cards"
-    if n not in items:
-        return None, f"item {n} is not one of the cards"
     event = as_bool(obj.get("event"))
     if event is None:
         return None, '"event" must be true or false'
@@ -185,7 +198,7 @@ def check(obj: dict, items: dict[int, dict]) -> tuple[dict | None, str | None]:
     if len(norm(quote)) < QUOTE_MIN:
         return None, '"quote" must copy the words of the item that show the decision'
     it = items[n]
-    if norm(quote) not in norm(" ".join(str(it.get(k) or "") for k in ("title", "outcome", "text"))):  # all on the card
+    if words_only(quote) not in words_only(" ".join(str(it.get(k) or "") for k in ("title", "outcome", "text"))):  # all on the card
         return None, f'the quote "{quote[:80]}" does not occur in the item\'s title, outcome or text: copy its words exactly'
     what = str(obj.get("what") or "").strip()
     if not what:
@@ -204,11 +217,8 @@ def sort_answers(objects: list[dict], items: dict[int, dict]) -> tuple[dict[int,
     for obj in objects:
         clean, why = check(obj, items)
         if why:
-            try:
-                n = int(obj.get("item"))
-            except (TypeError, ValueError):
-                continue
-            if n in items:
+            n = card_of(obj.get("item"), items)
+            if n is not None:
                 bad.setdefault(n, []).append(why)
             continue
         good.setdefault(clean["item"], []).append(clean)

@@ -190,6 +190,16 @@ def test_a_quote_from_the_items_title_or_outcome_passes_the_check():
     assert why is None and ok["quote"].startswith("Award")
 
 
+def test_an_answer_naming_the_agendas_item_number_or_other_punctuation_still_counts():
+    items = {1: {"number": "25-0417", "title": "Contract with Acme Paving, Inc. — street repair ($125,000)", "text": ""},
+             2: {"number": "25-0418", "title": "Minutes", "text": "Approval of minutes."}}
+    ok, why = form.check({"item": "item 25-0417", "event": True, "type": "contract", "action": "approved", "what": "paving",
+                          "quote": "Contract with Acme Paving Inc - street repair $125,000"}, items)
+    assert why is None and ok["item"] == 1
+    assert form.check({"item": "[2]", "event": False}, items)[0]["item"] == 2
+    assert form.check({"item": "25-9999", "event": False}, items)[1].startswith("item '25-9999'")
+
+
 def test_items_a_model_leaves_out_of_a_long_batch_are_asked_again_a_few_at_a_time():
     class Dropper(FakeModel):  # answers only the first three cards of any prompt, as a small model does on a long batch
         def ask(self, prompt, tier):
