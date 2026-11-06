@@ -52,7 +52,7 @@ from ..portals import registry as portal_registry
 from ..portals.base import Meeting as PortalMeeting
 from ..portals.base import PortalError
 from ..portals.browser import Challenge, Fallback, never_answered
-from ..providers import EXA, JEV, PARALLEL, PriceDrift, ProviderError, Providers
+from ..providers import EXA, JEV, PARALLEL, PriceDrift, ProviderError, Providers, load_settings
 from ..runlog import Log
 from . import diligent, profile, store, text, web
 from .chain import BODIES, classify_link, is_file, is_governing, platform_of
@@ -62,7 +62,15 @@ from .state import HostClock, State, nid, now
 SINCE = date(2025, 1, 1)
 SLUG = re.compile(r"[a-z0-9][a-z0-9-]{1,62}")  # the session's body label: used in file names
 ARMS = {"haiku": False, "haiku-jev": True, "haiku-jev-relay": True, "sonnet": False, "sonnet-jev": True, "opus": False,
-        "opus-jev": True, "test": False, "test-jev": True}
+        "opus-jev": True, "test": False, "test-jev": True, "mapper": False}
+
+
+def judge_connected() -> bool:
+    """Whether the settings in force name a judge (Jev) other than off."""
+    try:
+        return any(spec.family != "off" for spec in load_settings().chain("judge"))
+    except Exception:  # unreadable settings say so when a provider is called; here they only mean "not connected"
+        return False
 SET_ASIDE = 0.2  # Jev's p at or below which a link is low (ranking, skips); an item's cut is the body's set_aside_p (profile)
 TYPE_SHOWN = 0.8  # Jev's type is shown to the agent only this sure, and its action never (Jev audit, 2026-11-05)
 GENERIC_TITLE = re.compile(r"^\W*(?:download|view|open|click|pdf|packet|agenda|minutes|document|file|here|link|attachment|"
@@ -258,8 +266,9 @@ class Cx:
             raise Stop("arm must be a short label of lower-case letters, digits and hyphens, e.g. claude or haiku-jev")
         if not SLUG.fullmatch(self.body):
             raise Stop("body must be a short label of lower-case letters, digits and hyphens, e.g. cortez-co")
-        # the benchmark's arms as listed; any other arm (a plugin user's, a mapper's) has Jev on when its name ends -jev
-        self.jev_on = ARMS[self.arm] if self.arm in ARMS else self.arm.endswith("-jev")
+        # the benchmark's arms as listed; any other arm (a plugin user's) has Jev on when its name ends -jev or when the
+        # user has connected a judge (DDWB_JUDGE or providers.toml): turning Jev on in the settings is enough
+        self.jev_on = ARMS[self.arm] if self.arm in ARMS else self.arm.endswith("-jev") or judge_connected()
         self.st = State(self.run)
         self.sess = self.st.session(sid)
         self._http, self._providers = None, None
@@ -489,7 +498,7 @@ def t_start(cx: Cx, a) -> None:
         "with `search`, or your own web search, then `fetch` or `portal detect` its URL",
         likely_line(cx.card()),
         f"WINDOW: documents dated {SINCE.isoformat()} to today",
-        f"JEV: {'on: automatic on the links of pages you fetch, pages you check, links on lists you map, and every item you read (items at p ≤ 0.2 are set aside for you)' if cx.jev_on else 'off in this arm'}",
+        f"JEV: {'on: automatic on the links of pages you fetch, pages you check, links on lists you map, and every item you read (items at p ≤ 0.2 are set aside for you)' if cx.jev_on else ('off in this arm' if cx.arm in ARMS else 'off: not connected (Jev in the plugin settings, or DDWB_JUDGE=api:vercel)')}",
         budget_line(cx),
         f"NEXT: nav {cx.sid} fetch {s['homepage']}" if s["homepage"] else f"NEXT: nav {cx.sid} search \"<body name> board meeting agendas\"")
 

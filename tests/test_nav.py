@@ -857,8 +857,16 @@ def test_read_turns_minutes_into_structured_items_with_outcomes_and_sets_procedu
 
 def test_any_arm_name_works_and_jev_follows_the_name(tmp_path, monkeypatch):
     monkeypatch.setattr(nav_state, "NAV", tmp_path)
+    monkeypatch.setenv("DDWB_JUDGE", "off")
     assert tools.Cx("r1:claude:wake-county-nc").jev_on is False
     assert tools.Cx("r1:mapper-jev:wake-county-nc").jev_on is True
     assert tools.Cx("r1:haiku-jev-relay:wake-county-nc").jev_on is True  # the benchmark's own arms as listed
     with pytest.raises(tools.Stop):
         tools.Cx("r1:Bad Arm:wake-county-nc")
+
+
+def test_a_user_who_connects_jev_gets_it_whatever_the_arm_but_the_benchmark_arms_stay_as_listed(tmp_path, monkeypatch):
+    monkeypatch.setattr(nav_state, "NAV", tmp_path)
+    monkeypatch.setenv("DDWB_JUDGE", "api:vercel")
+    assert tools.Cx("r1:claude:wake-county-nc").jev_on is True  # the plugin's sessions are <date>-ask:claude:<body>
+    assert tools.Cx("r1:haiku:wake-county-nc").jev_on is False and tools.Cx("r1:mapper:wake-county-nc").jev_on is False
