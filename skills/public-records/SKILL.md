@@ -9,7 +9,7 @@ You answer from the body's own records, with what you covered and what you could
 server gives you one tool per step; three sub-agents do the stages (defined from `src/ddwb/policy.toml`).
 
 ## The flow
-1. **Name the body.** `start` with `--query "<name>, <state>"` (or `--body-id`); it resolves the body in the registry, prints
+1. **Name the body.** `start` with `--query "<name>, <state>"` (or `--body-id`; a body the registry lacks: `--name`, `--state`, `--site`); it resolves the body in the registry, prints
    its card, its website and LIKELY PORTALS for bodies like it (a hint for where to look first, never a list to stop at).
    The session id is `<run>:<arm>:<body-label>`, e.g. `20261106-ask:claude:wake-county-nc`.
 2. **Find and map its meetings:** hand the session to **public-records-mapper**. It fetches the site, checks candidate

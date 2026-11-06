@@ -426,6 +426,23 @@ def test_an_ambiguous_body_stops_with_the_candidates(tmp_path, monkeypatch):
     assert c.sess["body_id"] == "b_spr_twp" and c.sess["homepage"] is None
 
 
+def test_a_body_the_registry_lacks_starts_from_its_name_state_and_site(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(nav_state, "NAV", tmp_path)
+    monkeypatch.setattr(tools, "registry", FakeRegistry())
+    c = tools.Cx("t1:claude:marc-kc")
+    with pytest.raises(tools.Stop) as stop:  # no match: the refusal says how to start it anyway
+        tools.t_start(c, ns(query="Mid-America Regional Council", body_id=None, cap_map=None, cap_reading=None, approved_by=None))
+    assert "--name" in str(stop.value) and "--site" in str(stop.value)
+    with pytest.raises(tools.Stop, match="two letters"):
+        tools.t_start(c, ns(query=None, body_id=None, name="Mid-America Regional Council", state="Missouri", site=None,
+                            kind=None, cap_map=None, cap_reading=None, approved_by=None))
+    tools.t_start(c, ns(query=None, body_id=None, name="Mid-America Regional Council", state="mo", site="www.marc.org",
+                        kind="regional council", cap_map=None, cap_reading=None, approved_by=None))
+    assert c.sess["body_id"] == "unlisted:mo:mid-america-regional-council" and c.sess["homepage"] == "https://www.marc.org"
+    assert c.card() == {"name": "Mid-America Regional Council", "kind": "regional council", "state": "MO"}
+    assert "not in the registry" in capsys.readouterr().out
+
+
 def test_a_session_label_must_be_safe_for_file_names():
     with pytest.raises(tools.Stop):
         tools.Cx("t1:opus:../etc")

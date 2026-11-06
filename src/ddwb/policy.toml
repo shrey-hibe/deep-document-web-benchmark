@@ -55,7 +55,7 @@ hands_over = "to the user, with the answer's summary"
 [autonomy]                     # what a run may do on its own
 free = ["read public pages and documents at a person's pace", "map", "read", "record and skip with a reason",
         "paid calls within the run's caps",
-        "the browser tier on a portal that walls plain HTTP (decisions #82, #103), stopping at any challenge"]
+        "the browser tier on a portal that walls plain HTTP, stopping at any challenge"]
 needs_approval = ["a live run or a paid call beyond the caps (the user's yes, with the cost)"]
 never = ["solving or getting around a CAPTCHA or a challenge that asks for an answer", "logging in",
-         "opening work/registry/draw/sealed/", "claiming complete while any meeting is unopened"]
+         "claiming complete while any meeting is unopened"]

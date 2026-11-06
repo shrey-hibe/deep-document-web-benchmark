@@ -8,6 +8,9 @@ description: Resolve which US public body a question is about (a county, city, t
 1. `start --query "<name>, <state>"` on a new session (`<run>:<arm>:<body-label>`). It resolves against the registry of
    US public bodies and prints the card (name, kind, state, city, county), the website on record and LIKELY PORTALS.
 2. Ambiguous: `start` stops and lists the candidates; pick by kind and place, then `start --body-id <id>`.
+   Not in the registry (it lacks regional councils, joint authorities and new bodies; none of the candidates is the body):
+   find its own website (search, or your own web search), then `start --name "<its name>" --state XX --site <url>`
+   (and `--kind` if you know it). Every other tool then works as usual.
 3. No website on record, or a dead one (registry sites can be stale; `start` lists every one it knows): `search
    "<name> board meeting agendas"`, or, when no search provider is set up, your own web search; take the body's own
    site, not a directory, a vendor or a same-name body elsewhere (`check` shows whose page it is).

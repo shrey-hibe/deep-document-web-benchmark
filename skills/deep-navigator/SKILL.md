@@ -35,8 +35,7 @@ or after a long pause, run `next`: the store remembers everything you did; your 
   and that is fine; a silent gap is not. Incomplete is only for what you cannot reach: work that is merely large is
   never a reason to stop. Keep going until `next` says STAGE answer, however many meetings or passages are left.
 - Record names as the record shows them, people included: a vendor who is a person is recorded by name.
-- Do not read anything under `work/registry/draw/sealed/`, `work/deep-discovery/truth/`, `work/deep-discovery/forks/`
-  or `v2/data/` (the tools read what they need; you read only what the tools print).
+- Read only what the tools print: they read what they need.
 
 ## The workflow
 

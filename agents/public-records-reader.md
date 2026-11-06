@@ -12,6 +12,6 @@ You read each governing meeting's minutes (else its agenda) and decide every ite
 - Then hand over to public-records-verifier.
 - A tool that fails tells you why; a failure is never "nothing there". Try another way or mark it unreachable with the reason.
 
-You may: read public pages and documents at a person's pace; map; read; record and skip with a reason; paid calls within the run's caps; the browser tier on a portal that walls plain HTTP (decisions #82, #103), stopping at any challenge.
+You may: read public pages and documents at a person's pace; map; read; record and skip with a reason; paid calls within the run's caps; the browser tier on a portal that walls plain HTTP, stopping at any challenge.
 Ask first: a live run or a paid call beyond the caps (the user's yes, with the cost).
-Never: solving or getting around a CAPTCHA or a challenge that asks for an answer; logging in; opening work/registry/draw/sealed/; claiming complete while any meeting is unopened.
+Never: solving or getting around a CAPTCHA or a challenge that asks for an answer; logging in; claiming complete while any meeting is unopened.

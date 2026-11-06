@@ -437,16 +437,40 @@ def pick_body(cx: Cx, a) -> dict:
         if not found:
             raise Stop(f"no body {body_id} in the registry")
         return found
+    name = (getattr(a, "name", None) or "").strip()
+    if name:
+        return unlisted_body(cx, a, name)
     query = (getattr(a, "query", None) or "").strip()
     if not query:
-        raise Stop(f"name the body: `nav {cx.sid} start --query \"Cortez, CO\"` or `--body-id <id>`")
+        raise Stop(f"name the body: `nav {cx.sid} start --query \"Cortez, CO\"` or `--body-id <id>`, or for a body the "
+                   "registry lacks `--name \"<its name>\" --state XX --site <its website>`")
     res = registry.resolve(query)
     if not res["candidates"]:
-        raise Stop(f"no body in the registry matches {query!r}: add the state, or name it as the body calls itself")
+        raise Stop(f"no body in the registry matches {query!r}: add the state, or name it as the body calls itself. "
+                   + NOT_LISTED)
     if res["ambiguous"]:
         raise Stop(f"{query!r} could be several bodies ({res['ambiguity']['why']}); start again with --body-id:\n"
-                   + registry.format_result(res))
+                   + registry.format_result(res) + "\n" + NOT_LISTED)
     return res["candidates"][0]
+
+
+NOT_LISTED = ("If none of these is the body (the registry lacks regional councils, joint authorities and new bodies), "
+              "start it yourself: `--name \"<its name>\" --state XX --site <its website>` (and `--kind` if you know it).")
+
+
+def unlisted_body(cx: Cx, a, name: str) -> dict:
+    """A body the registry lacks, as the agent names it: its name, state and website (found by search)."""
+    state = (getattr(a, "state", None) or "").strip().upper()
+    if not re.fullmatch(r"[A-Z]{2}", state):
+        raise Stop("an unlisted body needs its state as two letters: --state MO")
+    site = (getattr(a, "site", None) or "").strip()
+    if site and not site.startswith("http"):
+        site = "https://" + site
+    kind = (getattr(a, "kind", None) or "").strip().lower() or None
+    card = {"name": name, "state": state} | ({"kind": kind} if kind else {})
+    slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")[:60]
+    return {"body_id": f"unlisted:{state.lower()}:{slug}", "card": card,
+            "websites": [{"url": site, "chosen": True}] if site else []}
 
 
 def homepage_of(body: dict) -> str | None:
@@ -482,7 +506,7 @@ def t_start(cx: Cx, a) -> None:
     if not cx.sess:
         body = pick_body(cx, a)
         body_id = body["body_id"]
-        card = registry.body_card(body_id)
+        card = body["card"] if body_id.startswith("unlisted:") else registry.body_card(body_id)
         home = homepage_of(body)
         cx.st.start(cx.sid, run_id=cx.run, arm=cx.arm, body=cx.body, body_id=body_id, query="q1", since=SINCE.isoformat(),
                     started_at=now(), card=card, homepage=home, status="started")
@@ -492,7 +516,8 @@ def t_start(cx: Cx, a) -> None:
     say(f"SESSION {cx.sid}",
         "QUERY: " + QUERY.format(name=s["card"].get("name", cx.body).title(), since=SINCE.isoformat()),
         f"BODY: {json.dumps(cx.card())}",
-        f"HOMEPAGE (registry): {s['homepage'] or 'none on record'}",
+        f"HOMEPAGE ({'as you gave it: not in the registry' if s['body_id'].startswith('unlisted:') else 'registry'}): "
+        f"{s['homepage'] or 'none on record'}",
         *([f"OTHER SITES (registry): {', '.join(others)}"] if (others := other_sites(cx, s['homepage'])) else []),
         "IF THE HOMEPAGE FAILS: the registry's sites can be stale; find the body's official site or meetings portal "
         "with `search`, or your own web search, then `fetch` or `portal detect` its URL",
@@ -2436,7 +2461,7 @@ TOOLS = {"start": t_start, "fetch": t_fetch, "scrape": t_scrape, "search": t_sea
 
 STEP_HELP = {  # what each step does and when to call it: the MCP tools' descriptions (mcp_server) come from here
     "start": "Call first. Begins a session for one body: resolves it in the registry (--query \"Cortez, CO\" or "
-             "--body-id), prints its homepage, the portals likely for its kind, the window, the spending caps and the next step.",
+             "--body-id; a body the registry lacks: --name, --state, --site), prints its homepage, the portals likely for its kind, the window, the spending caps and the next step.",
     "fetch": "Open a page (a URL or page ID) and list its links with dates and kinds; start from the body's homepage to "
              "find where its meetings are listed.",
     "scrape": "Like fetch, through a paid scraper (Firecrawl), for a page whose links only appear in a browser; costs money.",
@@ -2479,6 +2504,10 @@ def parser() -> argparse.ArgumentParser:
     s.add_argument("--approved-by", help="who approved the run (free text, recorded; default DDWB_APPROVED_BY)")
     s.add_argument("--query", help="the body in words, e.g. \"Cortez, CO\" (not needed for the benchmark bodies)")
     s.add_argument("--body-id", help="the registry body_id, when the query is ambiguous")
+    s.add_argument("--name", help="a body the registry lacks: its name as it calls itself (with --state and --site)")
+    s.add_argument("--state", help="with --name: the state, two letters")
+    s.add_argument("--site", help="with --name: the body's own website, e.g. found by search")
+    s.add_argument("--kind", help="with --name: county, city, school district, special district, regional council, ...")
     for name in ("fetch", "scrape"):
         s = sub.add_parser(name, help=STEP_HELP[name])
         s.add_argument("target")
