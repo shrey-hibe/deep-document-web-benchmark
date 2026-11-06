@@ -20,8 +20,21 @@ server gives you one tool per step; three sub-agents do the stages (defined from
    the code-driven pipeline instead: `uv run python -m ddwb.pipeline run ...` (needs the user's yes for its cost).
 4. **Check and answer:** hand it to **public-records-verifier**: coverage, items Jev rated likely but nobody recorded,
    then `answer`.
-5. **Reply** with the answer's summary: the decisions (date, type, outcome, vendor, amount, source link and quote), what
-   was covered, and what is incomplete and why.
+5. **Reply** from `answer`'s output: each decision with its date, what, vendor, amount and term, its `source_url` and a
+   short `quote`, exactly as `answer` gives them. A claim with no link and quote behind it is not made; say what you
+   could not confirm instead. Then what was covered (meetings, dates) and what is incomplete and why.
+
+## Running the stages
+- **Wait for each sub-agent's result before the next step, and never reply while one is still working.** Ending your
+  turn stops a running sub-agent (in a headless run the user then gets nothing).
+- **Use the tools for anything about a body's decisions or people:** `start`, map, read. Your own web search and fetch
+  only find a site, or fill a gap the tools name; they are never the answer's source in place of the minutes.
+- **Keep going until `next` says STAGE answer, or a tool prints STOPPED (a cap reached).** Never stop for budget unless a
+  tool said so; report how much of each cap was used.
+- **A question about a topic** (meters, student transport, an ERP): read the meetings most likely to hold it first (the
+  links Jev rates likely, and those whose titles name the topic), then the rest newest first, until coverage or the caps.
+- **A question about an area** (the cities in a county): say which bodies you covered and which you did not, and why.
+- **A name that fits several bodies:** ask the user which one; do not search their mail or calendar to guess.
 
 ## Rules
 - Paid calls (Jev, search, scrape) stay within the run's caps; anything beyond needs the user's yes with the cost.

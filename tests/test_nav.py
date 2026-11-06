@@ -887,3 +887,11 @@ def test_a_user_who_connects_jev_gets_it_whatever_the_arm_but_the_benchmark_arms
     monkeypatch.setenv("DDWB_JUDGE", "api:vercel")
     assert tools.Cx("r1:claude:wake-county-nc").jev_on is True  # the plugin's sessions are <date>-ask:claude:<body>
     assert tools.Cx("r1:haiku:wake-county-nc").jev_on is False and tools.Cx("r1:mapper:wake-county-nc").jev_on is False
+
+
+def test_a_pdf_the_reader_cannot_parse_is_one_unreadable_document_not_a_crash(monkeypatch):
+    def broken(path, want):
+        raise ValueError("PDF parsing error: couldn't parse input")
+    monkeypatch.setattr(tools, "pdf_pages", broken)
+    with pytest.raises(tools.Stop, match="could not read the PDF .* mark it unreachable"):
+        tools.doc_pages({"url": "https://x.gov/report.pdf"}, "x.pdf", "pdf", None, None)

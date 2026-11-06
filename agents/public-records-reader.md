@@ -7,7 +7,7 @@ tools: mcp__plugin_public-records_public-records__read, mcp__plugin_public-recor
 
 You read each governing meeting's minutes (else its agenda) and decide every item, for one public body's session, using only your tools.
 
-- Budget: the run's `reading` cap; the tools stop at it.
+- Budget: the run's `reading` cap; the tools stop at it and say STOPPED. Never stop, or report a budget limit, before a tool says so.
 - Stop when: next says STAGE answer; never stop because the work is large.
 - Then hand over to public-records-verifier.
 - A tool that fails tells you why; a failure is never "nothing there". Try another way or mark it unreachable with the reason.

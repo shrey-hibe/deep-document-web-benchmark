@@ -169,6 +169,10 @@ class Pipeline:
                 cx.st.put(cx.sid, n["node"], "link", "skipped", tool="pipeline", reason=why,
                           data={"plan": "work_session", "skipped_unseen": True, "skipped_on_jev": False})
             if not docs:
+                pages = [n for n in day if tools.doc_kind(n) == "meeting_page" and n["status"] in tools.UNDECIDED
+                         and n["status"] != "failed" and not (n.get("data") or {}).get("expanded")]
+                if pages and self.open_meeting_pages(pages):
+                    continue  # the pages' minutes, agenda or packet joined the plan: choose again
                 self.stats["dates_without_a_meeting_document"] += 1
                 return
             if all(n["status"] == "read" for n in docs):
@@ -186,6 +190,32 @@ class Pipeline:
                 self.stats[f"dates_read_from_{kind}"] += 1
                 return
             self.stats[f"dates_{kind}_unreadable"] += 1
+
+    def open_meeting_pages(self, pages: list[dict]) -> bool:
+        """A date listed only as a meeting's own page (a site with one page per meeting): its document links join the
+        map as links of that meeting (minutes, agenda, packet, items). A page that links none is read as the record
+        itself. True when a minutes, agenda or packet link joined."""
+        cx, joined = self.cx, False
+        for k in pages:
+            path, fmt, err, resp = self.download(k)
+            if err:
+                cx.st.put(cx.sid, k["node"], "link", "failed", tool="pipeline", data={"error": err})
+                continue
+            cx.st.put(cx.sid, k["node"], "link", k["status"], tool="pipeline", data={"expanded": True})
+            if fmt == "html":
+                page = web.read_html(resp.text, resp.final_url or k["url"])
+                children = tools.expand(cx, k, page, "pipeline")
+                self.stats["meeting_pages_opened"] += 1
+                if any(tools.doc_kind(cx.st.get(cx.sid, c)) in PLAN for c in children):
+                    joined = True
+                    continue
+            try:
+                self.document(cx.st.get(cx.sid, k["node"]))  # the page holds the record itself
+                self.stats["dates_read_from_meeting_page"] += 1
+            except tools.Stop as stop:
+                self.stopped = str(stop)
+                return False
+        return joined
 
     def download(self, k: dict):
         """The navigator's `download` in a live run. A replay reads the HTTP cache and keeps its copy beside the nav
@@ -372,6 +402,18 @@ class Pipeline:
                     bad = {}
                 else:
                     bad = {n: [again.error or "no answer"] for n in bad}
+                left_out = [n for n, why in bad.items() if why == ["no answer for this item"]]
+                for i in range(0, len(left_out), form.SPLIT_ITEMS):  # a small model drops items from a long batch
+                    part = left_out[i: i + form.SPLIT_ITEMS]
+                    self.stats["split_items"] += len(part)
+                    third = self.call(decider, meeting, [(n, items[n]) for n in part], notes, step + ":split")
+                    if third.objects is None:
+                        continue
+                    good3, bad3 = form.sort_answers(third.objects, {n: items[n] for n in part})
+                    answers |= good3
+                    for n in part:
+                        bad.pop(n, None)
+                    bad |= bad3
             for n, why in bad.items():
                 failed[n] = "form check failed twice: " + "; ".join(why)[:200] if not decider.deterministic else \
                     ("no answer from " + decider.by if why == ["no answer for this item"] else "; ".join(why)[:200])

@@ -52,7 +52,8 @@ class FakeHttp:
         self.asked.append(url)
         if url not in self.docs:
             return web.Response(url, error="not served")
-        return web.Response(url, final_url=url, status=200, content_type="text/plain", body=self.docs[url].encode())
+        kind = "text/html" if self.docs[url].lstrip().startswith("<html") else "text/plain"
+        return web.Response(url, final_url=url, status=200, content_type=kind, body=self.docs[url].encode())
 
 
 class FakeJev:
@@ -181,6 +182,29 @@ def test_the_form_checks_quote_amount_type_and_action():
     assert form.parse("I cannot answer")[0] is None
 
 
+def test_a_quote_from_the_items_title_or_outcome_passes_the_check():
+    items = {1: {"title": "Award of contract to Acme Paving Inc. for street repair", "outcome": "approved 7-0",
+                 "text": "Staff recommends approval."}}
+    ok, why = form.check({"item": 1, "event": True, "type": "contract", "action": "approved", "what": "paving",
+                          "quote": "Award of contract to Acme Paving"}, items)
+    assert why is None and ok["quote"].startswith("Award")
+
+
+def test_items_a_model_leaves_out_of_a_long_batch_are_asked_again_a_few_at_a_time():
+    class Dropper(FakeModel):  # answers only the first three cards of any prompt, as a small model does on a long batch
+        def ask(self, prompt, tier):
+            self.prompts.append((tier, prompt))
+            objs = [{"item": n, "event": False} for i, (n, note, body) in enumerate(cards_of(prompt)) if i < 3]
+            return Reply(json.dumps(objs), self.cost, model=f"fake:{tier}")
+    cx = session()
+    p, _, _ = pipeline(cx, "haiku-jev")
+    model = Dropper(plain_rule)
+    cards = [(n, {"title": f"item {n}", "text": f"Report number {n} on library hours."}) for n in range(1, 9)]
+    answers, failed = p.ask_all(ModelDecider(model, ARMS["haiku-jev"].small), {"name": "Cortez", "date": "2025-06-10", "url": "https://x/m.txt"}, cards, None, "decide")
+    assert sorted(answers) == list(range(1, 9)) and failed == {}
+    assert p.stats["split_items"] == 2 and len(model.prompts) == 3  # the batch, the retry, then the last two together
+
+
 def test_a_failed_check_is_asked_once_more_then_left_undecided_and_counted():
     cx = session(links=[("https://x/m.txt", "2025-06-10", "minutes", None)], http=FakeHttp({"https://x/m.txt": MINUTES}),
                  jev=FakeJev({}, default=0.5))
@@ -206,6 +230,19 @@ def test_a_failed_check_is_asked_once_more_then_left_undecided_and_counted():
 
 
 # ------------------------------------------------------------------------------------------- order of work
+def test_a_date_listed_only_as_a_meetings_own_page_is_read_through_that_page():
+    page = ('<html><body><h1>Regular Meeting, June 10, 2025</h1>'
+            '<a href="https://x/files/minutes-2025-06-10.txt">Minutes</a></body></html>')
+    http = FakeHttp({"https://x/meetings/june-10": page, "https://x/files/minutes-2025-06-10.txt": MINUTES})
+    cx = session(links=[("https://x/meetings/june-10", "2025-06-10", "meeting_page", "Regular Meeting June 10, 2025")],
+                 http=http, jev=FakeJev({}, default=0.5))
+    p, _, _ = pipeline(cx, "haiku-jev")
+    p.big = None
+    answer = p.run()
+    assert p.stats["meeting_pages_opened"] == 1 and p.stats["dates_read_from_minutes"] == 1
+    assert "street repair" in {e["what"] for e in answer["events"]}  # the minutes the page links were read
+
+
 @pytest.mark.usefixtures("stand_in_items")
 def test_meetings_are_read_newest_first_by_the_reading_plan_one_document_per_model_context():
     docs = {"https://x/0301-min.txt": MINUTES, "https://x/0301-ws.txt": "1. Work session on goals for $5,000 of training.",

@@ -7,7 +7,7 @@ tools: mcp__plugin_public-records_public-records__status, mcp__plugin_public-rec
 
 You check coverage and the items Jev rated likely but nobody recorded; audit the margin: read the items set aside just under this body's cut (`profile` shows it; `passages --status skipped --min-p <cut minus 0.05> --max-p <cut>`), record any decision there and lower the cut with `profile set set_aside_p` and that passage as evidence; then answer, for one public body's session, using only your tools.
 
-- Budget: the run's `reading` cap; the tools stop at it.
+- Budget: the run's `reading` cap; the tools stop at it and say STOPPED. Never stop, or report a budget limit, before a tool says so.
 - Stop when: answer has run: complete, or incomplete with every reason named.
 - Then hand over to the user, with the answer's summary.
 - A tool that fails tells you why; a failure is never "nothing there". Try another way or mark it unreachable with the reason.

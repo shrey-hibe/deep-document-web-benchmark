@@ -335,11 +335,11 @@ class Cx:
 
     def check(self, budget: str) -> float:
         if self.stopped():
-            raise Stop(f"paid calls are stopped for this run: {self.stopped()}. Finish with what you have; `answer` marks it incomplete")
+            raise Stop(f"STOPPED: paid calls are stopped for this run: {self.stopped()}. Finish with what you have; `answer` marks it incomplete")
         cap = self.caps()[budget]
         left = cap - self.st.spent(budget)
         if left <= 0.0005:
-            raise Stop(f"the ${cap:.2f} {budget} cap is used up. Finish with what you have; `answer` marks it incomplete")
+            raise Stop(f"STOPPED: the ${cap:.2f} {budget} cap is used up. Finish with what you have; `answer` marks it incomplete")
         return left
 
     def node(self, ref: str, kinds: tuple = ()) -> dict:
@@ -449,8 +449,11 @@ def pick_body(cx: Cx, a) -> dict:
         raise Stop(f"no body in the registry matches {query!r}: add the state, or name it as the body calls itself. "
                    + NOT_LISTED)
     if res["ambiguous"]:
+        hint = ("\nWith the state named, a body listed under its official name is found too (e.g. SPRINGFIELD SCH DIST "
+                "R-12 for Springfield Public Schools, MO): ask the user which state rather than guess.\n"
+                if "name the state" in res["ambiguity"]["why"] else "\n")
         raise Stop(f"{query!r} could be several bodies ({res['ambiguity']['why']}); start again with --body-id:\n"
-                   + registry.format_result(res) + "\n" + NOT_LISTED)
+                   + registry.format_result(res) + hint + NOT_LISTED)
     return res["candidates"][0]
 
 
@@ -1449,7 +1452,10 @@ def doc_pages(k: dict, path: str, fmt: str, resp: web.Response, want: list[int] 
     """A document's text as pages (page, text, image-only?), with its total pages, pages left without text, pages
     read by OCR, and, for a web page, the page itself (for its links)."""
     if fmt == "pdf":
-        pages, total = pdf_pages(path, want)
+        try:
+            pages, total = pdf_pages(path, want)
+        except Exception as error:  # a damaged or unusual PDF: one unreadable document, never the end of the run
+            raise Stop(f"could not read the PDF at {k['url']} ({short(str(error), 120)}): mark it unreachable with the reason")
         no_text = [p for p, md, o in pages if o or len(md.strip()) < 30]
         ocred = []
         if no_text:  # image-only pages: read by OCR (macOS), so every page is read

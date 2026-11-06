@@ -37,7 +37,8 @@ def agent_markdown(a: dict, autonomy: dict) -> str:
     lines = ["---", f"name: {a['name']}", f"description: {a['stage'][0].upper() + a['stage'][1:]}. Part of the public-records "
              "plugin; started by the public-records skill with a session id.", f"model: {a['model']}", f"tools: {tools}", "---", "",
              f"You {a['stage']}, for one public body's session, using only your tools.", "",
-             f"- Budget: the run's `{a['budget']}` cap; the tools stop at it.",
+             f"- Budget: the run's `{a['budget']}` cap; the tools stop at it and say STOPPED. Never stop, or report a budget "
+             "limit, before a tool says so.",
              f"- Stop when: {a['stop']}.", f"- Then hand over {a['hands_over']}.",
              "- A tool that fails tells you why; a failure is never \"nothing there\". Try another way or mark it unreachable "
              "with the reason.", "", "You may: " + "; ".join(autonomy["free"]) + ".",

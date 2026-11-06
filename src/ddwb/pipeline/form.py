@@ -22,6 +22,7 @@ BUYING_TYPES = {k: v for k, v in EVENT_TYPES.items() if k not in ("none", "staff
 CARD_CHARS = 2400  # the item's text shown on its card (head and tail kept when longer)
 BATCH_CHARS = 16_000  # cards per model call: about 4,000 tokens of items
 BATCH_ITEMS = 12
+SPLIT_ITEMS = 3  # items still unanswered after the retry are asked again this many at a time
 QUOTE_MIN = 8
 
 INSTRUCTIONS = """You read one meeting document of {name}, a {kind} in {state}: the {doc_kind} of the meeting of {date}{title}.
@@ -183,8 +184,9 @@ def check(obj: dict, items: dict[int, dict]) -> tuple[dict | None, str | None]:
     quote = str(obj.get("quote") or "").strip()
     if len(norm(quote)) < QUOTE_MIN:
         return None, '"quote" must copy the words of the item that show the decision'
-    if norm(quote) not in norm(items[n].get("text")):
-        return None, f'the quote "{quote[:80]}" does not occur in the item\'s text: copy its words exactly'
+    it = items[n]
+    if norm(quote) not in norm(" ".join(str(it.get(k) or "") for k in ("title", "outcome", "text"))):  # all on the card
+        return None, f'the quote "{quote[:80]}" does not occur in the item\'s title, outcome or text: copy its words exactly'
     what = str(obj.get("what") or "").strip()
     if not what:
         return None, '"what" must say in a few words what was bought or decided'
